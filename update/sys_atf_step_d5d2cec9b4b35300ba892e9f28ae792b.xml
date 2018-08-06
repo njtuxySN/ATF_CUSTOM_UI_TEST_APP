@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Click the 'Go to UI Page 02 [undefined] &lt;button&gt;' component</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <order>3</order>
+        <snapshot display_value="04858b2eacbaf28386e29f1ee1e21d75">3eba7680b4b31300ba892e9f28ae798b</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-06 20:26:00</sys_created_on>
+        <sys_id>d5d2cec9b4b35300ba892e9f28ae792b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_d5d2cec9b4b35300ba892e9f28ae792b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-06 20:26:00</sys_updated_on>
+        <table/>
+        <test display_value="test rollback service portal copy">59d28ec9b4b35300ba892e9f28ae79c8</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d5d2cec9b4b35300ba892e9f28ae792b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d5d2cec9b4b35300ba892e9f28ae792b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-06 20:26:00</sys_created_on>
+        <sys_id>91d2cec9b4b35300ba892e9f28ae792c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-06 20:26:00</sys_updated_on>
+        <value>{"area":"default","inner_text":"Go to UI Page 02","methods":["click"],"index":1,"tag":"button","text":"Go to UI Page 02","type":"button","class":"btn btn-primary btn-lg btn-block","value":""}</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

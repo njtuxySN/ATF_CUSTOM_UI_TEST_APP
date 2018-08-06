@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope, $scope, $timeout, $http, spUtil, $q) {
+  /* widget controller */
+  var c = this;
+	$scope.test_record_name = null;
+	$scope.test_record_number = null;
+	
+	
+	$scope.insert_new_incident = function() {
+		c.data.test="1";
+		c.server.update();
+	}
+	
+	$scope.insert_test_record = function() {
+		c.data.test="2";
+		if($scope.test_record_name==null)
+			$scope.test_record_name = "I am from test portal";
+		if($scope.test_record_number==null)
+			$scope.test_record_number = 1999999;
+		c.data.test_record_name=$scope.test_record_name;
+		c.data.test_record_number=$scope.test_record_number;		
+		c.server.update();
+	}
+	
+	$scope.delete_all_test_records = function() {
+		c.data.test="3";
+		c.server.update();
+	}
+	
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>atf_test_widget_01</id>
+        <internal>false</internal>
+        <link/>
+        <name>ATF_TEST_WIDGET_01</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.test="";
+	if(input){
+		console.log(" current data.test value: " + input.test);
+	}
+	if(input && input.test=="1"){
+		  console.log("--- insert a incident ---");
+			var inc = new GlideRecord('incident');
+			inc.initialize();
+			inc.short_description = 'New incident 1';
+			inc.caller_id.setDisplayValue('David Loo');
+			inc.caller_id.first_name = 'John';
+			inc.caller_id.last_name = 'Doe';
+			inc.insertWithReferences();		
+	}
+	
+	if(input && input.test=="2"){
+			console.log("--- insert a test record! ---");
+			var gr = new GlideRecord('x_atf_test_app_wit_yan_test_table');
+			gr.name = input.test_record_name;
+			gr.number = input.test_record_number;
+			gr.insert();
+	}
+	
+	if(input&&input.test=="3"){
+			var gr1= new GlideRecord("x_atf_test_app_wit_yan_test_table");   
+			gr1.query();
+			gr1.deleteMultiple();
+	}	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-03 19:30:17</sys_created_on>
+        <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>ATF_TEST_WIDGET_01</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-03 23:31:39</sys_updated_on>
+        <template><![CDATA[<div class="jumbotron">
+  <h1 class="display-4">ATF Test widget </h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" ng-click="insert_new_incident()" role="button">insert new incident </a>       
+  </p>
+  
+  <hr />
+
+  <h2> Create a new test record </h2>
+  <p class="lead">
+    <label> Name </label>
+    <input class="form-control" type="text" value="I am from service portal" id="test-record-name-input" ng-model="test_record_name">
+    
+    <label> number </label>
+    <input class="form-control" type="text" value="1111111" id="test-record-number-input" ng-model="test_record_number">
+    <br/>
+    <a class="btn btn-primary btn-lg" ng-click="insert_test_record()" role="button">Insert test record</a>
+    <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records</a>       
+  </p>
+  
+  <hr />
+
+  <h2> Open Custom UI Pages </h2>
+  <p class="lead">
+    <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_01.do" role="button">Open UI Page 01</a>       
+    <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_02.do" role="button">Open UI Page 02</a>       
+  </p>
+  
+    
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
