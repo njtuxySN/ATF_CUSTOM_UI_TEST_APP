@@ -4,26 +4,26 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_IFRAME_01.do</endpoint>
+        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_IFRAME_02 (NESTED).do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-<iframe id="gsft_main" allowfullscreen="true" main-pane="true" name="gsft_main" title="IT - Eclipse configuration for Android development" aria-label="Main content" src="/x_atf_test_app_wit_TEST_UI_PAGE_02.do" data-original-title="Main Content" style="border: 5px solid green; width: 900px; height: 500px;"></iframe>
+<iframe id="gsft_main" allowfullscreen="true" main-pane="true" name="gsft_main" title="IT - Eclipse configuration for Android development" aria-label="Main content" src="/x_atf_test_app_wit_TEST_UI_WITH_IFRAME_01.do" data-original-title="Main Content" style="border: 5px solid blue; width: 1200px; height: 800px;"></iframe>
 </j:jelly>
 
 ]]></html>
-        <name>TEST_UI_WITH_IFRAME_01</name>
+        <name>TEST_UI_WITH_IFRAME_02 (NESTED)</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-06 22:07:27</sys_created_on>
-        <sys_id>92f95245b4f35300ba892e9f28ae79ac</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>TEST_UI_WITH_IFRAME_01</sys_name>
+        <sys_created_on>2018-08-06 22:18:11</sys_created_on>
+        <sys_id>d56cd285b4f35300ba892e9f28ae7920</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TEST_UI_WITH_IFRAME_02 (NESTED)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_ui_page_92f95245b4f35300ba892e9f28ae79ac</sys_update_name>
+        <sys_update_name>sys_ui_page_d56cd285b4f35300ba892e9f28ae7920</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 22:17:18</sys_updated_on>
+        <sys_updated_on>2018-08-06 22:18:37</sys_updated_on>
     </sys_ui_page>
 </record_update>
