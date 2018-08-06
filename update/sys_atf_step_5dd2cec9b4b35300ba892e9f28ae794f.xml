@@ -5,7 +5,7 @@
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <order>11</order>
-        <snapshot display_value="e3f290fb587e5d2c38075ccb7d4d4b49">3e706141b4b35300ba892e9f28ae7987</snapshot>
+        <snapshot display_value="">3e706141b4b35300ba892e9f28ae7987</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

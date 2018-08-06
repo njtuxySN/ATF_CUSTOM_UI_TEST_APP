@@ -6,7 +6,7 @@
         <inputs/>
         <order>13</order>
         <snapshot/>
-        <step_config display_value="Pause Step">56d60a0d0fe7220054801d3be1050e29</step_config>
+        <step_config display_value="">56d60a0d0fe7220054801d3be1050e29</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 20:26:00</sys_created_on>
