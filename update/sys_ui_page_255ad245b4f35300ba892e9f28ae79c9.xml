@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_ALL_INPUT_TYPES.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<script src="/scripts/js_includes_g_automate.js"/>
+<script>
+function myFunction(input_value) {
+    document.getElementById("debug-area").value = input_value;
+}
+</script>
+<fieldset>
+    <legend>
+        <h1> RESULT AREA: </h1>
+    </legend>
+    <textarea style="font-size: 20pt; color:blue; background-color: #ff9800" id="debug-area" row="14" cols="150"> oob value </textarea>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> button </h2>
+    </legend>
+    <form>
+        <!-- Default button: <input type="button"  class="btn" value="Click Me" onclick=myFunction('Harry Potter')/>  -->
+        <div>
+            <label> regular button </label>
+            <input type="button" id="i_button_default" class="btn" value="default button" onclick="myFunction('default button clicked!')" />
+        </div>
+        <div>
+            <label> disabled button </label>
+            <input type="button" id="i_button_disabled" class="btn" value="I am disabled" disabled="disabled" onclick="myFunction('disabled button clicked!')" />
+        </div>
+        <div>
+            <label> readonly button is not supported! </label>
+            <input type="button" id="i_button_readonly" class="btn" value="I am readonly" readonly="readonly" onclick="myFunction('disabled button clicked!')" />
+        </div>
+        <div>
+            <label> button with <u><b>A</b></u>ccesskey: </label>
+            <input type="button" id="i_button_with_access_key" class="btn" value="Accesskey enabled" accesskey="a" />
+        </div>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> checkbox </h2>
+    </legend>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales" checked="checked" />
+        <label for="scales">Scales</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_unchecked" name="i_checkbox_default_unchecked" value="horns" />
+        <label for="horns">Horns</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_disabled" name="feature" value="claws" disabled="disabled" />
+        <label for="claws">Disabled</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_readonly" name="feature" value="claws" readonly="readonly" />
+        <label for="claws">Readonly checkbox is not supported!</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> color </h2>
+    </legend>
+    <div>
+        <input type="color" id="i_color_head" name="color" value="#e66465" />
+        <label for="head">Head</label>
+    </div>
+    <div>
+        <input type="color" id="i_color_body" name="color" value="#f6b73c" />
+        <label for="body">Body</label>
+    </div>
+    <div>
+        <input type="color" id="i_color_feet" name="color" value="#3f87a6" />
+        <label for="feet">Feet</label>
+    </div>
+    <div>
+        <input type="color" id="i_color_disabled" name="color" value="#800000" disabled="disabled" />
+        <label>Disabled</label>
+    </div>
+    <div>
+        <input type="color" id="i_color_disabled" name="color" value="#FFFF00" readonly="readonly" />
+        <label>Readonly color is not supported!</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> date </h2>
+    </legend>
+    <form action="/submit_result_page" method="get">
+        <div>
+            <input type="date" id="i_date" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+            <label> must between "2018-01-01" and "2018-12-31" </label>
+        </div>
+        <div>
+            <input type="date" id="i_date_disabled" value="2018-07-29" min="2018-01-01" max="2018-12-31" disabled="disabled" />
+            <label>disabled date</label>
+        </div>
+        <div>
+            <input type="date" id="i_date_readonly" value="2018-07-29" min="2018-01-01" max="2018-12-31" readonly="readonly" />
+            <label>readonly date</label>
+        </div>
+        <input type="submit" id="submit_date"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> datetime-local </h2>
+    </legend>
+    <div>
+        <form action="/submit_result_page" method="get">
+            <div>
+                <input type="datetime-local" id="i_datetime_local" name="datetime-local-regular" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" />
+                <label for="party-time">Date/time: "2018-06-07T00:00" to "2018-06-14T00:00"</label>
+            </div>
+            <div>
+                <input type="datetime-local" id="i_datetime_local_disabled" name="datetime-local-disabled" value="2018-06-19T19:30" min="2018-06-18T00:00" max="2018-06-21T00:00" disabled="disabled" />
+                <label> disabled datetime-local</label>
+            </div>
+            <div>
+                <input type="datetime-local" id="i_datetime_local_readonly" name="datetime-local-readonly" value="2018-06-20T19:30" min="2018-06-19T00:00" max="2018-06-22T00:00" readonly="readonly" />
+                <label> readonly datetime-local</label>
+            </div>
+            <input type="submit" id="submit_time_local"> </input>
+        </form>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> email </h2>
+    </legend>
+    <form action="/submit_result_page" method="get">
+        <div>
+            <input type="email" id="i_email" placeholder="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" />
+            <label>Must be a servicenow email address:</label>
+        </div>
+        <div>
+            <input type="email" id="i_email_multiple" placeholder="foo@this.com, bar@that.com" size="35" multiple="multiple" title="Zero or more addresses, separated with ','" />
+            <label>Multiple email addresses:</label>
+        </div>
+        <div>
+            <input type="email" id="i_email_readonly" placeholder="foo@this.com, bar@that.com" size="35" readonly="readonly" />
+            <label>Readonly email address:</label>
+        </div>
+        <div>
+            <input type="email" id="i_email_disable" placeholder="foo@this.com, bar@that.com" size="35" disabled="disabled" />
+            <label>Disabled email address:</label>
+        </div>
+        <input type="submit" id="submit_email"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> file </h2>
+    </legend>
+    <div>
+        <label for="avatar">Profile picture:</label>
+        <input type="file" id="i_file" name="avatar" accept="image/png, image/jpeg" />
+    </div>
+    <div>
+        <label for="avatar">Disabled file selector:</label>
+        <input type="file" id="i_file_disabled" name="file_disabled" accept="image/png, image/jpeg" disabled="disabled" />
+    </div>
+    <div>
+        <label for="avatar">Readonly file selector is not supported!</label>
+        <input type="file" id="i_file_disabled" name="file_disabled" accept="image/png, image/jpeg" readonly="readonly" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> image </h2>
+    </legend>
+    <input type="image" id="i_image" alt="Login" width="248" height="48" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" />
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> month </h2>
+    </legend>
+    <form action="/submit_result_page" method="get">
+        <div>
+            <input type="month" id="i_month" name="month" min="2018-03" value="2018-05" />
+            <label>must "2018-03" or later</label>
+        </div>
+        <div>
+            <input type="month" id="i_month_disabled" name="month disabled" min="2018-03" value="2018-06" disabled="disabled" />
+            <label>disabled month: </label>
+        </div>
+        <div>
+            <input type="month" id="i_month_readonly" name="month readonly" min="2018-03" value="2018-07" disabled="readonly" />
+            <label>readonly month: </label>
+        </div>
+        <input type="submit" id="submit_month"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> number </h2>
+    </legend>
+    <form action="/submit_result_page" method="get">
+        <div>
+            <input type="number" id="i_number_height" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
+            <label>Height (metres):</label>
+        </div>
+        <div>
+            <input type="number" id="i_number_eyes" name="eyes" placeholder="Min: 10, max: 100" min="10" max="100" value="20" />
+            <label>Number between 10 and 100</label>
+        </div>
+        <div>
+            <input type="number" id="i_number_disabled" name="disabled number" placeholder="123" min="10" max="100" disabled="disabled" />
+            <label>Disabled number</label>
+        </div>
+        <div>
+            <input type="number" id="i_number_readonly" name="readonly number" placeholder="123" min="10" max="100" readonly="readonly" />
+            <label>Readonly number</label>
+        </div>
+        <input type="submit" id="submit_numbers"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> radio </h2>
+    </legend>
+    <div>
+        <input type="radio" id="i_radio_apple_deafult_checked" name="radio_group" checked="checked" />
+        <label>radio01</label>
+    </div>
+    <div>
+        <input type="radio" id="i_radio_banana_default_unchecked" name="radio_group" />
+        <label>radio02</label>
+    </div>
+    <div>
+        <input type="radio" id="i_radio_orange_disabled" name="radio_group" disabled="disabled" />
+        <label>radio03-disabled</label>
+    </div>
+    <div>
+        <input type="radio" id="i_radio_orange_readonly" name="radio_group" disabled="readonly" />
+        <label>radio04-readonly</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2>range</h2>
+    </legend>
+    <div>
+        <label>Volume</label>
+        <input type="range" id="i_range_regular_01" name="volume" min="0" max="11" />
+    </div>
+    <div>
+        <label>Cowbell</label>
+        <input type="range" id="i_range_regular_02" name="cowbell" min="0" max="100" value="90" step="2" />
+    </div>
+    <div>
+        <label>Disabled range</label>
+        <input type="range" id="i_range_disabled" name="range_disabled" min="0" max="100" value="90" step="2" disabled="disabled" />
+    </div>
+    <div>
+        <label>Readonly range</label>
+        <input type="range" id="i_range_readonly" name="range_readonly" min="0" max="100" value="90" step="2" disabled="disabled" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> password and reset </h2>
+    </legend>
+    <form>
+        <div>
+            <label>User ID:</label>
+            <input type="text" id="i_reset_id" name="id" />
+            <label>Password:</label>
+            <input type="password" id="i_password" name="password" value="defaultPassword" minLength="8" required="required" placeholder="8 characters minimum" />
+            <input type="reset" id="i_reset" value="Reset" />
+        </div>
+        <div>
+            <label>disabled password</label>
+            <input type="password" id="i_password_disabled" name="password" minLength="8" required="required" placeholder="8 characters minimum" disabled="disabled" />
+        </div>
+        <div>
+            <label>readonly password</label>
+            <input type="password" id="i_password_readonly" name="password" minLength="8" required="required" placeholder="8 characters minimum" readonly="readonly" />
+        </div>
+        <input type="submit" id="submit_user_name_and_password"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> search </h2>
+    </legend>
+    <form role="search">
+        <div>
+            <label> regular search </label>
+            <input type="search" id="i_search" name="q" value="search somthing" placeholder="Search the site..." aria-label="Search through site content" />
+        </div>
+        <div>
+            <label> readonly search </label>
+            <input type="search" id="i_search_readonly" name="q" value="search somthing" readonly="readonly" placeholder="Search the site..." aria-label="Search through site content" />
+        </div>
+        <div>
+            <label> disabled search </label>
+            <input type="search" id="i_search_disabled" name="q" value="search somthing" disabled="disabled" placeholder="Search the site..." aria-label="Search through site content" />
+        </div>
+        <button>Search</button>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> tel </h2>
+    </legend>
+    <form action="/submit_result_page" method="get">
+        <div>
+            <label>i_tel:</label>
+            <input type="tel" id="i_tel" name="phone" value="415-666-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" />
+        </div>
+        <div>
+            <label>i_tel disabled:</label>
+            <input type="tel" id="i_tel_disabled" name="phone" value="415-666-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" disabled="disabled" />
+        </div>
+        <div>
+            <label>i_tel readonly:</label>
+            <input type="tel" id="i_tel_readonly" name="phone" value="415-666-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" readonly="readonly" />
+        </div>
+        <input type="submit" id="submit_tel"> </input>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> text </h2>
+    </legend>
+    <div>
+        <input type="text" id="i_text" name="text" value="regular text" required="required" minLength="4" maxLength="8" placeholder="4 to 8 characters long" />
+        <label>single line text input</label>
+    </div>
+    <div>
+        <input type="text" id="i_text_disabled" name="diabled text" value="disabled text" required="required" minLength="4" maxLength="8" placeholder="4 to 8 characters long" disabled="disabled" />
+        <label>disabled text input</label>
+    </div>
+    <div>
+        <input type="text" id="i_text_readonly" name="readonly text" value="readonly text" required="required" minLength="4" maxLength="8" placeholder="4 to 8 characters long" readonly="readonly" />
+        <label>readonly text input</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> time </h2>
+    </legend>
+    <div class="control">
+        <form action="/submit_result_page" method="get">
+            <div>
+                <label>Office hours: only allows 9AM to 6PM</label>
+                <input type="time" id="i_time" name="appt-time" min="09:00:00" max="18:00:00" required="required" value="02:02"> </input>
+            </div>
+            <div>
+                <label>Disabled time</label>
+                <input type="time" id="i_time_disabled" name="appt-time" min="9:00" max="18:00" required="required" disabled="disabled" value="03:03" />
+            </div>
+            <div>
+                <label>Readonly time</label>
+                <input type="time" id="i_time_readonly" name="appt-time" min="9:00" max="18:00" required="required" readonly="readonly" value="04:04" />
+            </div>
+            <input type="submit" id="submit_time"> </input>
+        </form>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> url </h2>
+    </legend>
+    <div>
+        <label for="url">Enter an https:// URL:</label>
+        <input type="url" name="url" id="i_url" placeholder="https://defaultURL.com" pattern="https://.*" size="20" required="required" />
+    </div>
+    <div>
+        <label for="url">Disabled URL:</label>
+        <input type="url" name="url" id="i_url_disabled" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" disabled="disabled" />
+    </div>
+    <div>
+        <label for="url">Readonly URL:</label>
+        <input type="url" name="url" id="i_url_readonly" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" readonly="readonly" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> week </h2>
+    </legend>
+    <div>
+        <label>min="2018-W27" max="2018-W35"</label>
+        <input type="week" name="camp-week" id="i_week" value="2018-W16" min="2018-W27" max="2018-W35" required="required" />
+    </div>
+    <div>
+        <label>Disabled week:</label>
+        <input type="week" name="camp-week" id="i_week_disabled" value="2001-W01" disabled="disabled" min="2018-W27" max="2018-W35" required="required" />
+    </div>
+    <div>
+        <label>Readonly week:</label>
+        <input type="week" name="readonly-week" id="i_week_readonly" value="2002-W02" readonly="readonly" min="2018-W27" max="2018-W35" required="required" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> select </h2>
+    </legend>
+    <div>
+        <label>regular dropdown menu</label>
+        <select name="select" id="i_select">
+            <option>cherry</option>
+            <option>orange</option>
+            <option>apple</option>
+        </select>
+    </div>
+    <div>
+        <label>diabled dropdown menu</label>
+        <select name="select" id="i_select_disabled" disabled="disabled">
+            <option>dis_cherry</option>
+            <option>dis_orange</option>
+            <option>dis_apple</option>
+        </select>
+    </div>
+    <div>
+        <label>readonly dropdown menu is not supported!!</label>
+        <select name="select" id="i_select_readonly" readonly="readonly">
+            <option>r_cherry</option>
+            <option>r_orange</option>
+            <option>r_apple</option>
+        </select>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>
+        <h2> text area </h2>
+    </legend>
+    <div>
+        <label> regular text area: </label>
+        <textarea id="i_text_area" name="text area" rows="3" cols="33" maxlength="200" wrap="hard">
+            Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
+        </textarea>
+    </div>
+    <div>
+        <label> read only text area: </label>
+        <textarea id="i_text_area_readonly" name="text area readonly" readonly="readonly" rows="3" cols="33" maxlength="200" wrap="hard">
+            Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
+        </textarea>
+    </div>
+    <div>
+        <label> diabled text area: </label>
+        <textarea id="i_text_area_disabled" name="text area disabled" disabled="disabled" rows="3" cols="33" maxlength="200" wrap="hard">
+            Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
+        </textarea>
+    </div>
+</fieldset>
+</j:jelly>]]></html>
+        <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-06 22:08:57</sys_created_on>
+        <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-06 22:08:57</sys_updated_on>
+    </sys_ui_page>
+</record_update>
