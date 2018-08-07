@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_Jasmine_main_test.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+ 
+ <script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
+ <script src="x_atf_test_app_wit.jasmine_html.jsdbx"/>
+ <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
+ <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
+ <script src="/scripts/js_includes_g_automate.js"/>
+<script>
+	describe("test g_automate api is ready when page loads", function () {
+		it("window.top.g_automate run successful", function () {
+			expect(window.top.g_automate).toBeTruthy();
+		});
+	});
+</script>	
+</j:jelly>
+
+]]></html>
+        <name>Jasmine_main_test</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 22:18:39</sys_created_on>
+        <sys_id>f5c5a7d5ac731300ba899cabc2c7e369</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Jasmine_main_test</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_f5c5a7d5ac731300ba899cabc2c7e369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 22:44:15</sys_updated_on>
+    </sys_ui_page>
+</record_update>
