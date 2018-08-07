@@ -5,7 +5,7 @@
         <display_name>Click a UI Action</display_name>
         <inputs/>
         <order>2</order>
-        <snapshot display_value="d3b6006e6a98f4bf5d08fb329b0bf080">d971ee0d2d331300ba897e32cc3a9ea2</snapshot>
+        <snapshot display_value="">d971ee0d2d331300ba897e32cc3a9ea2</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

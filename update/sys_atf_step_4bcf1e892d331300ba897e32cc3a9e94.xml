@@ -6,7 +6,7 @@ With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <order>3</order>
-        <snapshot display_value="d3b6006e6a98f4bf5d08fb329b0bf080">d971ee0d2d331300ba897e32cc3a9ea2</snapshot>
+        <snapshot display_value="">d971ee0d2d331300ba897e32cc3a9ea2</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

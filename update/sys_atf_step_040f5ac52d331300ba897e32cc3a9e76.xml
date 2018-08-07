@@ -5,22 +5,22 @@
         <display_name>Open an Existing Record</display_name>
         <inputs/>
         <order>1</order>
-        <snapshot display_value="b3dd3698829266e973fdc1d262d596e6">774426cd2d331300ba897e32cc3a9eaf</snapshot>
+        <snapshot display_value="5bfe42ae9c1c77b37e3e9978d0aeae3f">39462e5920331300ba89dcc96a58b929</snapshot>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:29:34</sys_created_on>
         <sys_id>040f5ac52d331300ba897e32cc3a9e76</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Open an Existing Record</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_040f5ac52d331300ba897e32cc3a9e76</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 22:52:16</sys_updated_on>
+        <sys_updated_on>2018-08-07 17:39:20</sys_updated_on>
         <table>sys_ui_page</table>
-        <test display_value="test nested iframe">07ce1ac52d331300ba897e32cc3a9e22</test>
+        <test display_value="test nested iframe 01">07ce1ac52d331300ba897e32cc3a9e22</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=040f5ac52d331300ba897e32cc3a9e76"/>

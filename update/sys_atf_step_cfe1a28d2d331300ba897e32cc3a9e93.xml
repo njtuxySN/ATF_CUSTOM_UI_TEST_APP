@@ -5,7 +5,7 @@
         <display_name>Open an Existing Record</display_name>
         <inputs/>
         <order>1</order>
-        <snapshot display_value="4851518cecb7ef284da72d568cc1a6c7">e512668d2d331300ba897e32cc3a9e56</snapshot>
+        <snapshot display_value="">e512668d2d331300ba897e32cc3a9e56</snapshot>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
