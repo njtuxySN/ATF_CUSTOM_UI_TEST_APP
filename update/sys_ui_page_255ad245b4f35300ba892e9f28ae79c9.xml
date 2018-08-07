@@ -7,6 +7,11 @@
         <endpoint>x_atf_test_app_wit_TEST_UI_WITH_ALL_INPUT_TYPES.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
+ <script src="x_atf_test_app_wit.jasmine_html.jsdbx"/>
+ <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
+ <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
+ <script src="/scripts/js_includes_g_automate.js"/>
 <script src="/scripts/js_includes_g_automate.js"/>
 <script>
 function myFunction(input_value) {
@@ -452,6 +457,39 @@ function myFunction(input_value) {
         </textarea>
     </div>
 </fieldset>
+	
+	
+	<h1> Jasmine test for buttons: </h1>
+	
+	<script>			
+		
+	describe("regular button tests ", function () {
+		
+		it("rgular button should be clickable", function () {
+		    var mugshot = "{\"id\":\"i_button_default\"}";
+		    var response = window.top.g_automate.click(mugshot);
+			expect(response.success).toBe(false);
+		    expect(response.msg_key).toBe("method_not_supported");
+		});
+		
+		it("rgular button should be read only", function () {
+		    var mugshot = "{\"id\":\"i_button_default\"}";
+		    var response = window.top.g_automate.isReadOnly(mugshot);
+			expect(response.success).toBe(true);
+		});
+
+		
+		it("rgular button should not support set value method", function () {
+		    var mugshot = "{\"id\":\"i_button_default\"}";
+		    var response = window.top.g_automate.setValue(mugshot, "");
+			expect(response.success).toBe(false);
+		});				
+	});				
+		
+	
+    </script>	
+	
+	<h1> Jasmine test for check box: </h1>
 </j:jelly>]]></html>
         <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
         <processing_script/>
@@ -459,13 +497,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 22:08:57</sys_updated_on>
+        <sys_updated_on>2018-08-07 23:34:51</sys_updated_on>
     </sys_ui_page>
 </record_update>
