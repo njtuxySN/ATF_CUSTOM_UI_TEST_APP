@@ -482,82 +482,87 @@ function myFunction(input_value) {
 			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
     	}    	
     }		
-
-    var regular_button = "{\"id\":\"i_button_default\"}"
-	var disabled_button = "{\"id\":\"i_button_disabled\"}";
-	var readonly_button = "{\"id\":\"i_button_readonly\"}";
-	var regular_date = "{\"id\":\"i_date\"}";
-	var readonly_date = "{\"id\":\"i_date_readonly\"}";
-	var disabled_date = "{\"id\":\"i_date_disabled\"}";
 		
+	//isClickable, isReadonly, isSettable, getValue 
+	var input_types = [
+	    ['button', 1, 0, 0],
+		['date', 0, 0, 1],
+		['color', 0, 0, 1],
+		['email', 0, 0, 1],
+		['datetime-local', 0, 0, 1],
+		['month', 0, 0, 1],
+		['file', 0, 0, 1],
+		['image', 0, 0, 1],
+		['number', 0, 0, 1],
+		['password', 0, 0, 1],
+		['range', 0, 0, 1],
+		['reset', 1,0,0],
+		['search', 0,0,1],
+		['tel', 0,0,1],
+		['text', 0,0,1],
+		['time', 0,0,1],
+		['url', 0,0,1],
+		['week', 0,0,1]
+	];
+
+
+	input_types.forEach(([input_type, exceptedIsClickable, exceptedIsReadonly, exceptedIsSettable]) => {
+
+	    if (exceptedIsClickable) {
+	        it("input type: " + input_type + " should be clickable", function() {
+	            var mugshot = get_mugshot_id_of_component(input_type, "");
+	            var response = runClickCommand(mugshot);
+	            expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
+	        });
+	    }
+
+	    if (!exceptedIsClickable) {
+	            it("input type: " + input_type + " should not be clickable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runClickCommand(mugshot);
+	                expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
+	            });
+
+	    }
+
+	    if (exceptedIsReadonly) {
+	            it("input type: " + input_type + " should be readonly", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runIsReadonlyCommand(mugshot);
+	                expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
+	            });
+	    }
+
+	    if (!exceptedIsReadonly) {
+	        it("input type: " + input_type + " should NOT be readonly", function() {
+	            var mugshot = get_mugshot_id_of_component(input_type, "");
+	            var response = runIsReadonlyCommand(mugshot);
+	            expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
+	        });
+
+	    }
+
+	    if (exceptedIsSettable) {
+	         it("input type: " + input_type + " should be settable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runSetValueCommand(mugshot, "newVal");
+	                expect(response.success).toBe(true, mugshot + " is expected to be settable but the response is: " + response.success);
+	            });	        
+	    }
+
+	    if (!exceptedIsSettable) {
+
+	            it("input type: " + input_type + " should not be settable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runSetValueCommand(mugshot, "newVal");
+	                expect(response.success).toBe(false, mugshot + " is expected to be not settable but the response is: " + response.success);
+	        });
+	    }
+
+	});
+
 		
-		
-	var htmlInputThatShouldBeClickable = [regular_button, readonly_button];
-	var htmlInputThatShouldNotBeClickable = [disabled_button, disabled_date, regular_date, readonly_date];
-	var htmlInputThatShouldBeReadonly = [disabled_button, disabled_date, readonly_date];
-	var htmlInputThatShouldNotBeReadonly = [regular_button, readonly_button, regular_date];
-	var htmlInputThatShouldBeSettable = [regular_date];
-	var htmlInputThatShouldNotBeSettable = [regular_button, readonly_button, disabled_button, disabled_date, readonly_date];	
 
-	var input_types_that_should_be_clickable = ["button"];
-	var input_types_that_should_not_be_clickable = ["date", "color", "datetime_local", "email", "file"];
-
-	var input_types_that_should_be_readonly = ["button"];
-	var input_types_that_should_not_be_readonly = ["date", "color", "datetime_local", "email", "file"];
-
-	var input_types_that_should_be_settable = ["date", "color", "datetime_local", "email", "file"];
-	var input_types_that_should_not_be_settable = ["button"];
-
-	
-	input_types_that_should_be_clickable.forEach((input_type) => {
-	it("input type: " +  input_type + " should be clickable", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runClickCommand(mugshot);
-	        expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: "+ response.success + " and " + response.msg_key);
-	    });
-	});
-
-	input_types_that_should_not_be_clickable.forEach((input_type) => {
-	it("input type: " +  input_type + " should not be clickable", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runClickCommand(mugshot);
-	        expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: "+ response.success + " and " + response.msg_key);
-	    });
-	});
-
-	input_types_that_should_be_readonly.forEach((input_type) => {
-	it("input type: " +  input_type + " should be readonly", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runIsReadonlyCommand(mugshot);
-	        expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
-	    });
-	});
-
-
-	input_types_that_should_not_be_readonly.forEach((input_type) => {
-	it("input type: " +  input_type + " should NOT be readonly", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runIsReadonlyCommand(mugshot);
-	        expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
-	    });
-	});
-
-	input_types_that_should_be_settable.forEach((input_type) => {
-	it("input type: " +  input_type + " should be settable", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runSetValueCommand(mugshot, "newVal");
-	        expect(response.success).toBe(true, mugshot + " is expected to be settable but the response is: " + response.success);
-	    });
-	});
-
-
-	input_types_that_should_not_be_settable.forEach((input_type) => {
-	it("input type: " +  input_type + " should not be settable", function() {
-			var mugshot = get_mugshot_id_of_component(input_type, "");
-	        var response = runSetValueCommand(mugshot, "newVal");
-	        expect(response.success).toBe(false, mugshot + " is expected to be not settable but the response is: " + response.success);
-	    });
-	});
    </script>	
 </j:jelly>]]></html>
         <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
@@ -566,13 +571,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-08 18:38:10</sys_updated_on>
+        <sys_updated_on>2018-08-08 19:13:04</sys_updated_on>
     </sys_ui_page>
 </record_update>
