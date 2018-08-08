@@ -517,7 +517,7 @@ function myFunction(input_value) {
 	    }
 
 	    if (!exceptedIsClickable) {
-	            it("input type: " + input_type + " should not be clickable", function() {
+	            it("input type: " + input_type + " should NOT be clickable", function() {
 	                var mugshot = get_mugshot_id_of_component(input_type, "");
 	                var response = runClickCommand(mugshot);
 	                expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
@@ -552,7 +552,7 @@ function myFunction(input_value) {
 
 	    if (!exceptedIsSettable) {
 
-	            it("input type: " + input_type + " should not be settable", function() {
+	            it("input type: " + input_type + " should NOT be settable", function() {
 	                var mugshot = get_mugshot_id_of_component(input_type, "");
 	                var response = runSetValueCommand(mugshot, "newVal");
 	                expect(response.success).toBe(false, mugshot + " is expected to be not settable but the response is: " + response.success);
@@ -571,13 +571,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-08 19:13:04</sys_updated_on>
+        <sys_updated_on>2018-08-08 20:44:44</sys_updated_on>
     </sys_ui_page>
 </record_update>
