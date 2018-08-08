@@ -459,35 +459,78 @@ function myFunction(input_value) {
 </fieldset>
 	
 	
-	<h1> Jasmine test for buttons: </h1>
-	
-	<script>			
+	<h1> Jasmine test for buttons: </h1>	
+	<script>
 		
-	describe("regular button tests ", function () {
+	function runIsReadonlyCommand(mugshot){
+		return window.top.g_automate.isReadOnly(mugshot);
+	}
+
+	function runClickCommand(mugshot){
+		return window.top.g_automate.click(mugshot);
+	}
+
+	function runSetValueCommand(mugshot, value) {
+		return window.top.g_automate.setValue(mugshot, value)
+	}
 		
-		it("rgular button should be clickable", function () {
-		    var mugshot = "{\"id\":\"i_button_default\"}";
-		    var response = window.top.g_automate.click(mugshot);
-			expect(response.success).toBe(false);
-		    expect(response.msg_key).toBe("method_not_supported");
-		});
 		
-		it("rgular button should be read only", function () {
-		    var mugshot = "{\"id\":\"i_button_default\"}";
-		    var response = window.top.g_automate.isReadOnly(mugshot);
-			expect(response.success).toBe(true);
-		});
+    var regular_button = ["{\"id\":\"i_button_default\"}"]
+	var disabled_button = "{\"id\":\"i_button_disabled\"}";
+	var readonly_button = "{\"id\":\"i_button_readonly\"}";
+    var htmlInputThatShouldBeClickable = [regular_button, readonly_button];
+	var htmlInputThatShouldNotBeClickable = [disabled_button];
+	var htmlInputThatShouldBeReadonly = [disabled_button];
+	var htmlInputThatShouldNotBeReadonly = [regular_button, readonly_button];
+	var htmlInputThatShouldBeSettable = [];
+	var htmlInputThatShouldNotBeSettable = [regular_button, readonly_button, disabled_button];
+		
+	htmlInputThatShouldBeClickable.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should be clickable", function() {
+	        var response = runClickCommand(mugshot);
+	        expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: "+ response.success + " and " + response.msg_key);
+	    });
+	});
+
+	htmlInputThatShouldNotBeClickable.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should not be clickable", function() {
+	        var response = runClickCommand(mugshot);
+	        expect(response.success).toBe(false, mugshot + " is expected to be NOT clickable but the response is: "+ response.success);
+	    });
+	});
+
+
+	htmlInputThatShouldBeReadonly.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should be readonly", function() {
+	        var response = runIsReadonlyCommand(mugshot);
+	        expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
+	    });
+	});
+
+
+	htmlInputThatShouldNotBeReadonly.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should NOT be readonly", function() {
+	        var response = runIsReadonlyCommand(mugshot);
+	        expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
+	    });
+	});
+
+	htmlInputThatShouldBeSettable.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should be settable", function() {
+	        var response = runSetValueCommand(mugshot, "newVal");
+	        expect(response.success).toBe(true, mugshot + " is expected to be settable but the response is: " + response.success);
+	    });
+	});
+
+	htmlInputThatShouldNotBeSettable.forEach((mugshot) => {
+	it("component with mugshot: " +  mugshot + " should NOT be settable", function() {
+	        var response = runSetValueCommand(mugshot, "newVal");
+	        expect(response.success).toBe(false, mugshot + " is expected to be NOT settable but the response is: " + response.success);
+	    });
+	});
 
 		
-		it("rgular button should not support set value method", function () {
-		    var mugshot = "{\"id\":\"i_button_default\"}";
-		    var response = window.top.g_automate.setValue(mugshot, "");
-			expect(response.success).toBe(false);
-		});				
-	});				
-		
-	
-    </script>	
+   </script>	
 	
 	<h1> Jasmine test for check box: </h1>
 </j:jelly>]]></html>
@@ -497,13 +540,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-07 23:34:51</sys_updated_on>
+        <sys_updated_on>2018-08-08 05:32:20</sys_updated_on>
     </sys_ui_page>
 </record_update>
