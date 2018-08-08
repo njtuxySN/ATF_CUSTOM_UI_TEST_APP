@@ -478,13 +478,19 @@ function myFunction(input_value) {
     var regular_button = ["{\"id\":\"i_button_default\"}"]
 	var disabled_button = "{\"id\":\"i_button_disabled\"}";
 	var readonly_button = "{\"id\":\"i_button_readonly\"}";
-    var htmlInputThatShouldBeClickable = [regular_button, readonly_button];
-	var htmlInputThatShouldNotBeClickable = [disabled_button];
-	var htmlInputThatShouldBeReadonly = [disabled_button];
-	var htmlInputThatShouldNotBeReadonly = [regular_button, readonly_button];
-	var htmlInputThatShouldBeSettable = [];
-	var htmlInputThatShouldNotBeSettable = [regular_button, readonly_button, disabled_button];
+	var regular_date = ["{\"id\":\"i_date\"}"];
+	var disabled_date = ["{\"id\":\"i_date_readonly\"}"];
+	var readonly_date = ["{\"id\":\"i_date_disabled\"}"];
 		
+		
+		
+	var htmlInputThatShouldBeClickable = [regular_button, readonly_button];
+	var htmlInputThatShouldNotBeClickable = [disabled_button, disabled_date, regular_date, readonly_date];
+	var htmlInputThatShouldBeReadonly = [disabled_button, disabled_date, readonly_date];
+	var htmlInputThatShouldNotBeReadonly = [regular_button, readonly_button, regular_date];
+	var htmlInputThatShouldBeSettable = [regular_date];
+	var htmlInputThatShouldNotBeSettable = [regular_button, readonly_button, disabled_button, disabled_date, readonly_date];	
+			
 	htmlInputThatShouldBeClickable.forEach((mugshot) => {
 	it("component with mugshot: " +  mugshot + " should be clickable", function() {
 	        var response = runClickCommand(mugshot);
@@ -540,13 +546,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-08 05:32:20</sys_updated_on>
+        <sys_updated_on>2018-08-08 05:37:51</sys_updated_on>
     </sys_ui_page>
 </record_update>
