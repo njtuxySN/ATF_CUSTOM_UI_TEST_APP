@@ -12,7 +12,6 @@
  <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
  <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
  <script src="/scripts/js_includes_g_automate.js"/>
-<script src="/scripts/js_includes_g_automate.js"/>
 <script>
 function myFunction(input_value) {
     document.getElementById("debug-area").value = input_value;
@@ -32,7 +31,7 @@ function myFunction(input_value) {
         <!-- Default button: <input type="button"  class="btn" value="Click Me" onclick=myFunction('Harry Potter')/>  -->
         <div>
             <label> regular button </label>
-            <input type="button" id="i_button_default" class="btn" value="default button" onclick="myFunction('default button clicked!')" />
+            <input type="button" id="i_button" class="btn" value="default button" onclick="myFunction('default button clicked!')" />
         </div>
         <div>
             <label> disabled button </label>
@@ -74,7 +73,7 @@ function myFunction(input_value) {
         <h2> color </h2>
     </legend>
     <div>
-        <input type="color" id="i_color_head" name="color" value="#e66465" />
+        <input type="color" id="i_color" name="color" value="#e66465" />
         <label for="head">Head</label>
     </div>
     <div>
@@ -90,7 +89,7 @@ function myFunction(input_value) {
         <label>Disabled</label>
     </div>
     <div>
-        <input type="color" id="i_color_disabled" name="color" value="#FFFF00" readonly="readonly" />
+        <input type="color" id="i_color_readonly" name="color" value="#FFFF00" readonly="readonly" />
         <label>Readonly color is not supported!</label>
     </div>
 </fieldset>
@@ -154,7 +153,7 @@ function myFunction(input_value) {
             <label>Readonly email address:</label>
         </div>
         <div>
-            <input type="email" id="i_email_disable" placeholder="foo@this.com, bar@that.com" size="35" disabled="disabled" />
+            <input type="email" id="i_email_disabled" placeholder="foo@this.com, bar@that.com" size="35" disabled="disabled" />
             <label>Disabled email address:</label>
         </div>
         <input type="submit" id="submit_email"> </input>
@@ -174,7 +173,7 @@ function myFunction(input_value) {
     </div>
     <div>
         <label for="avatar">Readonly file selector is not supported!</label>
-        <input type="file" id="i_file_disabled" name="file_disabled" accept="image/png, image/jpeg" readonly="readonly" />
+        <input type="file" id="i_file_readonly" name="file_readonly" accept="image/png, image/jpeg" readonly="readonly" />
     </div>
 </fieldset>
 <fieldset>
@@ -461,7 +460,7 @@ function myFunction(input_value) {
 	
 	<h1> Jasmine test for buttons: </h1>	
 	<script>
-		
+	
 	function runIsReadonlyCommand(mugshot){
 		return window.top.g_automate.isReadOnly(mugshot);
 	}
@@ -474,13 +473,22 @@ function myFunction(input_value) {
 		return window.top.g_automate.setValue(mugshot, value)
 	}
 		
-		
-    var regular_button = ["{\"id\":\"i_button_default\"}"]
+    
+    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
+    function get_mugshot_id_of_component(input_type, extra_attribute){
+    	if(extra_attribute ==""){
+		    return "{\"id\":\"i_" + input_type + "\"}"
+    	}else{
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
+    	}    	
+    }		
+
+    var regular_button = "{\"id\":\"i_button_default\"}"
 	var disabled_button = "{\"id\":\"i_button_disabled\"}";
 	var readonly_button = "{\"id\":\"i_button_readonly\"}";
-	var regular_date = ["{\"id\":\"i_date\"}"];
-	var disabled_date = ["{\"id\":\"i_date_readonly\"}"];
-	var readonly_date = ["{\"id\":\"i_date_disabled\"}"];
+	var regular_date = "{\"id\":\"i_date\"}";
+	var readonly_date = "{\"id\":\"i_date_readonly\"}";
+	var disabled_date = "{\"id\":\"i_date_disabled\"}";
 		
 		
 		
@@ -490,55 +498,67 @@ function myFunction(input_value) {
 	var htmlInputThatShouldNotBeReadonly = [regular_button, readonly_button, regular_date];
 	var htmlInputThatShouldBeSettable = [regular_date];
 	var htmlInputThatShouldNotBeSettable = [regular_button, readonly_button, disabled_button, disabled_date, readonly_date];	
-			
-	htmlInputThatShouldBeClickable.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should be clickable", function() {
+
+	var input_types_that_should_be_clickable = ["button"];
+	var input_types_that_should_not_be_clickable = ["date", "color", "datetime_local", "email", "file"];
+
+	var input_types_that_should_be_readonly = ["button"];
+	var input_types_that_should_not_be_readonly = ["date", "color", "datetime_local", "email", "file"];
+
+	var input_types_that_should_be_settable = ["date", "color", "datetime_local", "email", "file"];
+	var input_types_that_should_not_be_settable = ["button"];
+
+	
+	input_types_that_should_be_clickable.forEach((input_type) => {
+	it("input type: " +  input_type + " should be clickable", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runClickCommand(mugshot);
 	        expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: "+ response.success + " and " + response.msg_key);
 	    });
 	});
 
-	htmlInputThatShouldNotBeClickable.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should not be clickable", function() {
+	input_types_that_should_not_be_clickable.forEach((input_type) => {
+	it("input type: " +  input_type + " should not be clickable", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runClickCommand(mugshot);
-	        expect(response.success).toBe(false, mugshot + " is expected to be NOT clickable but the response is: "+ response.success);
+	        expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: "+ response.success + " and " + response.msg_key);
 	    });
 	});
 
-
-	htmlInputThatShouldBeReadonly.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should be readonly", function() {
+	input_types_that_should_be_readonly.forEach((input_type) => {
+	it("input type: " +  input_type + " should be readonly", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runIsReadonlyCommand(mugshot);
 	        expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
 	    });
 	});
 
 
-	htmlInputThatShouldNotBeReadonly.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should NOT be readonly", function() {
+	input_types_that_should_not_be_readonly.forEach((input_type) => {
+	it("input type: " +  input_type + " should NOT be readonly", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runIsReadonlyCommand(mugshot);
 	        expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
 	    });
 	});
 
-	htmlInputThatShouldBeSettable.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should be settable", function() {
+	input_types_that_should_be_settable.forEach((input_type) => {
+	it("input type: " +  input_type + " should be settable", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runSetValueCommand(mugshot, "newVal");
 	        expect(response.success).toBe(true, mugshot + " is expected to be settable but the response is: " + response.success);
 	    });
 	});
 
-	htmlInputThatShouldNotBeSettable.forEach((mugshot) => {
-	it("component with mugshot: " +  mugshot + " should NOT be settable", function() {
+
+	input_types_that_should_not_be_settable.forEach((input_type) => {
+	it("input type: " +  input_type + " should not be settable", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
 	        var response = runSetValueCommand(mugshot, "newVal");
-	        expect(response.success).toBe(false, mugshot + " is expected to be NOT settable but the response is: " + response.success);
+	        expect(response.success).toBe(false, mugshot + " is expected to be not settable but the response is: " + response.success);
 	    });
 	});
-
-		
    </script>	
-	
-	<h1> Jasmine test for check box: </h1>
 </j:jelly>]]></html>
         <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
         <processing_script/>
@@ -546,13 +566,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-08 05:37:51</sys_updated_on>
+        <sys_updated_on>2018-08-08 18:38:10</sys_updated_on>
     </sys_ui_page>
 </record_update>
