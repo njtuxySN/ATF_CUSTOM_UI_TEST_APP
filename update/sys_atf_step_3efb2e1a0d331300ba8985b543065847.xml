@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json/>
         <order>1</order>
-        <snapshot display_value="086818d9fddb64c67fda5912154d3443">871c6e1a0d331300ba8985b54306582e</snapshot>
+        <snapshot display_value="">871c6e1a0d331300ba8985b54306582e</snapshot>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

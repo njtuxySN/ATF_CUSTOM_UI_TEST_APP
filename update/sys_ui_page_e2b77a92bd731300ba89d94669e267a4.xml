@@ -4,9 +4,14 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_ALL_INPUT_TYPES.do</endpoint>
+        <endpoint>x_atf_test_app_wit_TEST_UI_PAGE_WIHT_JASMINE_TESTS.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
+ <script src="x_atf_test_app_wit.jasmine_html.jsdbx"/>
+ <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
+ <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
+ <script src="/scripts/js_includes_g_automate.js"/>
 <script>
 function myFunction(input_value) {
     document.getElementById("debug-area").value = input_value;
@@ -450,21 +455,129 @@ function myFunction(input_value) {
             Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
         </textarea>
     </div>
-</fieldset>	
+</fieldset>
+	
+	
+	<h1> Jasmine test for buttons: </h1>	
+	<script>
+	
+	function runIsReadonlyCommand(mugshot){
+		return window.top.g_automate.isReadOnly(mugshot);
+	}
+
+	function runClickCommand(mugshot){
+		return window.top.g_automate.click(mugshot);
+	}
+
+	function runSetValueCommand(mugshot, value) {
+		return window.top.g_automate.setValue(mugshot, value)
+	}
+		
+    
+    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
+    function get_mugshot_id_of_component(input_type, extra_attribute){
+    	if(extra_attribute ==""){
+		    return "{\"id\":\"i_" + input_type + "\"}"
+    	}else{
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
+    	}    	
+    }		
+		
+	//isClickable, isReadonly, isSettable, getValue 
+	var input_types = [
+	    ['button', 1, 0, 0],
+		['date', 0, 0, 1],
+		['color', 0, 0, 1],
+		['email', 0, 0, 1],
+		['datetime-local', 0, 0, 1],
+		['month', 0, 0, 1],
+		['file', 0, 0, 1],
+		['image', 0, 0, 1],
+		['number', 0, 0, 1],
+		['password', 0, 0, 1],
+		['range', 0, 0, 1],
+		['reset', 1,0,0],
+		['search', 0,0,1],
+		['tel', 0,0,1],
+		['text', 0,0,1],
+		['time', 0,0,1],
+		['url', 0,0,1],
+		['week', 0,0,1]
+	];
+
+
+	input_types.forEach(([input_type, exceptedIsClickable, exceptedIsReadonly, exceptedIsSettable]) => {
+
+	    if (exceptedIsClickable) {
+	        it("input type: " + input_type + " should be clickable", function() {
+	            var mugshot = get_mugshot_id_of_component(input_type, "");
+	            var response = runClickCommand(mugshot);
+	            expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
+	        });
+	    }
+
+	    if (!exceptedIsClickable) {
+	            it("input type: " + input_type + " should NOT be clickable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runClickCommand(mugshot);
+	                expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
+	            });
+
+	    }
+
+	    if (exceptedIsReadonly) {
+	            it("input type: " + input_type + " should be readonly", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runIsReadonlyCommand(mugshot);
+	                expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
+	            });
+	    }
+
+	    if (!exceptedIsReadonly) {
+	        it("input type: " + input_type + " should NOT be readonly", function() {
+	            var mugshot = get_mugshot_id_of_component(input_type, "");
+	            var response = runIsReadonlyCommand(mugshot);
+	            expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
+	        });
+
+	    }
+
+	    if (exceptedIsSettable) {
+	         it("input type: " + input_type + " should be settable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runSetValueCommand(mugshot, "newVal");
+	                expect(response.success).toBe(true, mugshot + " is expected to be settable but the response is: " + response.success);
+	            });	        
+	    }
+
+	    if (!exceptedIsSettable) {
+
+	            it("input type: " + input_type + " should NOT be settable", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "");
+	                var response = runSetValueCommand(mugshot, "newVal");
+	                expect(response.success).toBe(false, mugshot + " is expected to be not settable but the response is: " + response.success);
+	        });
+	    }
+
+	});
+
+		
+
+   </script>	
 </j:jelly>]]></html>
-        <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
+        <name>TEST_UI_PAGE_WIHT_JASMINE_TESTS</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-06 22:08:57</sys_created_on>
-        <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>95</sys_mod_count>
-        <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
+        <sys_created_on>2018-08-10 21:29:48</sys_created_on>
+        <sys_id>e2b77a92bd731300ba89d94669e267a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST_UI_PAGE_WIHT_JASMINE_TESTS</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
+        <sys_update_name>sys_ui_page_e2b77a92bd731300ba89d94669e267a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 21:30:38</sys_updated_on>
+        <sys_updated_on>2018-08-10 21:29:48</sys_updated_on>
     </sys_ui_page>
 </record_update>
