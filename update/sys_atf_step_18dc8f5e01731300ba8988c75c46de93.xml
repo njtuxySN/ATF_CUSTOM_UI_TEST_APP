@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate the values as follows:
+e3bfdf4f8c276c20673e69aea0a4f5d9=regular text^85b7ebf53443251ded546760d470f71d=orange^EQ</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"85b7ebf53443251ded546760d470f71d":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"orange\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"orange\",\"hash\":\"85b7ebf53443251ded546760d470f71d\"}","e3bfdf4f8c276c20673e69aea0a4f5d9":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"text\",\"tag\":\"input\",\"text\":\"regular text\",\"id\":\"i_text\",\"placeholder\":\"4 to 8 characters long\",\"type\":\"text\",\"value\":\"regular text\",\"hash\":\"e3bfdf4f8c276c20673e69aea0a4f5d9\"}"}</mugshots_cache_json>
+        <order>3</order>
+        <snapshot display_value="cb8cbe32143eb0a286bbe76dccdd0c40">adfc039e01731300ba8988c75c46de27</snapshot>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 23:02:08</sys_created_on>
+        <sys_id>18dc8f5e01731300ba8988c75c46de93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_18dc8f5e01731300ba8988c75c46de93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 23:07:36</sys_updated_on>
+        <table/>
+        <test display_value="Test Different Components in NESTED iframes">8dc40bda01731300ba8988c75c46de62</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=18dc8f5e01731300ba8988c75c46de93"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>18dc8f5e01731300ba8988c75c46de93</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 23:02:08</sys_created_on>
+        <sys_id>5fec8f5e01731300ba8988c75c46deb6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 23:07:36</sys_updated_on>
+        <value>e3bfdf4f8c276c20673e69aea0a4f5d9=regular text^85b7ebf53443251ded546760d470f71d=orange^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>
