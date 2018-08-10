@@ -83,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-03 23:31:39</sys_updated_on>
+        <sys_updated_on>2018-08-10 17:44:20</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
   <h1 class="display-4">ATF Test widget </h1>
   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -112,6 +112,7 @@
     <br/>
     <a class="btn btn-primary btn-lg" ng-click="insert_test_record()" role="button">Insert test record</a>
     <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records</a>       
+    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#deleteAllTestRecords" role="button">Delete all test records</a>       
   </p>
   
   <hr />
@@ -120,9 +121,27 @@
   <p class="lead">
     <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_01.do" role="button">Open UI Page 01</a>       
     <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_02.do" role="button">Open UI Page 02</a>       
-  </p>
-  
-    
+  </p>     
+</div>
+
+
+
+
+<div class="modal fade" id="deleteAllTestRecords" tabindex="-1" role="dialog" aria-labelledby="deleteAllTestRecords" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete all test records</h5>
+            </div>
+            <div class="modal-body">
+                <span class="text-success glyphicon glyphicon-info-sign"></span> Ready to delete all test records?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a ng-click="delete_all_test_records()" data-dismiss="modal" class="btn btn-info btn-lg" role="button">Delete all test records</a>
+            </div>
+        </div>
+    </div>
 </div>
 ]]></template>
     </sp_widget>
