@@ -4,6 +4,11 @@
         <client_script><![CDATA[function($rootScope, $scope, $timeout, $http, spUtil, $q) {
   /* widget controller */
   var c = this;
+	
+	spUtil.recordWatch($scope, "x_atf_test_app_wit_yan_test_table", "", function(name,data){
+										 spUtil.update($scope);
+										 })
+	
 	$scope.test_record_name = null;
 	$scope.test_record_number = null;
 	
@@ -47,11 +52,14 @@
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
+	
+	data.items=getTestTableData();
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
 	data.test="";
 	if(input){
 		console.log(" current data.test value: " + input.test);
+		//data.items=getTestTableData();
 	}
 	if(input && input.test=="1"){
 		  console.log("--- insert a incident ---");
@@ -65,6 +73,7 @@
 	}
 	
 	if(input && input.test=="2"){
+			
 			console.log("--- insert a test record! ---");
 			var gr = new GlideRecord('x_atf_test_app_wit_yan_test_table');
 			gr.name = input.test_record_name;
@@ -77,56 +86,83 @@
 			gr1.query();
 			gr1.deleteMultiple();
 	}	
+	
+	
+	function getTestTableData() {
+		console.log("--going to query the data table---");
+		var td = new GlideRecord('x_atf_test_app_wit_yan_test_table');
+		td.query();
+		var results = [];
+		while (td.next()) {
+			if (!$sp.canReadRecord(td))
+				continue;
+			var item = {};
+			//$sp.getRecordDisplayValues(item, td, 'name,number,sys_id');
+			item.name = td.getValue('name');
+			item.number = td.getValue('number');
+			results.push(item);
+		}
+		console.log("--- here is the result " + results.length);
+		return results;
+	}
+	
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>116</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 17:44:20</sys_updated_on>
+        <sys_updated_on>2018-08-10 18:23:36</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
-  <h1 class="display-4">ATF Test widget </h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" ng-click="insert_new_incident()" role="button">insert new incident </a>       
-  </p>
-  
-  <hr />
-
-  <h2> Create a new test record </h2>
-  <p class="lead">
-    <label> Name </label>
-    <input class="form-control" type="text" value="I am from service portal" id="test-record-name-input" ng-model="test_record_name">
-    
-    <label> number </label>
-    <input class="form-control" type="text" value="1111111" id="test-record-number-input" ng-model="test_record_number">
-    <br/>
-    <a class="btn btn-primary btn-lg" ng-click="insert_test_record()" role="button">Insert test record</a>
-    <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records</a>       
-    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#deleteAllTestRecords" role="button">Delete all test records</a>       
-  </p>
-  
-  <hr />
-
-  <h2> Open Custom UI Pages </h2>
-  <p class="lead">
-    <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_01.do" role="button">Open UI Page 01</a>       
-    <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_02.do" role="button">Open UI Page 02</a>       
-  </p>     
+    <h1 class="display-4">ATF Test widget </h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" ng-click="insert_new_incident()" role="button">insert new incident </a>
+    </p>
+    <hr />
+    <h2> Create a new test record </h2>
+    <div class="row">
+        <div class="col-md-4">
+            <p class="lead">
+                <label> Name </label>
+                <input class="form-control" type="text" value="I am from service portal" id="test-record-name-input" ng-model="test_record_name">
+                <label> number </label>
+                <input class="form-control" type="text" value="1111111" id="test-record-number-input" ng-model="test_record_number">
+                <br/>
+                <a class="btn btn-primary btn-lg" ng-click="insert_test_record()" role="button">Insert test record</a>
+            </p>
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Test Table:</div>
+                <div class="panel-body">
+                    <ul class="list-group result-container">
+                        <li class="list-group-item" ng-repeat="item in c.data.items">
+                            <a href>{{item.name}}</a><span class="pull-right">{{item.number}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records</a>
+    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#deleteAllTestRecords" role="button">Delete all test records</a>
+    <hr />
+    <h2> Open Custom UI Pages </h2>
+    <p class="lead">
+        <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_01.do" role="button">Open UI Page 01</a>
+        <a class="btn btn-info btn-lg" ng-href="/x_atf_test_app_wit_TEST_UI_PAGE_02.do" role="button">Open UI Page 02</a>
+    </p>
 </div>
-
-
-
-
 <div class="modal fade" id="deleteAllTestRecords" tabindex="-1" role="dialog" aria-labelledby="deleteAllTestRecords" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -142,7 +178,6 @@
             </div>
         </div>
     </div>
-</div>
-]]></template>
+</div>]]></template>
     </sp_widget>
 </record_update>
