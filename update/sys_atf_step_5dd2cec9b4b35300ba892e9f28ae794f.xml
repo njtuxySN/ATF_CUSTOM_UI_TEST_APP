@@ -4,6 +4,7 @@
         <description>Click the 'Open UI Page 01 [undefined] &lt;a&gt;' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>11</order>
         <snapshot display_value="">3e706141b4b35300ba892e9f28ae7987</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

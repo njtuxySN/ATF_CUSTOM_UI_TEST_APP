@@ -5,6 +5,7 @@
 {"area":"ATF_TEST_WIDGET_01","ng_model":"test_record_name","role":"textbox","aria_invalid":"false","methods":["setValue"],"index":0,"tag":"input","text":"I am from service portal","id":"test-record-name-input","type":"text","class":"form-control ng-pristine ng-untouched ng-valid ng-empty","value":"I am from service portal"}=I am from service portal UI!^{"area":"ATF_TEST_WIDGET_01","ng_model":"test_record_number","role":"textbox","aria_invalid":"false","methods":["setValue"],"index":1,"tag":"input","text":"","id":"test-record-number-input","type":"text","class":"form-control ng-pristine ng-untouched ng-valid ng-empty","value":""}=1999^EQ</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>7</order>
         <snapshot display_value="">f62f078cb4b31300ba892e9f28ae7924</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>

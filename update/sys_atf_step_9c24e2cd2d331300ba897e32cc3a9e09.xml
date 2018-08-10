@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Click the 'Go to UI Page 01 [undefined] &lt;button&gt;' component</description>
+        <description>Click the '{"area":"default","inner_text":"Go to UI Page 01","methods":["click"],"index":1,"tag":"button","text":"Go to UI Page 01","type":"button","class":"btn btn-warning btn-lg btn-block","value":""}' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>4</order>
-        <snapshot display_value="">07466e5920331300ba89dcc96a58b92f</snapshot>
+        <snapshot display_value="649f9085df4a4d29f2e71f61227c717d">3f9b7e4a9db31300ba89a3036ccba14a</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:51:32</sys_created_on>
         <sys_id>9c24e2cd2d331300ba897e32cc3a9e09</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_9c24e2cd2d331300ba897e32cc3a9e09</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-07 17:39:26</sys_updated_on>
+        <sys_updated_on>2018-08-10 03:08:02</sys_updated_on>
         <table/>
         <test display_value="test nested iframe 01">07ce1ac52d331300ba897e32cc3a9e22</test>
         <timeout/>

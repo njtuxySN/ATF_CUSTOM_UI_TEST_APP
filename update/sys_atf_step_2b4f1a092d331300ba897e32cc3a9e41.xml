@@ -5,6 +5,7 @@
 With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>3</order>
         <snapshot display_value="">2cd1628d2d331300ba897e32cc3a9e04</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>

@@ -4,6 +4,7 @@
         <description>Click UI Action 'Try It' on 'UI Page' form.</description>
         <display_name>Click a UI Action</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>2</order>
         <snapshot display_value="">d612668d2d331300ba897e32cc3a9e4b</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>

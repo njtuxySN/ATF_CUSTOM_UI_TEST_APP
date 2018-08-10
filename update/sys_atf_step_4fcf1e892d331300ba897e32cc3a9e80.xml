@@ -4,6 +4,7 @@
         <description>Open the 'UI Page' form with id 'UI Page: TEST_UI_WITH_IFRAME_01'</description>
         <display_name>Open an Existing Record</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>1</order>
         <snapshot display_value="">6871ee0d2d331300ba897e32cc3a9e29</snapshot>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>

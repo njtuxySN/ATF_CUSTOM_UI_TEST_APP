@@ -4,6 +4,7 @@
         <description/>
         <display_name>Pause Step</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>9</order>
         <snapshot/>
         <step_config display_value="">56d60a0d0fe7220054801d3be1050e29</step_config>

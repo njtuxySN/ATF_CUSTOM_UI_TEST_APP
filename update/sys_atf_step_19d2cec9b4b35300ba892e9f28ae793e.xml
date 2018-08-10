@@ -4,6 +4,7 @@
         <description>Click the 'Go to test portal [undefined] &lt;button&gt;' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>5</order>
         <snapshot display_value="">f62f078cb4b31300ba892e9f28ae7924</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

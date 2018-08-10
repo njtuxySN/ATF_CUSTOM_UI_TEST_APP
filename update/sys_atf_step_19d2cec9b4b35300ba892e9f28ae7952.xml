@@ -4,6 +4,7 @@
         <description>Assert that the text 'UI PAGE 01' is on the page.</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
+        <mugshots_cache_json/>
         <order>12</order>
         <snapshot display_value="">3e706141b4b35300ba892e9f28ae7987</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
