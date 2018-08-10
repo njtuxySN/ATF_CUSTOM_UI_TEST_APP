@@ -6,20 +6,20 @@
         <inputs/>
         <mugshots_cache_json/>
         <order>2</order>
-        <snapshot display_value="">842cee1a0d331300ba8985b543065829</snapshot>
+        <snapshot display_value="ab122e8403b42750230d05d9daaa2c87">821a7e9ebd731300ba89d94669e2672d</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-10 20:38:11</sys_created_on>
         <sys_id>32fb2e1a0d331300ba8985b54306584d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Click a UI Action</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_32fb2e1a0d331300ba8985b54306584d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 20:38:49</sys_updated_on>
+        <sys_updated_on>2018-08-10 21:39:50</sys_updated_on>
         <table>kb_knowledge</table>
         <test display_value="Happy path for Assert Text On Page">befb2e1a0d331300ba8985b543065843</test>
         <timeout/>

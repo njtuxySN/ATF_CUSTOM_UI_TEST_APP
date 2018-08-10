@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Navigate to the 'Yan_Test_Module_04' module in the 'Yan_Test_Menu' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <order>6</order>
+        <snapshot display_value="6d51abc3abd30ae274276ef4fe1abdb6">3f1abe9ebd731300ba89d94669e26742</snapshot>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 21:36:34</sys_created_on>
+        <sys_id>f749f61abd731300ba89d94669e26783</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_f749f61abd731300ba89d94669e26783</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 21:39:58</sys_updated_on>
+        <table/>
+        <test display_value="Happy path for Assert Text On Page">befb2e1a0d331300ba8985b543065843</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f749f61abd731300ba89d94669e26783"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f749f61abd731300ba89d94669e26783</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 21:36:34</sys_created_on>
+        <sys_id>4a59f61abd731300ba89d94669e2676e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 21:36:34</sys_updated_on>
+        <value>ed58b216bd731300ba89d94669e267df</value>
+        <variable display_value="">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+</record_update>
