@@ -4,7 +4,7 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_TEST_UI_PAGE_WIHT_JASMINE_TESTS.do</endpoint>
+        <endpoint>x_atf_test_app_wit_jasmine_test_disabled_settable_components_readonly_states.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
@@ -483,52 +483,6 @@ function myFunction(input_value) {
     	}    	
     }		
 		
-	//isClickable, isDisabled
-	var clickable_components = [
-	    ['button', 1, 0],
-		['file', 1, 0],
-		['image', 1, 0],
-		['reset', 1, 0]
-	];
-
-	//isReadonly
-	var regular_setttable_components = [
-	    ['checkbox', 0],
-		['color', 0],
-		['date', 0],
-		['datetime-local', 0],
-		['email', 0],
-		['month', 0],
-		['number', 0],
-		['password', 0],
-		['range', 0],
-		['search', 0],
-		['tel', 0],
-		['text', 0],
-		['time', 0],
-		['url', 0],
-		['week', 0]
-	];
-		
-
-	//isReadonly
-	var readonly_setttable_components = [
-	    ['checkbox', 0],
-		['color', 0],
-		['date', 1],
-		['datetime-local', 1],
-		['email', 1],
-		['month', 1],
-		['number', 1],
-		['password', 1],
-		['range', 0],
-		['search', 1],
-		['tel', 1],
-		['text', 1],
-		['time', 1],
-		['url', 1],
-		['week', 1]
-	];
 		
 	//isDisabled
 	var disabled_setttable_components = [
@@ -548,77 +502,10 @@ function myFunction(input_value) {
 		['url', 1],
 		['week', 1],
 		['select', 1],
-		['text_area', 0]
+		['text_area',1]
 	];
 		
-		
-		
-
-		/*
-	clickable_components.forEach(([input_type, expectedIsClickable, expectedDisabled]) => {
-		
-		if (expectedIsClickable) {
-	        it("input type: " + input_type + " should be clickable", function() {
-	            var mugshot = get_mugshot_id_of_component(input_type, "");
-	            var response = runClickCommand(mugshot);
-	            expect(response.success).toBe(true, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
-	        });
-	    }
-
-	    if (!expectedIsClickable) {
-	            it("input type: " + input_type + " should be not clickable", function() {
-	                var mugshot = get_mugshot_id_of_component(input_type, "");
-	                var response = runClickCommand(mugshot);
-	                expect(response.success).toBe(false, mugshot + " is expected to be clickable but the response is: " + response.success + " and " + response.msg_key);
-	            });
-	    }		
-	});
-
-		
-		
-	setttable_components.forEach(([input_type, expectedIsReadonly]) => {
-		if (expectedIsReadonly) {
-	            it("input type: " + input_type + " should be readonly", function() {
-	                var mugshot = get_mugshot_id_of_component(input_type, "");
-	                var response = runIsReadonlyCommand(mugshot);
-	                expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
-	            });
-		}
-		
-		if (!expectedIsReadonly) {
-	        it("input type: " + input_type + " should be not readonly", function() {
-	            var mugshot = get_mugshot_id_of_component(input_type, "");
-	            var response = runIsReadonlyCommand(mugshot);
-	            expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
-	        });
-
-		}	
-	});
-		
-	
-
-		
-	readonly_setttable_components.forEach(([input_type, expectedIsReadonly]) => {
-		if (expectedIsReadonly) {
-	            it("input type: " + input_type + " should be readonly", function() {
-	                var mugshot = get_mugshot_id_of_component(input_type, "readonly");
-	                var response = runIsReadonlyCommand(mugshot);
-	                expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
-	            });
-		}
-		
-		if (!expectedIsReadonly) {
-	        it("input type: " + input_type + " should be not readonly", function() {
-	            var mugshot = get_mugshot_id_of_component(input_type, "readonly");
-	            var response = runIsReadonlyCommand(mugshot);
-	            expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
-	        });
-
-		}	
-	});
-		
-	*/
-		
+			
 	disabled_setttable_components.forEach(([input_type, expectedIsReadonly]) => {
 		if (expectedIsReadonly) {
 	            it("input type: " + input_type + " should be readonly", function() {
@@ -642,19 +529,19 @@ function myFunction(input_value) {
 
    </script>	
 </j:jelly>]]></html>
-        <name>TEST_UI_PAGE_WIHT_JASMINE_TESTS</name>
+        <name>jasmine_test_disabled_settable_components_readonly_states</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-10 21:29:48</sys_created_on>
-        <sys_id>e2b77a92bd731300ba89d94669e267a4</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>TEST_UI_PAGE_WIHT_JASMINE_TESTS</sys_name>
+        <sys_created_on>2018-08-13 20:51:09</sys_created_on>
+        <sys_id>a87b8a17ad731300ba89d41e6a4e52a9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>jasmine_test_disabled_settable_components_readonly_states</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_ui_page_e2b77a92bd731300ba89d94669e267a4</sys_update_name>
+        <sys_update_name>sys_ui_page_a87b8a17ad731300ba89d41e6a4e52a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 20:47:12</sys_updated_on>
+        <sys_updated_on>2018-08-13 21:02:04</sys_updated_on>
     </sys_ui_page>
 </record_update>

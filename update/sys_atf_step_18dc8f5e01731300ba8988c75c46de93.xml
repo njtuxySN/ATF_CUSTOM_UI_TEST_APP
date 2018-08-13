@@ -7,7 +7,7 @@ e3bfdf4f8c276c20673e69aea0a4f5d9=regular text^85b7ebf53443251ded546760d470f71d=o
         <inputs/>
         <mugshots_cache_json>{"85b7ebf53443251ded546760d470f71d":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"orange\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"orange\",\"hash\":\"85b7ebf53443251ded546760d470f71d\"}","e3bfdf4f8c276c20673e69aea0a4f5d9":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"text\",\"tag\":\"input\",\"text\":\"regular text\",\"id\":\"i_text\",\"placeholder\":\"4 to 8 characters long\",\"type\":\"text\",\"value\":\"regular text\",\"hash\":\"e3bfdf4f8c276c20673e69aea0a4f5d9\"}"}</mugshots_cache_json>
         <order>3</order>
-        <snapshot display_value="cb8cbe32143eb0a286bbe76dccdd0c40">adfc039e01731300ba8988c75c46de27</snapshot>
+        <snapshot display_value="">adfc039e01731300ba8988c75c46de27</snapshot>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

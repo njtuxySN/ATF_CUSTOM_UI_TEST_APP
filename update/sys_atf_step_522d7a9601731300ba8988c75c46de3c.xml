@@ -7,20 +7,20 @@ e71cab2d95ebd08bdaeff100ca5ed4b1=I am a temp record and will be gone^e6560913fc9
         <inputs/>
         <mugshots_cache_json>{"e71cab2d95ebd08bdaeff100ca5ed4b1":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"text\":\"\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"value\":\"\",\"hash\":\"e71cab2d95ebd08bdaeff100ca5ed4b1\"}","e6560913fc9f6f878ced8309eebc8dea":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":1,\"tag\":\"input\",\"text\":\"\",\"id\":\"test-record-number-input\",\"type\":\"text\",\"value\":\"\",\"hash\":\"e6560913fc9f6f878ced8309eebc8dea\"}"}</mugshots_cache_json>
         <order>6</order>
-        <snapshot display_value="cfc9394280b901793426b6e7418c431f">189c95d301735300ba8988c75c46de03</snapshot>
+        <snapshot display_value="93a4f1f5673dbe300d8084b9250595f0">e2032997ad331300ba89d41e6a4e5216</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-10 21:53:37</sys_created_on>
         <sys_id>522d7a9601731300ba8988c75c46de3c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Set Component Values (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_522d7a9601731300ba8988c75c46de3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 17:25:09</sys_updated_on>
+        <sys_updated_on>2018-08-13 17:53:25</sys_updated_on>
         <table/>
         <test display_value="Page Rediretions">df3c3ad201731300ba8988c75c46dedf</test>
         <timeout/>

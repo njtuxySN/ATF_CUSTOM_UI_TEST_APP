@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_jamsin_test_index.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div class="col-md-6">
+<h1 class="text-center"> Jasmin test index </h1>	
+
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_regular_settable_components_readonly_state.do'"> ${gs.getMessage("Test regular Settable Components")} </button>
+
+	
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_readonly_settable_components_readonly_state.do'"> ${gs.getMessage("Test Readonly Settable Components")} </button>
+	
+	
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_disabled_settable_components_readonly_states.do'"> ${gs.getMessage("Test Disabled Settable Components")} </button>
+	
+	
+	
+	
+</div>
+
+
+</j:jelly>]]></html>
+        <name>jamsin_test_index</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-13 21:09:56</sys_created_on>
+        <sys_id>9f9f0297ad731300ba89d41e6a4e520e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>jamsin_test_index</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_9f9f0297ad731300ba89d41e6a4e520e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-13 21:14:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

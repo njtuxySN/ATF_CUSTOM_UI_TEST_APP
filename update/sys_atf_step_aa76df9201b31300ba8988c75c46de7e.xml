@@ -6,20 +6,20 @@
         <inputs/>
         <mugshots_cache_json/>
         <order>1</order>
-        <snapshot display_value="ba1ead75c7cc34748d6c57dd6bbfca7e">078c55d301735300ba8988c75c46de84</snapshot>
+        <snapshot display_value="17f3c705c7726794b8513be3f41112ea">64032d57ad331300ba89d41e6a4e522e</snapshot>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-10 23:44:25</sys_created_on>
         <sys_id>aa76df9201b31300ba8988c75c46de7e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Open an Existing Record</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_aa76df9201b31300ba8988c75c46de7e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 17:25:03</sys_updated_on>
+        <sys_updated_on>2018-08-13 17:53:16</sys_updated_on>
         <table>sys_ui_page</table>
         <test display_value="Page Rediretions">df3c3ad201731300ba8988c75c46dedf</test>
         <timeout/>
