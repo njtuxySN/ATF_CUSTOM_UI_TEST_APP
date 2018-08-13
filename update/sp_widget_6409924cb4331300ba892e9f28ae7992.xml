@@ -112,14 +112,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>116</sys_mod_count>
+        <sys_mod_count>118</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 18:23:36</sys_updated_on>
+        <sys_updated_on>2018-08-10 23:49:35</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
     <h1 class="display-4">ATF Test widget </h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -154,8 +154,8 @@
             </div>
         </div>
     </div>
-    <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records</a>
-    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#deleteAllTestRecords" role="button">Delete all test records</a>
+    <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records 01</a>
+    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#deleteAllTestRecords" role="button">Delete all test records 02</a>
     <hr />
     <h2> Open Custom UI Pages </h2>
     <p class="lead">
@@ -174,7 +174,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a ng-click="delete_all_test_records()" data-dismiss="modal" class="btn btn-info btn-lg" role="button">Delete all test records</a>
+                <a ng-click="delete_all_test_records()" data-dismiss="modal" class="btn btn-info btn-lg" role="button">Delete all test records from modal</a>
             </div>
         </div>
     </div>

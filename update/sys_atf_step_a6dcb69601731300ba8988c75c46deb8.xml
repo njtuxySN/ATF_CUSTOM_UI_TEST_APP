@@ -6,21 +6,21 @@ With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json/>
-        <order>3</order>
-        <snapshot display_value="26a23cd0bbcc6c678e89a3c86b76d05e">d99487da01731300ba8988c75c46de5e</snapshot>
+        <order>5</order>
+        <snapshot display_value="b92ff6df56015d903d1c5ae4376b6ff5">bf8c55d301735300ba8988c75c46debc</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-10 21:52:00</sys_created_on>
         <sys_id>a6dcb69601731300ba8988c75c46deb8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Assert Text on Page (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_a6dcb69601731300ba8988c75c46deb8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 22:25:41</sys_updated_on>
+        <sys_updated_on>2018-08-13 17:25:07</sys_updated_on>
         <table/>
         <test display_value="Page Rediretions">df3c3ad201731300ba8988c75c46dedf</test>
         <timeout>1970-01-01 00:00:05</timeout>
