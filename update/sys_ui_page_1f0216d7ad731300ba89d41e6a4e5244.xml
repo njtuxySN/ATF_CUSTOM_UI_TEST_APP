@@ -4,10 +4,14 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_ALL_INPUT_TYPES.do</endpoint>
+        <endpoint>x_atf_test_app_wit_jasmine_test_get_set_value_to_regular_setttable_components.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-	<script src="/scripts/js_includes_g_automate.js"/>
+	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
+ <script src="x_atf_test_app_wit.jasmine_html.jsdbx"/>
+ <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
+ <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
+ <script src="/scripts/js_includes_g_automate.js"/>
 <script>
 function myFunction(input_value) {
     document.getElementById("debug-area").value = input_value;
@@ -48,7 +52,7 @@ function myFunction(input_value) {
         <h2> checkbox </h2>
     </legend>
     <div>
-        <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales" checked="checked" />
+        <input type="checkbox" id="i_checkbox" name="i_checkbox_default_checked" value="scales" checked="checked" />
         <label for="scales">Scales</label>
     </div>
     <div>
@@ -56,11 +60,11 @@ function myFunction(input_value) {
         <label for="horns">Horns</label>
     </div>
     <div>
-        <input type="checkbox" id="i_checkbox_default_disabled" name="feature" value="claws" disabled="disabled" />
+        <input type="checkbox" id="i_checkbox_disabled" name="feature" value="claws" disabled="disabled" />
         <label for="claws">Disabled</label>
     </div>
     <div>
-        <input type="checkbox" id="i_checkbox_default_readonly" name="feature" value="claws" readonly="readonly" />
+        <input type="checkbox" id="i_checkbox_readonly" name="feature" value="claws" readonly="readonly" />
         <label for="claws">Readonly checkbox is not supported!</label>
     </div>
 </fieldset>
@@ -137,19 +141,19 @@ function myFunction(input_value) {
     </legend>
     <form action="/submit_result_page" method="get">
         <div>
-            <input type="email" id="i_email" placeholder="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" />
+            <input type="email" id="i_email" value="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" />
             <label>Must be a servicenow email address:</label>
         </div>
         <div>
-            <input type="email" id="i_email_multiple" placeholder="foo@this.com, bar@that.com" size="35" multiple="multiple" title="Zero or more addresses, separated with ','" />
+            <input type="email" id="i_email_multiple" value="foo@this.com, bar@that.com" size="35" multiple="multiple" title="Zero or more addresses, separated with ','" />
             <label>Multiple email addresses:</label>
         </div>
         <div>
-            <input type="email" id="i_email_readonly" placeholder="foo@this.com, bar@that.com" size="35" readonly="readonly" />
+            <input type="email" id="i_email_readonly" value="foo@this.com, bar@that.com" size="35" readonly="readonly" />
             <label>Readonly email address:</label>
         </div>
         <div>
-            <input type="email" id="i_email_disabled" placeholder="foo@this.com, bar@that.com" size="35" disabled="disabled" />
+            <input type="email" id="i_email_disabled" value="foo@this.com, bar@that.com" size="35" disabled="disabled" />
             <label>Disabled email address:</label>
         </div>
         <input type="submit" id="submit_email"> </input>
@@ -204,7 +208,7 @@ function myFunction(input_value) {
     </legend>
     <form action="/submit_result_page" method="get">
         <div>
-            <input type="number" id="i_number_height" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
+            <input type="number" id="i_number" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
             <label>Height (metres):</label>
         </div>
         <div>
@@ -249,7 +253,7 @@ function myFunction(input_value) {
     </legend>
     <div>
         <label>Volume</label>
-        <input type="range" id="i_range_regular_01" name="volume" min="0" max="11" />
+        <input type="range" id="i_range" value="3" name="volume" min="0" max="11" />
     </div>
     <div>
         <label>Cowbell</label>
@@ -372,15 +376,15 @@ function myFunction(input_value) {
     </legend>
     <div>
         <label for="url">Enter an https:// URL:</label>
-        <input type="url" name="url" id="i_url" placeholder="https://defaultURL.com" pattern="https://.*" size="20" required="required" />
+        <input type="url" name="url" id="i_url" value="https://defaultURL.com" pattern="https://.*" size="20" required="required" />
     </div>
     <div>
         <label for="url">Disabled URL:</label>
-        <input type="url" name="url" id="i_url_disabled" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" disabled="disabled" />
+        <input type="url" name="url" id="i_url_disabled" value="https://disabled.com" pattern="https://.*" size="20" required="required" disabled="disabled" />
     </div>
     <div>
         <label for="url">Readonly URL:</label>
-        <input type="url" name="url" id="i_url_readonly" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" readonly="readonly" />
+        <input type="url" name="url" id="i_url_readonly" value="https://disabled.com" pattern="https://.*" size="20" required="required" readonly="readonly" />
     </div>
 </fieldset>
 <fieldset>
@@ -451,21 +455,100 @@ function myFunction(input_value) {
             Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
         </textarea>
     </div>
-</fieldset>	
+</fieldset>
+	
+	
+	<h1> Jasmine test for buttons: </h1>	
+	<script>
+	
+	function runIsReadonlyCommand(mugshot){
+		return window.top.g_automate.isReadOnly(mugshot);
+	}
+
+	function runClickCommand(mugshot){
+		return window.top.g_automate.click(mugshot);
+	}
+
+	function runSetValueCommand(mugshot, value) {
+		return window.top.g_automate.setValue(mugshot, value)
+	}
+		
+	function runGetValueCommand(mugshot, value){
+		return window.top.g_automate.getValue(mugshot)		
+	}
+		
+    
+    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
+    function get_mugshot_id_of_component(input_type, extra_attribute){
+    	if(extra_attribute ==""){
+		    return "{\"id\":\"i_" + input_type + "\"}"
+    	}else{
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
+    	}    	
+    }		
+		
+
+	//input type, default value, new value
+	var regular_setttable_components = [
+	    ['checkbox', 'true', 'false'],
+		['color', '#e66465', '#000000'],
+		['date', '2018-07-22', '2028-07-22'],
+		['datetime_local', '2018-06-12T19:30', '2028-06-12T19:30'],
+		['email', 'drone@globex.com', 'test@servicenow.com'],
+		['month', '2018-05', '2028-05'],
+		['number', '0.2', '0.9'],
+		['password', 'defaultPassword', 'new password'],
+		['range', '3', '5'],
+		['search', 'search somthing', 'search something new'],
+		['tel', '415-666-8888', '999-000-1234'],
+		['text', 'regular text', 'new regular text'],
+		['time', '02:02', '03:03'],
+		['url', 'https://defaultURL.com', 'https://www.servicenow.com'],
+		['week', '2018-W16', '2028-W16'],
+		['select', 'cherry', 'apple'],
+		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area']
+	];
+		
+
+	
+	regular_setttable_components.forEach(([input_type, defaul_value, new_value]) => {		
+		
+		it("input type: " + input_type + " should be have value: " + defaul_value, function() {
+		    var mugshot = get_mugshot_id_of_component(input_type, "");
+			var response = runGetValueCommand(mugshot);
+			expect(response.result).toBe(defaul_value, defaul_value + " is expected but the result is: " + response.result);
+		});
+
+		it("input type: " + input_type + " should be settable", function() {
+		    var mugshot = get_mugshot_id_of_component(input_type, "");
+			var response = runSetValueCommand(mugshot, new_value);
+			expect(response.success).toBe(true, input_type + " is expected be settable: but set the value but response returns " + response.success);
+			var response = runGetValueCommand(mugshot);
+    		expect(response.result).toBe(new_value, new_value + " is expected after set the value but the result is: " + response.result);
+		});
+
+		
+	});
+
+		
+
+		
+
+   </script>	
 </j:jelly>]]></html>
-        <name>TEST_UI_WITH_ALL_INPUT_TYPES</name>
+        <name>jasmine_test_get_set_value_to_regular_setttable_components</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-06 22:08:57</sys_created_on>
-        <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>96</sys_mod_count>
-        <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
+        <sys_created_on>2018-08-13 21:19:16</sys_created_on>
+        <sys_id>1f0216d7ad731300ba89d41e6a4e5244</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>jasmine_test_get_set_value_to_regular_setttable_components</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
+        <sys_update_name>sys_ui_page_1f0216d7ad731300ba89d41e6a4e5244</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 21:37:08</sys_updated_on>
+        <sys_updated_on>2018-08-13 23:18:58</sys_updated_on>
     </sys_ui_page>
 </record_update>
