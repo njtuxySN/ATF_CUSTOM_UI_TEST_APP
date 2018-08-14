@@ -18,7 +18,7 @@
 	
 	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_disabled_settable_components_readonly_states.do'"> ${gs.getMessage("Test Disabled Settable Components")} </button>
 
-		<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_get_value_from_regular_setttable_components.do'"> ${gs.getMessage("Test get value from regular Settable Components")} </button>
+		<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_get_set_value_to_regular_setttable_components.do'"> ${gs.getMessage("Test get value from regular Settable Components")} </button>
 
 	
 	
@@ -35,13 +35,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 21:09:56</sys_created_on>
         <sys_id>9f9f0297ad731300ba89d41e6a4e520e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>jamsin_test_index</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_9f9f0297ad731300ba89d41e6a4e520e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 22:54:47</sys_updated_on>
+        <sys_updated_on>2018-08-13 23:30:23</sys_updated_on>
     </sys_ui_page>
 </record_update>
