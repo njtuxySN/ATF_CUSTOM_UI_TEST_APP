@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script/>
-        <description/>
+        <client_script><![CDATA[	function runIsReadonlyCommand(mugshot){
+		return window.top.g_automate.isReadOnly(mugshot);
+	}
+
+	function runClickCommand(mugshot){
+		return window.top.g_automate.click(mugshot);
+	}
+
+	function runSetValueCommand(mugshot, value) {
+		return window.top.g_automate.setValue(mugshot, value)
+	}
+		
+    
+    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
+    function get_mugshot_id_of_component(input_type, extra_attribute){
+    	if(extra_attribute ==""){
+		    return "{\"id\":\"i_" + input_type + "\"}"
+    	}else{
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
+    	}    	
+    }		
+		
+		
+	//isDisabled
+	var disabled_setttable_components = [
+	    ['checkbox', 1],
+		['color', 1],
+		['date', 1],
+		['datetime-local', 1],
+		['email', 1],
+		['month', 1],
+		['number', 1],
+		['password', 1],
+		['range', 1],
+		['search', 1],
+		['tel', 1],
+		['text', 1],
+		['time', 1],
+		['url', 1],
+		['week', 1],
+		['select', 1],
+		['text_area',1]
+	];
+		
+	for(var i=0; i<disabled_setttable_components.length; i++){
+		var input_type = disabled_setttable_components[i][0];
+		var expectedIsReadonly = disabled_setttable_components[i][1];
+		runTest(input_type, expectedIsReadonly)
+	}
+
+   function runTest(input_type, expectedIsReadonly){
+	   	if (expectedIsReadonly) {
+	            it("input type: " + input_type + " should be readonly", function() {
+	                var mugshot = get_mugshot_id_of_component(input_type, "disabled");
+	                var response = runIsReadonlyCommand(mugshot);
+	                expect(response.success).toBe(true, mugshot + " is expected to be disabled but the response is: " + response.success);
+	            });
+		}
+		
+		if (!expectedIsReadonly) {
+	        it("input type: " + input_type + " should be not readonly", function() {
+	            var mugshot = get_mugshot_id_of_component(input_type, "disabled");
+	            var response = runIsReadonlyCommand(mugshot);
+	            expect(response.success).toBe(false, mugshot + " is expected to be enabled but the response is: " + response.success);
+	        });
+
+		}		   
+   }
+
+		
+]]></client_script>
+        <description>components with 'disabled' attribute</description>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_jasmine_test_disabled_settable_components_readonly_states.do</endpoint>
+        <endpoint>x_atf_test_app_wit_jtest_get_readonly_state_from_settable_components_03.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
@@ -458,90 +528,21 @@ function myFunction(input_value) {
 </fieldset>
 	
 	
-	<h1> Jasmine test for buttons: </h1>	
-	<script>
-	
-	function runIsReadonlyCommand(mugshot){
-		return window.top.g_automate.isReadOnly(mugshot);
-	}
 
-	function runClickCommand(mugshot){
-		return window.top.g_automate.click(mugshot);
-	}
-
-	function runSetValueCommand(mugshot, value) {
-		return window.top.g_automate.setValue(mugshot, value)
-	}
-		
-    
-    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
-    function get_mugshot_id_of_component(input_type, extra_attribute){
-    	if(extra_attribute ==""){
-		    return "{\"id\":\"i_" + input_type + "\"}"
-    	}else{
-			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
-    	}    	
-    }		
-		
-		
-	//isDisabled
-	var disabled_setttable_components = [
-	    ['checkbox', 1],
-		['color', 1],
-		['date', 1],
-		['datetime-local', 1],
-		['email', 1],
-		['month', 1],
-		['number', 1],
-		['password', 1],
-		['range', 1],
-		['search', 1],
-		['tel', 1],
-		['text', 1],
-		['time', 1],
-		['url', 1],
-		['week', 1],
-		['select', 1],
-		['text_area',1]
-	];
-		
-			
-	disabled_setttable_components.forEach(([input_type, expectedIsReadonly]) => {
-		if (expectedIsReadonly) {
-	            it("input type: " + input_type + " should be readonly", function() {
-	                var mugshot = get_mugshot_id_of_component(input_type, "disabled");
-	                var response = runIsReadonlyCommand(mugshot);
-	                expect(response.success).toBe(true, mugshot + " is expected to be disabled but the response is: " + response.success);
-	            });
-		}
-		
-		if (!expectedIsReadonly) {
-	        it("input type: " + input_type + " should be not readonly", function() {
-	            var mugshot = get_mugshot_id_of_component(input_type, "disabled");
-	            var response = runIsReadonlyCommand(mugshot);
-	            expect(response.success).toBe(false, mugshot + " is expected to be enabled but the response is: " + response.success);
-	        });
-
-		}	
-	});
-
-		
-
-   </script>	
 </j:jelly>]]></html>
-        <name>jasmine_test_disabled_settable_components_readonly_states</name>
+        <name>jtest_get_readonly_state_from_settable_components_03</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 20:51:09</sys_created_on>
         <sys_id>a87b8a17ad731300ba89d41e6a4e52a9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>jasmine_test_disabled_settable_components_readonly_states</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>jtest_get_readonly_state_from_settable_components_03</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_a87b8a17ad731300ba89d41e6a4e52a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 21:02:04</sys_updated_on>
+        <sys_updated_on>2018-08-14 20:32:23</sys_updated_on>
     </sys_ui_page>
 </record_update>

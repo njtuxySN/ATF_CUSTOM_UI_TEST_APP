@@ -10,15 +10,20 @@
 <div class="col-md-6">
 <h1 class="text-center"> Jasmin test index </h1>	
 
-	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_regular_settable_components_readonly_state.do'"> ${gs.getMessage("Test regular Settable Components")} </button>
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='x_atf_test_app_wit_jtest_get_value_from_setttable_components_01.do'"> ${gs.getMessage("Test get value from regular Settable Components (with no attribute) ")} </button>
+	
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='x_atf_test_app_wit_jtest_set_value_to_regular_settable_components.do'"> ${gs.getMessage("Test set value to regular Settable Components (with no attribute)")} </button>
+	
+	
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jtest_get_readonly_state_from_settable_components_01.do'"> ${gs.getMessage("Test get readonly state from regular settable components (has no attribute)" )} </button>
 
 	
-	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_readonly_settable_components_readonly_state.do'"> ${gs.getMessage("Test Readonly Settable Components")} </button>
-	
-	
-	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_disabled_settable_components_readonly_states.do'"> ${gs.getMessage("Test Disabled Settable Components")} </button>
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jtest_get_readonly_state_from_settable_components_02.do'"> ${gs.getMessage("Test get readonly state from readonly settable components (with readonly attribute)")} </button>
 
-		<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jasmine_test_get_set_value_to_regular_setttable_components.do'"> ${gs.getMessage("Test get value from regular Settable Components")} </button>
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_jtest_get_readonly_state_from_settable_components_03.do'"> ${gs.getMessage("Test get readonly state from disabled settable components (with disabled attribute)")} </button>
+	
+	
+		
 
 	
 	
@@ -35,13 +40,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 21:09:56</sys_created_on>
         <sys_id>9f9f0297ad731300ba89d41e6a4e520e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>jamsin_test_index</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_9f9f0297ad731300ba89d41e6a4e520e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 23:30:23</sys_updated_on>
+        <sys_updated_on>2018-08-14 20:43:56</sys_updated_on>
     </sys_ui_page>
 </record_update>

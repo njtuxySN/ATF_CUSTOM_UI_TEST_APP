@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script/>
-        <description/>
+        <client_script><![CDATA[	
+	function runIsReadonlyCommand(mugshot){
+		return window.top.g_automate.isReadOnly(mugshot);
+	}
+
+	function runClickCommand(mugshot){
+		return window.top.g_automate.click(mugshot);
+	}
+
+	function runSetValueCommand(mugshot, value) {
+		return window.top.g_automate.setValue(mugshot, value);
+	}
+		
+	function runGetValueCommand(mugshot, value){
+		return window.top.g_automate.getValue(mugshot);
+	}
+		
+    
+    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
+    function get_mugshot_id_of_component(input_type, extra_attribute){
+    	if(extra_attribute ==""){
+		    return "{\"id\":\"i_" + input_type + "\"}";
+    	}else{
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}";
+    	}    	
+    }		
+		
+
+	//input type, default value, new value
+	var regular_setttable_components = [
+	    ['checkbox', 'true', 'false'],
+		['color', '#e66465', '#000000'],
+		['date', '2018-07-22', '2028-07-22'],
+		['datetime_local', '2018-06-12T19:30', '2028-06-12T19:30'],
+		['email', 'drone@globex.com', 'test@servicenow.com'],
+		['month', '2018-05', '2028-05'],
+		['number', '0.2', '0.9'],
+		['password', 'defaultPassword', 'new password'],
+		['range', '3', '5'],
+		['search', 'search somthing', 'search something new'],
+		['tel', '415-666-8888', '999-000-1234'],
+		['text', 'regular text', 'new regular text'],
+		['time', '02:02', '03:03'],
+		['url', 'https://defaultURL.com', 'https://www.servicenow.com'],
+		['week', '2018-W16', '2028-W16'],
+		['select', 'cherry', 'apple'],
+		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area']
+	];
+		
+
+	for(var i=0; i<regular_setttable_components.length; i++){
+		var input_type = regular_setttable_components[i][0];
+		var default_value = regular_setttable_components[i][1];
+		var new_value = regular_setttable_components[i][2];
+		runTest(input_type, default_value, new_value);								
+	}
+
+    function runTest(input_type, default_value, new_value){
+		it("input type: " + input_type + " should be have value: " + default_value, function() {
+		    var mugshot = get_mugshot_id_of_component(input_type, "");
+			var response = runGetValueCommand(mugshot);
+			expect(response.result).toBe(default_value, default_value + " is expected but the result is: " + response.result);
+		});					
+	}
+
+/*
+
+	for(var i=0; i<regular_setttable_components.length; i++){
+		var input_type = regular_setttable_components[i][0];
+		var default_value = regular_setttable_components[i][1];
+		var new_value = regular_setttable_components[i][2];
+						
+		it("input type: " + input_type + " should be settable", function() {
+		    var mugshot = get_mugshot_id_of_component(input_type, "");
+			var response = runSetValueCommand(mugshot, new_value);
+			expect(response.success).toBe(true, input_type + " is expected be settable: but set the value but response returns " + response.success);
+			var response = runGetValueCommand(mugshot);
+    		expect(response.result).toBe(new_value, new_value + " is expected after set the value but the result is: " + response.result);
+		});	
+				
+	}
+	*/
+	
+		
+]]></client_script>
+        <description>components that have no attributes</description>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_jasmine_test_get_set_value_to_regular_setttable_components.do</endpoint>
+        <endpoint>x_atf_test_app_wit_jtest_get_value_from_setttable_components_01.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
@@ -455,100 +539,21 @@ function myFunction(input_value) {
             Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
         </textarea>
     </div>
-</fieldset>
-	
-	
-	<h1> Jasmine test for buttons: </h1>	
-	<script>
-	
-	function runIsReadonlyCommand(mugshot){
-		return window.top.g_automate.isReadOnly(mugshot);
-	}
-
-	function runClickCommand(mugshot){
-		return window.top.g_automate.click(mugshot);
-	}
-
-	function runSetValueCommand(mugshot, value) {
-		return window.top.g_automate.setValue(mugshot, value)
-	}
-		
-	function runGetValueCommand(mugshot, value){
-		return window.top.g_automate.getValue(mugshot)		
-	}
-		
-    
-    // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
-    function get_mugshot_id_of_component(input_type, extra_attribute){
-    	if(extra_attribute ==""){
-		    return "{\"id\":\"i_" + input_type + "\"}"
-    	}else{
-			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
-    	}    	
-    }		
-		
-
-	//input type, default value, new value
-	var regular_setttable_components = [
-	    ['checkbox', 'true', 'false'],
-		['color', '#e66465', '#000000'],
-		['date', '2018-07-22', '2028-07-22'],
-		['datetime_local', '2018-06-12T19:30', '2028-06-12T19:30'],
-		['email', 'drone@globex.com', 'test@servicenow.com'],
-		['month', '2018-05', '2028-05'],
-		['number', '0.2', '0.9'],
-		['password', 'defaultPassword', 'new password'],
-		['range', '3', '5'],
-		['search', 'search somthing', 'search something new'],
-		['tel', '415-666-8888', '999-000-1234'],
-		['text', 'regular text', 'new regular text'],
-		['time', '02:02', '03:03'],
-		['url', 'https://defaultURL.com', 'https://www.servicenow.com'],
-		['week', '2018-W16', '2028-W16'],
-		['select', 'cherry', 'apple'],
-		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area']
-	];
-		
-
-	
-	regular_setttable_components.forEach(([input_type, defaul_value, new_value]) => {		
-		
-		it("input type: " + input_type + " should be have value: " + defaul_value, function() {
-		    var mugshot = get_mugshot_id_of_component(input_type, "");
-			var response = runGetValueCommand(mugshot);
-			expect(response.result).toBe(defaul_value, defaul_value + " is expected but the result is: " + response.result);
-		});
-
-		it("input type: " + input_type + " should be settable", function() {
-		    var mugshot = get_mugshot_id_of_component(input_type, "");
-			var response = runSetValueCommand(mugshot, new_value);
-			expect(response.success).toBe(true, input_type + " is expected be settable: but set the value but response returns " + response.success);
-			var response = runGetValueCommand(mugshot);
-    		expect(response.result).toBe(new_value, new_value + " is expected after set the value but the result is: " + response.result);
-		});
-
-		
-	});
-
-		
-
-		
-
-   </script>	
+</fieldset>	
 </j:jelly>]]></html>
-        <name>jasmine_test_get_set_value_to_regular_setttable_components</name>
+        <name>jtest_get_value_from_setttable_components_01</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 21:19:16</sys_created_on>
         <sys_id>1f0216d7ad731300ba89d41e6a4e5244</sys_id>
-        <sys_mod_count>22</sys_mod_count>
-        <sys_name>jasmine_test_get_set_value_to_regular_setttable_components</sys_name>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>jtest_get_value_from_setttable_components_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_1f0216d7ad731300ba89d41e6a4e5244</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 23:18:58</sys_updated_on>
+        <sys_updated_on>2018-08-14 20:24:59</sys_updated_on>
     </sys_ui_page>
 </record_update>

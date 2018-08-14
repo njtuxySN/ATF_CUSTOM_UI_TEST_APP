@@ -11,78 +11,68 @@
 	}
 
 	function runSetValueCommand(mugshot, value) {
-		return window.top.g_automate.setValue(mugshot, value);
+		return window.top.g_automate.setValue(mugshot, value)
+	}
+		
+	function runGetValueCommand(mugshot, value){
+		return window.top.g_automate.getValue(mugshot)		
 	}
 		
     
     // The corresponding html page should have component ID like: i_button, i_button_readonly, i_date_disabled, etc
     function get_mugshot_id_of_component(input_type, extra_attribute){
     	if(extra_attribute ==""){
-		    return "{\"id\":\"i_" + input_type + "\"}";
+		    return "{\"id\":\"i_" + input_type + "\"}"
     	}else{
-			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}";
+			return "{\"id\":\"i_" + input_type + "_" + extra_attribute+ "\"}"
     	}    	
     }		
 		
 
-	//isReadonly
+	//input type, default value, new value
 	var regular_setttable_components = [
-	    ['checkbox', 0],
-		['color', 0],
-		['date', 0],
-		['datetime-local', 0],
-		['email', 0],
-		['month', 0],
-		['number', 0],
-		['password', 0],
-		['range', 0],
-		['search', 0],
-		['tel', 0],
-		['text', 0],
-		['time', 0],
-		['url', 0],
-		['week', ],
-		['select', 0],
-		['textarea', 0]
+	    ['checkbox', 'true', 'false'],
+		['color', '#e66465', '#000000'],
+		['date', '2018-07-22', '2028-07-22'],
+		['datetime_local', '2018-06-12T19:30', '2028-06-12T19:30'],
+		['email', 'drone@globex.com', 'test@servicenow.com'],
+		['month', '2018-05', '2028-05'],
+		['number', '0.2', '0.9'],
+		['password', 'defaultPassword', 'new password'],
+		['range', '3', '5'],
+		['search', 'search somthing', 'search something new'],
+		['tel', '415-666-8888', '999-000-1234'],
+		['text', 'regular text', 'new regular text'],
+		['time', '02:02', '03:03'],
+		['url', 'https://defaultURL.com', 'https://www.servicenow.com'],
+		['week', '2018-W16', '2028-W16'],
+		['select', 'cherry', 'apple'],
+		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area']
 	];
 		
-			
+
 	for(var i=0; i<regular_setttable_components.length; i++){
 		var input_type = regular_setttable_components[i][0];
-		var expectedIsReadonly = regular_setttable_components[i][1];
-		runTest(input_type, expectedIsReadonly);
+		var default_value = regular_setttable_components[i][1];
+		var new_value = regular_setttable_components[i][2];
+		runTest(input_type, default_value, new_value )				
+				
 	}
 
-
-    function runTest(input_type, expectedIsReadonly){
-		if (expectedIsReadonly) {
-			it("input type: " + input_type + " should be readonly", function() {
-				var mugshot = get_mugshot_id_of_component(input_type, "");
-				var response = runIsReadonlyCommand(mugshot);
-				expect(response.success).toBe(true, mugshot + " is expected to be readonly but the response is: " + response.success);
-			});
-		}
-		if (!expectedIsReadonly) {
-	        it("input type: " + input_type + " should be not readonly", function() {
-	            var mugshot = get_mugshot_id_of_component(input_type, "");
-	            var response = runIsReadonlyCommand(mugshot);
-	            expect(response.success).toBe(false, mugshot + " is expected to be NOT readonly but the response is: " + response.success);
-	        });
-		}	
+	function runTest(input_type, default_value, new_value ){
+		it("input type: " + input_type + " should be settable", function() {
+			var mugshot = get_mugshot_id_of_component(input_type, "");
+			var response = runSetValueCommand(mugshot, new_value);
+			expect(response.success).toBe(true, input_type + " is expected be settable: but set the value but response returns " + response.success);
+			var response = runGetValueCommand(mugshot);
+			expect(response.result).toBe(new_value, new_value + " is expected after set the value but the result is: " + response.result);
+		});			
 	}
-
-
-
-
-
-
 		
-	
-
 ]]></client_script>
         <description>components that have no attributes</description>
         <direct>false</direct>
-        <endpoint>x_atf_test_app_wit_jtest_get_readonly_state_from_settable_components_01.do</endpoint>
+        <endpoint>x_atf_test_app_wit_jtest_set_value_to_regular_settable_components.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
@@ -219,19 +209,19 @@ function myFunction(input_value) {
     </legend>
     <form action="/submit_result_page" method="get">
         <div>
-            <input type="email" id="i_email" placeholder="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" />
+            <input type="email" id="i_email" value="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" />
             <label>Must be a servicenow email address:</label>
         </div>
         <div>
-            <input type="email" id="i_email_multiple" placeholder="foo@this.com, bar@that.com" size="35" multiple="multiple" title="Zero or more addresses, separated with ','" />
+            <input type="email" id="i_email_multiple" value="foo@this.com, bar@that.com" size="35" multiple="multiple" title="Zero or more addresses, separated with ','" />
             <label>Multiple email addresses:</label>
         </div>
         <div>
-            <input type="email" id="i_email_readonly" placeholder="foo@this.com, bar@that.com" size="35" readonly="readonly" />
+            <input type="email" id="i_email_readonly" value="foo@this.com, bar@that.com" size="35" readonly="readonly" />
             <label>Readonly email address:</label>
         </div>
         <div>
-            <input type="email" id="i_email_disabled" placeholder="foo@this.com, bar@that.com" size="35" disabled="disabled" />
+            <input type="email" id="i_email_disabled" value="foo@this.com, bar@that.com" size="35" disabled="disabled" />
             <label>Disabled email address:</label>
         </div>
         <input type="submit" id="submit_email"> </input>
@@ -286,7 +276,7 @@ function myFunction(input_value) {
     </legend>
     <form action="/submit_result_page" method="get">
         <div>
-            <input type="number" id="i_number_height" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
+            <input type="number" id="i_number" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
             <label>Height (metres):</label>
         </div>
         <div>
@@ -331,7 +321,7 @@ function myFunction(input_value) {
     </legend>
     <div>
         <label>Volume</label>
-        <input type="range" id="i_range_regular_01" name="volume" min="0" max="11" />
+        <input type="range" id="i_range" value="3" name="volume" min="0" max="11" />
     </div>
     <div>
         <label>Cowbell</label>
@@ -454,15 +444,15 @@ function myFunction(input_value) {
     </legend>
     <div>
         <label for="url">Enter an https:// URL:</label>
-        <input type="url" name="url" id="i_url" placeholder="https://defaultURL.com" pattern="https://.*" size="20" required="required" />
+        <input type="url" name="url" id="i_url" value="https://defaultURL.com" pattern="https://.*" size="20" required="required" />
     </div>
     <div>
         <label for="url">Disabled URL:</label>
-        <input type="url" name="url" id="i_url_disabled" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" disabled="disabled" />
+        <input type="url" name="url" id="i_url_disabled" value="https://disabled.com" pattern="https://.*" size="20" required="required" disabled="disabled" />
     </div>
     <div>
         <label for="url">Readonly URL:</label>
-        <input type="url" name="url" id="i_url_readonly" placeholder="https://disabled.com" pattern="https://.*" size="20" required="required" readonly="readonly" />
+        <input type="url" name="url" id="i_url_readonly" value="https://disabled.com" pattern="https://.*" size="20" required="required" readonly="readonly" />
     </div>
 </fieldset>
 <fieldset>
@@ -533,24 +523,21 @@ function myFunction(input_value) {
             Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
         </textarea>
     </div>
-</fieldset>
-	
-	
-
+</fieldset>	
 </j:jelly>]]></html>
-        <name>jtest_get_readonly_state_from_settable_components_01</name>
+        <name>jtest_set_value_to_regular_settable_components</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-13 21:01:15</sys_created_on>
-        <sys_id>3c2d8257ad731300ba89d41e6a4e5292</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>jtest_get_readonly_state_from_settable_components_01</sys_name>
+        <sys_created_on>2018-08-14 20:00:26</sys_created_on>
+        <sys_id>dca9cf2bf4331300ba89eb7a953c2089</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>jtest_set_value_to_regular_settable_components</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_ui_page_3c2d8257ad731300ba89d41e6a4e5292</sys_update_name>
+        <sys_update_name>sys_ui_page_dca9cf2bf4331300ba89eb7a953c2089</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 20:22:35</sys_updated_on>
+        <sys_updated_on>2018-08-14 20:28:29</sys_updated_on>
     </sys_ui_page>
 </record_update>
