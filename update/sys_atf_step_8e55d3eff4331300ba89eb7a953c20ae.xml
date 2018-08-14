@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate the values as follows:
+ca4dbfbbec992cfa189492b68d717528=orange^EQ</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"ca4dbfbbec992cfa189492b68d717528":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"cherry\",\"hash\":\"ca4dbfbbec992cfa189492b68d717528\"}"}</mugshots_cache_json>
+        <order>3</order>
+        <snapshot display_value="168516972ff19f4873ac02bf958d967e">f8951beff4331300ba89eb7a953c20d9</snapshot>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-14 20:51:25</sys_created_on>
+        <sys_id>8e55d3eff4331300ba89eb7a953c20ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_8e55d3eff4331300ba89eb7a953c20ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-14 20:52:22</sys_updated_on>
+        <table/>
+        <test display_value="Test_set_value_basic">13e4976ff4331300ba89eb7a953c20a7</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8e55d3eff4331300ba89eb7a953c20ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8e55d3eff4331300ba89eb7a953c20ae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-14 20:51:25</sys_created_on>
+        <sys_id>fb55d3eff4331300ba89eb7a953c20d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-14 20:51:43</sys_updated_on>
+        <value>ca4dbfbbec992cfa189492b68d717528=orange^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>
