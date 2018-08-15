@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_TEST_UI_WITH_CLICABLES.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h1> clickable components </h1>
+	
+	<fieldset>
+    <legend>
+        <h2> button </h2>
+    </legend>
+    <form>
+        <!-- Default button: <input type="button"  class="btn" value="Click Me" onclick=myFunction('Harry Potter')/>  -->
+        <div>
+            <label> regular button </label>
+            <input type="button" id="i_button" class="btn" value="default button" onclick="myFunction('default button clicked!')" />
+        </div>
+        <div>
+            <label> disabled button </label>
+            <input type="button" id="i_button_disabled" class="btn" value="I am disabled" disabled="disabled" onclick="myFunction('disabled button clicked!')" />
+        </div>
+        <div>
+            <label> readonly button is not supported! </label>
+            <input type="button" id="i_button_readonly" class="btn" value="I am readonly" readonly="readonly" onclick="myFunction('disabled button clicked!')" />
+        </div>
+        <div>
+            <label> button with <u><b>A</b></u>ccesskey: </label>
+            <input type="button" id="i_button_with_access_key" class="btn" value="Accesskey enabled" accesskey="a" />
+        </div>
+    </form>
+</fieldset>
+	
+	
+	<fieldset>
+    <legend>
+        <h2> file </h2>
+    </legend>
+    <div>
+        <label for="avatar">Profile picture:</label>
+        <input type="file" id="i_file" name="avatar" accept="image/png, image/jpeg" />
+    </div>
+    <div>
+        <label for="avatar">Disabled file selector:</label>
+        <input type="file" id="i_file_disabled" name="file_disabled" accept="image/png, image/jpeg" disabled="disabled" />
+    </div>
+    <div>
+        <label for="avatar">Readonly file selector is not supported!</label>
+        <input type="file" id="i_file_readonly" name="file_readonly" accept="image/png, image/jpeg" readonly="readonly" />
+    </div>
+</fieldset>
+	
+	<fieldset>
+    <legend>
+        <h2> image </h2>
+    </legend>
+    <input type="image" id="i_image" alt="Login" width="248" height="48" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" />
+</fieldset>
+
+	<fieldset>
+    <legend>
+        <h2> password and reset </h2>
+    </legend>
+    <form>
+        <div>
+            <label>User ID:</label>
+            <input type="text" id="i_reset_id" name="id" />
+            <label>Password:</label>
+            <input type="password" id="i_password" name="password" value="defaultPassword" minLength="8" required="required" placeholder="8 characters minimum" />
+            <input type="reset" id="i_reset" value="Reset" />
+        </div>
+        <div>
+            <label>disabled password</label>
+            <input type="password" id="i_password_disabled" name="password" minLength="8" required="required" placeholder="8 characters minimum" disabled="disabled" />
+        </div>
+        <div>
+            <label>readonly password</label>
+            <input type="password" id="i_password_readonly" name="password" minLength="8" required="required" placeholder="8 characters minimum" readonly="readonly" />
+        </div>
+        <input type="submit" id="submit_user_name_and_password"> </input>
+    </form>
+</fieldset>
+
+	<fieldset>
+    <legend>
+        <h2> time </h2>
+    </legend>
+    <div class="control">
+        <form action="/x_atf_test_app_wit_submit_result_page" method="get">
+            <div>
+                <label>Office hours: only allows 9AM to 6PM</label>
+                <input type="time" id="i_time" name="appt-time" min="09:00:00" max="18:00:00" required="required" value="02:02"> </input>
+            </div>
+            <div>
+                <label>Disabled time</label>
+                <input type="time" id="i_time_disabled" name="appt-time_disabled" min="9:00" max="18:00" required="required" disabled="disabled" value="03:03" />
+            </div>
+            <div>
+                <label>Readonly time</label>
+                <input type="time" id="i_time_readonly" name="appt-time_readonly" min="9:00" max="18:00" required="required" readonly="readonly" value="04:04" />
+            </div>
+            <input type="submit" id="submit_time"> </input>
+        </form>
+    </div>
+</fieldset>
+	
+</j:jelly>]]></html>
+        <name>TEST_UI_WITH_CLICABLES</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-14 23:05:36</sys_created_on>
+        <sys_id>9a04b76bf4731300ba89eb7a953c2063</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>TEST_UI_WITH_CLICABLES</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_9a04b76bf4731300ba89eb7a953c2063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-14 23:09:34</sys_updated_on>
+    </sys_ui_page>
+</record_update>
