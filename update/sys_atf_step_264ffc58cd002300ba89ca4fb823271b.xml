@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Navigate to the 'Yan_M3(UI PAGE 91 without iframe)' module in the 'Yan_Test_Menu' application</description>
+        <description>Navigate to the 'Yan_M1(ALL_UI_TYPE_WITHOUT_iframe)' module in the 'Yan_Test_Menu' application</description>
         <display_name>Navigate to Module</display_name>
         <inputs/>
         <mugshots_cache_json/>
         <order>1</order>
-        <snapshot display_value="4f16aa7a016d37a9dbb88e07131d38d8">491cf094cd002300ba89ca4fb82327e5</snapshot>
+        <snapshot display_value="90a0a5f7ad4017309d503a7303e6bc85">58d289d8cd002300ba89ca4fb8232711</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 17:51:23</sys_created_on>
         <sys_id>264ffc58cd002300ba89ca4fb823271b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_264ffc58cd002300ba89ca4fb823271b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 17:51:45</sys_updated_on>
+        <sys_updated_on>2018-08-16 19:55:39</sys_updated_on>
         <table/>
         <test display_value="basic test">7eeef858cd002300ba89ca4fb823276a</test>
         <timeout/>
@@ -33,10 +33,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 17:51:23</sys_created_on>
         <sys_id>825ffc58cd002300ba89ca4fb823272f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 17:51:23</sys_updated_on>
-        <value>9f7ca65a0d331300ba8985b5430658c8</value>
+        <sys_updated_on>2018-08-16 19:55:25</sys_updated_on>
+        <value>f51c368a9db31300ba89a3036ccba13c</value>
         <variable display_value="">b6d2b40c73720300c79260bdfaf6a786</variable>
     </sys_variable_value>
 </record_update>
