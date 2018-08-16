@@ -25,17 +25,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ed58b216bd731300ba89d94669e267df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Yan_Test_Module_04</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Yan_M4(ATF Test Widget)</sys_name>
         <sys_overrides/>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_app_module_ed58b216bd731300ba89d94669e267df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 21:32:38</sys_updated_on>
+        <sys_updated_on>2018-08-16 17:41:56</sys_updated_on>
         <timeline_page/>
-        <title>Yan_Test_Module_04</title>
+        <title>Yan_M4(ATF Test Widget)</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
