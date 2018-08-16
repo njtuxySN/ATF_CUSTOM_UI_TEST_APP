@@ -7,7 +7,7 @@ ca4dbfbbec992cfa189492b68d717528=orange^EQ</description>
         <inputs/>
         <mugshots_cache_json>{"ca4dbfbbec992cfa189492b68d717528":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"cherry\",\"hash\":\"ca4dbfbbec992cfa189492b68d717528\"}"}</mugshots_cache_json>
         <order>3</order>
-        <snapshot display_value="168516972ff19f4873ac02bf958d967e">f8951beff4331300ba89eb7a953c20d9</snapshot>
+        <snapshot display_value="">f8951beff4331300ba89eb7a953c20d9</snapshot>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

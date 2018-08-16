@@ -9,10 +9,17 @@
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 	<script src="/scripts/js_includes_g_automate.js"/>
 <script>
+	
+	
 function myFunction(input_value) {
     document.getElementById("debug-area").value = input_value;
 }
 </script>
+	
+	
+	<g:ui_checkbox> this is a g_checkbox </g:ui_checkbox>
+	
+	
 <fieldset>
     <legend>
         <h1> RESULT AREA: </h1>
@@ -459,13 +466,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>96</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 21:37:08</sys_updated_on>
+        <sys_updated_on>2018-08-15 22:55:02</sys_updated_on>
     </sys_ui_page>
 </record_update>
