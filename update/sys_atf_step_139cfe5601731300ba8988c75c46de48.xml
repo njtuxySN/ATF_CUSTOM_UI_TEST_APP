@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json/>
         <order>2</order>
-        <snapshot display_value="750f0df6ede67ed2167b574819a9b44b">a01cf094cd002300ba89ca4fb8232787</snapshot>
+        <snapshot display_value="">a01cf094cd002300ba89ca4fb8232787</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

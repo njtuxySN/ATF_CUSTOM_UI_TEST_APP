@@ -7,7 +7,7 @@
         <inputs/>
         <mugshots_cache_json>{"89d05416c631618bc7fc72a624ad0cb7":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":1,\"tag\":\"input\",\"id\":\"test-record-number-input\",\"type\":\"text\",\"hash\":\"89d05416c631618bc7fc72a624ad0cb7\",\"getvalue-result\":\"\",\"html-value\":\"\"}","5f26899c8e2677ebda0416e1433a5ef4":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"hash\":\"5f26899c8e2677ebda0416e1433a5ef4\",\"getvalue-result\":\"\",\"html-value\":\"\"}"}</mugshots_cache_json>
         <order>2</order>
-        <snapshot display_value="7591d4348473cf135e1b161c4f8a8ce0">f21f7c58cd002300ba89ca4fb82327b1</snapshot>
+        <snapshot display_value="">f21f7c58cd002300ba89ca4fb82327b1</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

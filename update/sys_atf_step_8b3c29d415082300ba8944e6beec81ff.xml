@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate the values as follows:
+3596cdb2b236bcd8378b7e74f4ea0c7d=atf new name^b26f38257a1b38bc5ba98eef4228265e=12345^EQ</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"b26f38257a1b38bc5ba98eef4228265e":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":1,\"tag\":\"input\",\"text\":\"12345\",\"id\":\"test-record-number-input\",\"type\":\"text\",\"value\":\"12345\",\"hash\":\"b26f38257a1b38bc5ba98eef4228265e\"}","3596cdb2b236bcd8378b7e74f4ea0c7d":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"text\":\"atf new name\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"value\":\"atf new name\",\"hash\":\"3596cdb2b236bcd8378b7e74f4ea0c7d\"}"}</mugshots_cache_json>
+        <order>4</order>
+        <snapshot display_value="77d8f785641651664f43f395813bd11d">681ce5d415082300ba8944e6beec819f</snapshot>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 21:07:45</sys_created_on>
+        <sys_id>8b3c29d415082300ba8944e6beec81ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_8b3c29d415082300ba8944e6beec81ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 21:22:45</sys_updated_on>
+        <table/>
+        <test display_value="Test Service Portal - should pass">9c6bad9415082300ba8944e6beec8177</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8b3c29d415082300ba8944e6beec81ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8b3c29d415082300ba8944e6beec81ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 21:07:45</sys_created_on>
+        <sys_id>e24c29d415082300ba8944e6beec81ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 21:07:45</sys_updated_on>
+        <value>3596cdb2b236bcd8378b7e74f4ea0c7d=atf new name^b26f38257a1b38bc5ba98eef4228265e=12345^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

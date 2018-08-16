@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json>{"0d231ab11826cf45e0f2c5c352efc734":"{\"area\":\"default\",\"inner_text\":\"Go to UI Page 01\",\"methods\":[\"click\"],\"index\":1,\"tag\":\"button\",\"type\":\"button\",\"hash\":\"0d231ab11826cf45e0f2c5c352efc734\",\"getvalue-result\":\"Go to UI Page 01\"}"}</mugshots_cache_json>
         <order>3</order>
-        <snapshot display_value="66c2d84225960612b28fac9f4666cc32">a3fdb058cd002300ba89ca4fb8232794</snapshot>
+        <snapshot display_value="">a3fdb058cd002300ba89ca4fb8232794</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

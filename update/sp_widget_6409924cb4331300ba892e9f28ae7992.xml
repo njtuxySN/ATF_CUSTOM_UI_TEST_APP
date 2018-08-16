@@ -112,14 +112,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>118</sys_mod_count>
+        <sys_mod_count>121</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 23:49:35</sys_updated_on>
+        <sys_updated_on>2018-08-16 21:27:55</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
     <h1 class="display-4">ATF Test widget </h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -127,6 +127,7 @@
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <p class="lead">
         <a class="btn btn-primary btn-lg" ng-click="insert_new_incident()" role="button">insert new incident </a>
+       <a class="btn btn-primary btn-lg" ng-href="/incident.do" role="button">open new incident </a>
     </p>
     <hr />
     <h2> Create a new test record </h2>
