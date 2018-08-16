@@ -44,10 +44,10 @@
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>atf_test_widget_01</id>
+        <id>atf_test_widget_02</id>
         <internal>false</internal>
         <link/>
-        <name>ATF_TEST_WIDGET_01</name>
+        <name>ATF_TEST_WIDGET_02</name>
         <option_schema/>
         <public>false</public>
         <roles/>
@@ -110,18 +110,18 @@
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-03 19:30:17</sys_created_on>
-        <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>122</sys_mod_count>
-        <sys_name>ATF_TEST_WIDGET_01</sys_name>
+        <sys_created_on>2018-08-16 22:15:06</sys_created_on>
+        <sys_id>8dbbb5dc15082300ba8944e6beec810d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ATF_TEST_WIDGET_02</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
+        <sys_update_name>sp_widget_8dbbb5dc15082300ba8944e6beec810d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:16:47</sys_updated_on>
+        <sys_updated_on>2018-08-16 22:16:37</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
-    <h1 class="display-4">ATF Test widget 01 </h1>
+    <h1 class="display-4">ATF Test widget 02 </h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>

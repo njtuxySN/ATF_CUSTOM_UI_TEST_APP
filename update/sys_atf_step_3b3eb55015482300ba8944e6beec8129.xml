@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Click the '3b8bf003fcc1cc2b2b22ce2d72e35b96' component</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"3b8bf003fcc1cc2b2b22ce2d72e35b96":"{\"area\":\"Typeahead Search\",\"methods\":[\"click\"],\"name\":\"search\",\"tag\":\"button\",\"text\":\"\",\"type\":\"submit\",\"title\":\"Search\",\"value\":\"\",\"aria-label\":\"Search\",\"hash\":\"3b8bf003fcc1cc2b2b22ce2d72e35b96\"}"}</mugshots_cache_json>
+        <order>4</order>
+        <snapshot display_value="2406f9e17aee529749861c65164b43af">6e9ffd9015482300ba8944e6beec8125</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 22:26:38</sys_created_on>
+        <sys_id>3b3eb55015482300ba8944e6beec8129</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_3b3eb55015482300ba8944e6beec8129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 22:32:10</sys_updated_on>
+        <table/>
+        <test display_value="Test Service Portal 3 - Should Pass">fafc391015482300ba8944e6beec816b</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3b3eb55015482300ba8944e6beec8129"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3b3eb55015482300ba8944e6beec8129</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 22:26:38</sys_created_on>
+        <sys_id>0e5eb55015482300ba8944e6beec8132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 22:26:38</sys_updated_on>
+        <value>3b8bf003fcc1cc2b2b22ce2d72e35b96</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

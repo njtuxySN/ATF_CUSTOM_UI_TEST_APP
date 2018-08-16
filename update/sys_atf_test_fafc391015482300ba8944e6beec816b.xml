@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Search something from search widget, should pass.&#13;
+Current issues is search can't see the input value. </description>
+        <name>Test Service Portal 3 - Should Pass</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 22:20:57</sys_created_on>
+        <sys_id>fafc391015482300ba8944e6beec816b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Service Portal 3 - Should Pass</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_fafc391015482300ba8944e6beec816b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-16 22:29:06</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=fafc391015482300ba8944e6beec816b"/>
+</record_update>
