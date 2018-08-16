@@ -2,57 +2,57 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>Set the values on the form as follows:
-Short description = Came from Service Portal
+Short description = came from service portal
 and Caller = Abel Tuter</description>
-        <display_name>Set Field Values (SP)</display_name>
+        <display_name>Set Field Values</display_name>
         <inputs/>
         <mugshots_cache_json/>
         <order>5</order>
-        <snapshot display_value="87a3fa8c5dab327ac694689fa3698cac">e311fd5815082300ba8944e6beec81e0</snapshot>
-        <step_config display_value="Set Field Values (SP)">ba49e51de7420300b2888f49c2f6a93c</step_config>
+        <snapshot display_value="b8b3ea2cc41acd5a7d8adf53a685453f">2ea479d815082300ba8944e6beec81a0</snapshot>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-16 21:29:27</sys_created_on>
-        <sys_id>7921319815082300ba8944e6beec8177</sys_id>
+        <sys_created_on>2018-08-16 21:43:31</sys_created_on>
+        <sys_id>a464f5d815082300ba8944e6beec811b</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Set Field Values (SP)</sys_name>
+        <sys_name>Set Field Values</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_atf_step_7921319815082300ba8944e6beec8177</sys_update_name>
+        <sys_update_name>sys_atf_step_a464f5d815082300ba8944e6beec811b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:37:10</sys_updated_on>
+        <sys_updated_on>2018-08-16 21:44:20</sys_updated_on>
         <table>incident</table>
         <test display_value="Test Service Portal 2  - should pass ">b410b15815082300ba8944e6beec8127</test>
         <timeout/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=7921319815082300ba8944e6beec8177"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a464f5d815082300ba8944e6beec811b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>7921319815082300ba8944e6beec8177</document_key>
+        <document_key>a464f5d815082300ba8944e6beec811b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-16 21:29:27</sys_created_on>
-        <sys_id>5841319815082300ba8944e6beec81f2</sys_id>
+        <sys_created_on>2018-08-16 21:43:31</sys_created_on>
+        <sys_id>a674f5d815082300ba8944e6beec81da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:29:27</sys_updated_on>
+        <sys_updated_on>2018-08-16 21:43:31</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">adf8f511e7020300b2888f49c2f6a9f3</variable>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>7921319815082300ba8944e6beec8177</document_key>
-        <order>200</order>
+        <document_key>a464f5d815082300ba8944e6beec811b</document_key>
+        <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-16 21:29:27</sys_created_on>
-        <sys_id>5c41319815082300ba8944e6beec81f2</sys_id>
+        <sys_created_on>2018-08-16 21:43:31</sys_created_on>
+        <sys_id>aa74f5d815082300ba8944e6beec81da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:29:27</sys_updated_on>
-        <value>short_description=Came from Service Portal^caller_id=62826bf03710200044e0bfc8bcbe5df1^EQ</value>
-        <variable display_value="">5c297551e7020300b2888f49c2f6a933</variable>
+        <sys_updated_on>2018-08-16 21:43:31</sys_updated_on>
+        <value>short_description=came from service portal^caller_id=62826bf03710200044e0bfc8bcbe5df1^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
 </record_update>
