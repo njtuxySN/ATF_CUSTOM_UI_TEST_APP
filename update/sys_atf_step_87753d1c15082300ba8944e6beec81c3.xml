@@ -6,20 +6,20 @@
         <inputs/>
         <mugshots_cache_json/>
         <order>4</order>
-        <snapshot display_value="9c7d9d3b0a6114c3a1d91fe5d4ae33c6">4eb5b15c15082300ba8944e6beec81dc</snapshot>
+        <snapshot display_value="100e23fc74e6c300b909da0a3935f2b1">656abd9c15082300ba8944e6beec8106</snapshot>
         <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:47:57</sys_created_on>
         <sys_id>87753d1c15082300ba8944e6beec81c3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Submit a Form</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_87753d1c15082300ba8944e6beec81c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:48:56</sys_updated_on>
+        <sys_updated_on>2018-08-16 22:09:24</sys_updated_on>
         <table/>
         <test display_value="Test Basic UI - should pass">7fc3b1d815082300ba8944e6beec81c0</test>
         <timeout/>
