@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_UI_PlayGround.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <fieldset>
+    <legend>
+        <h2> checkbox </h2>
+    </legend>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales" checked="checked" />
+        <label for="scales">Scales</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_unchecked" name="i_checkbox_default_unchecked" value="horns" />
+        <label for="horns">Horns</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_disabled" name="feature" value="claws" disabled="disabled" />
+        <label for="claws">Disabled</label>
+    </div>
+    <div>
+        <input type="checkbox" id="i_checkbox_default_readonly" name="feature" value="claws" readonly="readonly" />
+        <label for="claws">Readonly checkbox is not supported!</label>
+    </div>
+
+</fieldset>
+	
+	
+</j:jelly>]]></html>
+        <name>UI_PlayGround</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 21:50:35</sys_created_on>
+        <sys_id>b1afbea84d402300ba89276729785ce4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>UI_PlayGround</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_b1afbea84d402300ba89276729785ce4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 22:01:41</sys_updated_on>
+    </sys_ui_page>
+</record_update>

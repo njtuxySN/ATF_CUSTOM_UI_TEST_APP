@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Set the components on the page as follows:
+1f5b2b8a982a1f0c806f4cc5591a40e8=true^EQ</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"1f5b2b8a982a1f0c806f4cc5591a40e8":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"feature\",\"tag\":\"input\",\"id\":\"brand_new_checkbox\",\"type\":\"checkbox\",\"hash\":\"1f5b2b8a982a1f0c806f4cc5591a40e8\",\"getvalue-result\":\"false\",\"html-value\":\"brandnew\"}"}</mugshots_cache_json>
+        <order>3</order>
+        <snapshot display_value="31e8edd305bd79a240b1d87feac838ba">694047e84d402300ba89276729785c09</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 21:59:04</sys_created_on>
+        <sys_id>7a910fe84d402300ba89276729785cae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_7a910fe84d402300ba89276729785cae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 22:46:40</sys_updated_on>
+        <table/>
+        <test display_value="Reproduce Snapshot Issue">6efdfa684d402300ba89276729785c97</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7a910fe84d402300ba89276729785cae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7a910fe84d402300ba89276729785cae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 21:59:04</sys_created_on>
+        <sys_id>0ca18fe84d402300ba89276729785c56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 21:59:04</sys_updated_on>
+        <value>1f5b2b8a982a1f0c806f4cc5591a40e8=true^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>
