@@ -7,20 +7,20 @@ With a failure timeout of 5 Seconds</description>
         <inputs/>
         <mugshots_cache_json/>
         <order>2</order>
-        <snapshot display_value="8641f59ef21aea39c166a30548c09a5e">81fb65d415082300ba8944e6beec81ff</snapshot>
+        <snapshot display_value="9bc41e3df31d5417b0c655355a6b75a1">2785ce9cb4002300ba892d9f95a5390e</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:07:12</sys_created_on>
         <sys_id>942c29d415082300ba8944e6beec8183</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Assert Text on Page (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_942c29d415082300ba8944e6beec8183</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:22:41</sys_updated_on>
+        <sys_updated_on>2018-08-16 22:58:09</sys_updated_on>
         <table/>
         <test display_value="Test Service Portal 1 - should pass">9c6bad9415082300ba8944e6beec8177</test>
         <timeout>1970-01-01 00:00:05</timeout>

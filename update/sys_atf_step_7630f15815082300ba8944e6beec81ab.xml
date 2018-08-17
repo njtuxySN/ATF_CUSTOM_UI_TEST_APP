@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json>{"dc111d13d1e7d7d4083314ef3c006129":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"open new incident\",\"methods\":[\"click\"],\"index\":1,\"tag\":\"a\",\"text\":\"open new incident\",\"type\":\"\",\"hash\":\"dc111d13d1e7d7d4083314ef3c006129\"}"}</mugshots_cache_json>
         <order>4</order>
-        <snapshot display_value="87a3fa8c5dab327ac694689fa3698cac">e311fd5815082300ba8944e6beec81e0</snapshot>
+        <snapshot display_value="">e311fd5815082300ba8944e6beec81e0</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

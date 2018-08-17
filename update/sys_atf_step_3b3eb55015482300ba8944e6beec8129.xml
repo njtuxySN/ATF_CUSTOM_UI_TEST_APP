@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json>{"3b8bf003fcc1cc2b2b22ce2d72e35b96":"{\"area\":\"Typeahead Search\",\"methods\":[\"click\"],\"name\":\"search\",\"tag\":\"button\",\"text\":\"\",\"type\":\"submit\",\"title\":\"Search\",\"value\":\"\",\"aria-label\":\"Search\",\"hash\":\"3b8bf003fcc1cc2b2b22ce2d72e35b96\"}"}</mugshots_cache_json>
         <order>4</order>
-        <snapshot display_value="2406f9e17aee529749861c65164b43af">6e9ffd9015482300ba8944e6beec8125</snapshot>
+        <snapshot display_value="">6e9ffd9015482300ba8944e6beec8125</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

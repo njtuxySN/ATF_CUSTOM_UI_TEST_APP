@@ -8,7 +8,7 @@ and Caller = Abel Tuter</description>
         <inputs/>
         <mugshots_cache_json/>
         <order>6</order>
-        <snapshot display_value="b8b3ea2cc41acd5a7d8adf53a685453f">2ea479d815082300ba8944e6beec81a0</snapshot>
+        <snapshot display_value="">2ea479d815082300ba8944e6beec81a0</snapshot>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -8,7 +8,7 @@ and Caller = Abraham Lincoln</description>
         <inputs/>
         <mugshots_cache_json/>
         <order>3</order>
-        <snapshot display_value="3527c35fb7582aae8eb1e8fa66463874">e495715c15082300ba8944e6beec8105</snapshot>
+        <snapshot display_value="">e495715c15082300ba8944e6beec8105</snapshot>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

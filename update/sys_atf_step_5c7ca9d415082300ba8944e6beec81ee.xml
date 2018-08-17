@@ -6,20 +6,20 @@
         <inputs/>
         <mugshots_cache_json>{"f1ac1a5a598ea1830a1ec669986684f2":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"Insert test record\",\"methods\":[\"click\"],\"tag\":\"a\",\"text\":\"Insert test record\",\"type\":\"\",\"hash\":\"f1ac1a5a598ea1830a1ec669986684f2\"}"}</mugshots_cache_json>
         <order>5</order>
-        <snapshot display_value="ae713ef30ccdab491aa1ee18214a72e3">818c2dd415082300ba8944e6beec8114</snapshot>
+        <snapshot display_value="e8bff795826c3ca72f85f1141e2ab0ba">5d958adcb4002300ba892d9f95a53997</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:08:32</sys_created_on>
         <sys_id>5c7ca9d415082300ba8944e6beec81ee</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_5c7ca9d415082300ba8944e6beec81ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:22:47</sys_updated_on>
+        <sys_updated_on>2018-08-16 22:58:15</sys_updated_on>
         <table/>
         <test display_value="Test Service Portal 1 - should pass">9c6bad9415082300ba8944e6beec8177</test>
         <timeout/>
