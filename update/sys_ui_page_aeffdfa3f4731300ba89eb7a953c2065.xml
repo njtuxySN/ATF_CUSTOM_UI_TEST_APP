@@ -238,6 +238,30 @@ function runIsClickableTests(input_type, expectedIsClickable, attribute){
     </div>
 </fieldset>
 	
+<fieldset>
+    <form>
+        <legend>
+			<h2> 
+				Select a ServiceNow office location:
+			</h2>
+				
+		</legend>
+        <div>
+            <input type="radio" id="SanFrancisco" name="snowoffice" checked="checked" />
+            <label for="SanFrancisco">San Francisco</label>
+        </div>
+        <div>
+            <input type="radio" id="SanDiego" name="snowoffice" />
+            <label for="SanDiego">San Diego</label>
+        </div>
+        <div>
+            <input type="radio" id="SantaClara" name="snowoffice" />
+            <label for="SantaClara">Santa Clara</label>
+        </div>
+    </form>
+</fieldset>
+	
+	
 </j:jelly>]]></html>
         <name>jtest_for_clickable_components</name>
         <processing_script/>
@@ -245,13 +269,13 @@ function runIsClickableTests(input_type, expectedIsClickable, attribute){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-14 21:38:13</sys_created_on>
         <sys_id>aeffdfa3f4731300ba89eb7a953c2065</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>jtest_for_clickable_components</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_aeffdfa3f4731300ba89eb7a953c2065</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 23:35:32</sys_updated_on>
+        <sys_updated_on>2018-08-17 20:52:17</sys_updated_on>
     </sys_ui_page>
 </record_update>

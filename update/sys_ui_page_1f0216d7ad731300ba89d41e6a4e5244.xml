@@ -47,16 +47,21 @@
 		['url', 'https://defaultURL.com', 'https://www.servicenow.com'],
 		['week', '2018-W16', '2028-W16'],
 		['select', 'cherry', 'apple'],
-		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area']
+		['text_area', 'Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.', 'new value for text area'],
+		['radio', 'on', ''],
+		['radio2', 'off', ''],
+		
 	];
 		
 
+describe("Test can get value from regular settable components!", function(){
 	for(var i=0; i<regular_setttable_components.length; i++){
 		var input_type = regular_setttable_components[i][0];
 		var default_value = regular_setttable_components[i][1];
 		var new_value = regular_setttable_components[i][2];
 		runTest(input_type, default_value, new_value);								
 	}
+});
 
     function runTest(input_type, default_value, new_value){
 		it("input type: " + input_type + " should be have value: " + default_value, function() {
@@ -315,22 +320,47 @@ function myFunction(input_value) {
         <h2> radio </h2>
     </legend>
     <div>
-        <input type="radio" id="i_radio_apple_deafult_checked" name="radio_group" checked="checked" />
+        <input type="radio" id="i_radio" name="radio_group" checked="checked" />
         <label>radio01</label>
     </div>
     <div>
-        <input type="radio" id="i_radio_banana_default_unchecked" name="radio_group" />
+        <input type="radio" id="i_radio2" name="radio_group" />
         <label>radio02</label>
     </div>
     <div>
-        <input type="radio" id="i_radio_orange_disabled" name="radio_group" disabled="disabled" />
+        <input type="radio" id="i_radio_disabled" name="radio_group" disabled="disabled" />
         <label>radio03-disabled</label>
     </div>
     <div>
-        <input type="radio" id="i_radio_orange_readonly" name="radio_group" disabled="readonly" />
+        <input type="radio" id="i_radio_readonly" name="radio_group" disabled="readonly" />
         <label>radio04-readonly</label>
     </div>
 </fieldset>
+	
+<fieldset>
+    <form>
+        <legend>
+			<h2> 
+				Select a ServiceNow office location:
+			</h2>
+				
+		</legend>
+        <div>
+            <input type="radio" id="SanFrancisco" name="snowoffice" checked="checked" />
+            <label for="SanFrancisco">San Francisco</label>
+        </div>
+        <div>
+            <input type="radio" id="SanDiego" name="snowoffice" />
+            <label for="SanDiego">San Diego</label>
+        </div>
+        <div>
+            <input type="radio" id="SantaClara" name="snowoffice" />
+            <label for="SantaClara">Santa Clara</label>
+        </div>
+    </form>
+</fieldset>
+	
+	
 <fieldset>
     <legend>
         <h2>range</h2>
@@ -547,13 +577,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 21:19:16</sys_created_on>
         <sys_id>1f0216d7ad731300ba89d41e6a4e5244</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>jtest_get_value_from_setttable_components_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_1f0216d7ad731300ba89d41e6a4e5244</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 20:24:59</sys_updated_on>
+        <sys_updated_on>2018-08-17 21:02:48</sys_updated_on>
     </sys_ui_page>
 </record_update>

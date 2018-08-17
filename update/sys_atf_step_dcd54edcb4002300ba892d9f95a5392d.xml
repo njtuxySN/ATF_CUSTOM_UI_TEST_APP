@@ -6,7 +6,7 @@
         <inputs/>
         <mugshots_cache_json>{"b25136702db09a55e689a86e811acd07":"{\"area\":\"default\",\"inner_text\":\"I don nothing!\",\"methods\":[\"click\"],\"index\":6,\"tag\":\"button\",\"text\":\"I don nothing!\",\"type\":\"button\",\"value\":\"\",\"hash\":\"b25136702db09a55e689a86e811acd07\"}"}</mugshots_cache_json>
         <order>2</order>
-        <snapshot display_value="920b6a12d3e9be8f94fa53ab84911c5b">9fb50edcb4002300ba892d9f95a539cd</snapshot>
+        <snapshot display_value="">9fb50edcb4002300ba892d9f95a539cd</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

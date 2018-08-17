@@ -7,7 +7,7 @@
         <inputs/>
         <mugshots_cache_json>{"b26f38257a1b38bc5ba98eef4228265e":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":1,\"tag\":\"input\",\"text\":\"12345\",\"id\":\"test-record-number-input\",\"type\":\"text\",\"value\":\"12345\",\"hash\":\"b26f38257a1b38bc5ba98eef4228265e\"}","3596cdb2b236bcd8378b7e74f4ea0c7d":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"text\":\"atf new name\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"value\":\"atf new name\",\"hash\":\"3596cdb2b236bcd8378b7e74f4ea0c7d\"}"}</mugshots_cache_json>
         <order>4</order>
-        <snapshot display_value="dbbfd471a39aa5cdb6e6d95112c6de8a">90954adcb4002300ba892d9f95a539e8</snapshot>
+        <snapshot display_value="">90954adcb4002300ba892d9f95a539e8</snapshot>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
