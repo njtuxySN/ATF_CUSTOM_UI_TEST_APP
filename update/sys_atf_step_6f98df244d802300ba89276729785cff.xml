@@ -6,20 +6,20 @@
         <inputs/>
         <mugshots_cache_json>{"70d362a556e9ce74bfb4fc959689cc58":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"San Francisco\"},\"methods\":[\"setValue\"],\"name\":\"snowoffice\",\"options\":[{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"id\":\"SanFrancisco\",\"type\":\"radio\",\"hash\":\"70d362a556e9ce74bfb4fc959689cc58\",\"getvalue-result\":\"San Francisco\",\"html-value\":\"San Francisco\"}"}</mugshots_cache_json>
         <order>6</order>
-        <snapshot display_value="a03d470c6e098a4e797273d272c9f208">d2289b244d802300ba89276729785cae</snapshot>
+        <snapshot display_value="b7afef5932d729ea4e23ed80e2f999d5">839123a84d802300ba89276729785cf2</snapshot>
         <step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 23:39:46</sys_created_on>
         <sys_id>6f98df244d802300ba89276729785cff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Component State Validation (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_6f98df244d802300ba89276729785cff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 23:40:28</sys_updated_on>
+        <sys_updated_on>2018-08-18 00:18:59</sys_updated_on>
         <table/>
         <test display_value="Test Radio Button 02">0825d7e04d802300ba89276729785cbd</test>
         <timeout/>
