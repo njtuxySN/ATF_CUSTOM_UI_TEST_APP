@@ -8,22 +8,22 @@
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="">696b56654d806300ba89276729785cb6</snapshot>
+        <snapshot display_value="308bbee6c4ae770467500ad87e5487ed">f30d4bb135402300ba898d635a007fc0</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-20 21:13:11</sys_created_on>
         <sys_id>2ad39aa14d806300ba89276729785ce7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_2ad39aa14d806300ba89276729785ce7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-20 21:45:59</sys_updated_on>
+        <sys_updated_on>2018-08-21 20:01:26</sys_updated_on>
         <table/>
-        <test display_value="Test_Custom_Control">fe731aa14d806300ba89276729785c43</test>
+        <test display_value="08.21 Test_Custom_Control">fe731aa14d806300ba89276729785c43</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=2ad39aa14d806300ba89276729785ce7"/>

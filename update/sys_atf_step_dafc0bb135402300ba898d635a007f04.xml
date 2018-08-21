@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+58657321b627c482f3cbc3450eebc6cb=false^EQ</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"58657321b627c482f3cbc3450eebc6cb":"{\"area\":\"default\",\"get_value_result\":\"true\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"id\":\"customCheckbox\",\"type\":\"checkbox\",\"hash\":\"58657321b627c482f3cbc3450eebc6cb\",\"html_value\":\"on\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <snapshot display_value="8489d600b735d448a93ebb337388fa7c">3c1d8bb135402300ba898d635a007f18</snapshot>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-21 20:01:07</sys_created_on>
+        <sys_id>dafc0bb135402300ba898d635a007f04</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_dafc0bb135402300ba898d635a007f04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 20:01:32</sys_updated_on>
+        <table/>
+        <test display_value="08.21 Test_Custom_Control">fe731aa14d806300ba89276729785c43</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dafc0bb135402300ba898d635a007f04"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dafc0bb135402300ba898d635a007f04</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-21 20:01:07</sys_created_on>
+        <sys_id>13fc0bb135402300ba898d635a007f77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 20:01:07</sys_updated_on>
+        <value>58657321b627c482f3cbc3450eebc6cb=false^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

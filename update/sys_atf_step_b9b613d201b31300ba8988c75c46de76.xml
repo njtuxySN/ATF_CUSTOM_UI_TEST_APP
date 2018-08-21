@@ -8,7 +8,7 @@
         <mugshots_cache_json/>
         <notes/>
         <order>3</order>
-        <snapshot display_value="ce9f787565ef109d69a3c5673cb898d8">956c2a795d002300ba89fa4e5d3f917f</snapshot>
+        <snapshot display_value="">956c2a795d002300ba89fa4e5d3f917f</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

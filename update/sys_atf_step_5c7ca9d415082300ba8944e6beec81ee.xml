@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"f2ba19a8a78da593fb75e9351b8a597b":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"Insert test record\",\"get_value_result\":\"Insert test record\",\"methods\":[\"click\"],\"tag\":\"a\",\"type\":\"\",\"hash\":\"f2ba19a8a78da593fb75e9351b8a597b\"}"}</mugshots_cache_json>
         <notes/>
         <order>5</order>
-        <snapshot display_value="bb3b9a417ea722acf6aed2781db7559a">aa7472715d402300ba89fa4e5d3f9195</snapshot>
+        <snapshot display_value="">aa7472715d402300ba89fa4e5d3f9195</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
