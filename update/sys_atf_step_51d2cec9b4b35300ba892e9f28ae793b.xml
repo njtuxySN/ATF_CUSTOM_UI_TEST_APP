@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <copied_from/>
         <description>Assert that the text 'UI PAGE 02' is on the page.</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>4</order>
         <snapshot display_value="">3eba7680b4b31300ba892e9f28ae798b</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>

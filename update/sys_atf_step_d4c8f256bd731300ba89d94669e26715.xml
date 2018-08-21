@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Navigate to the 'Yan_Test_Module_02' module in the 'Yan_Test_Menu' application</description>
         <display_name>Navigate to Module</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>4</order>
         <snapshot display_value="">cb1a7e9ebd731300ba89d94669e2678a</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>

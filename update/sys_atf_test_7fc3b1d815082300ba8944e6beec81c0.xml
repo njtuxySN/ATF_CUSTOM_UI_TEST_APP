@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Open Incident form via custom Ui, and create new incident. </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>Test Basic UI - should pass</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+941a1c3ec696d0a14188d7dc4cf6af87=apple^EQ</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"941a1c3ec696d0a14188d7dc4cf6af87":"{\"area\":\"default\",\"inner_text\":\"cherryorangeapple\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"value\":\"cherry\",\"hash\":\"941a1c3ec696d0a14188d7dc4cf6af87\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot display_value="ea8a2e28050d0f2e3ae505934b0af8ac">8388b6b95d402300ba89fa4e5d3f91ee</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-21 18:31:00</sys_created_on>
+        <sys_id>0458f2b95d402300ba89fa4e5d3f9169</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_0458f2b95d402300ba89fa4e5d3f9169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 18:31:49</sys_updated_on>
+        <table/>
+        <test display_value="08.21 Set select value - Fails on IE11">cd0832b95d402300ba89fa4e5d3f9158</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0458f2b95d402300ba89fa4e5d3f9169"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0458f2b95d402300ba89fa4e5d3f9169</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-21 18:31:00</sys_created_on>
+        <sys_id>8b58f2b95d402300ba89fa4e5d3f91f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 18:31:00</sys_updated_on>
+        <value>941a1c3ec696d0a14188d7dc4cf6af87=apple^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

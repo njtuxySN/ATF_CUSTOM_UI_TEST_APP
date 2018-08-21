@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Set the components on the page as follows:
 e3bfdf4f8c276c20673e69aea0a4f5d9=regular text^12f3a944a4f26330a2e4453f2e47181e=false^4d8e7f4ff99d496a71cef4f039b75a5e=new oob value&#13;
 1234^ca4dbfbbec992cfa189492b68d717528=orange^EQ</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"12f3a944a4f26330a2e4453f2e47181e":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"i_checkbox_default_checked\",\"tag\":\"input\",\"text\":\"true\",\"id\":\"i_checkbox_default_checked\",\"type\":\"checkbox\",\"value\":\"scales\",\"hash\":\"12f3a944a4f26330a2e4453f2e47181e\"}","4d8e7f4ff99d496a71cef4f039b75a5e":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"tag\":\"textarea\",\"text\":\"oob value\",\"id\":\"debug-area\",\"type\":\"textarea\",\"value\":\"oob value\",\"hash\":\"4d8e7f4ff99d496a71cef4f039b75a5e\"}","e3bfdf4f8c276c20673e69aea0a4f5d9":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"text\",\"tag\":\"input\",\"text\":\"regular text\",\"id\":\"i_text\",\"placeholder\":\"4 to 8 characters long\",\"type\":\"text\",\"value\":\"regular text\",\"hash\":\"e3bfdf4f8c276c20673e69aea0a4f5d9\"}","ca4dbfbbec992cfa189492b68d717528":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"cherry\",\"hash\":\"ca4dbfbbec992cfa189492b68d717528\"}"}</mugshots_cache_json>
+        <notes/>
         <order>2</order>
         <snapshot display_value="">adfc039e01731300ba8988c75c46de27</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>

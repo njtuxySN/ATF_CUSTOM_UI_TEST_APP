@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>Click the 'f1ac1a5a598ea1830a1ec669986684f2' component</description>
+        <copied_from/>
+        <description>Click the 'f2ba19a8a78da593fb75e9351b8a597b' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
-        <mugshots_cache_json>{"f1ac1a5a598ea1830a1ec669986684f2":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"Insert test record\",\"methods\":[\"click\"],\"tag\":\"a\",\"text\":\"Insert test record\",\"type\":\"\",\"hash\":\"f1ac1a5a598ea1830a1ec669986684f2\"}"}</mugshots_cache_json>
+        <mugshots_cache_json>{"f2ba19a8a78da593fb75e9351b8a597b":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"Insert test record\",\"get_value_result\":\"Insert test record\",\"methods\":[\"click\"],\"tag\":\"a\",\"type\":\"\",\"hash\":\"f2ba19a8a78da593fb75e9351b8a597b\"}"}</mugshots_cache_json>
+        <notes/>
         <order>5</order>
-        <snapshot display_value="">5d958adcb4002300ba892d9f95a53997</snapshot>
+        <snapshot display_value="bb3b9a417ea722acf6aed2781db7559a">aa7472715d402300ba89fa4e5d3f9195</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:08:32</sys_created_on>
         <sys_id>5c7ca9d415082300ba8944e6beec81ee</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_5c7ca9d415082300ba8944e6beec81ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:58:15</sys_updated_on>
+        <sys_updated_on>2018-08-21 18:14:02</sys_updated_on>
         <table/>
-        <test display_value="Test Service Portal 1 - should pass">9c6bad9415082300ba8944e6beec8177</test>
+        <test display_value="08.21 Test Service Portal 1 - should pass but failed with angular input issue.">9c6bad9415082300ba8944e6beec8177</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=5c7ca9d415082300ba8944e6beec81ee"/>
@@ -33,10 +35,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:08:32</sys_created_on>
         <sys_id>0a7ce9d415082300ba8944e6beec8178</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:08:32</sys_updated_on>
-        <value>f1ac1a5a598ea1830a1ec669986684f2</value>
+        <sys_updated_on>2018-08-21 18:13:40</sys_updated_on>
+        <value>f2ba19a8a78da593fb75e9351b8a597b</value>
         <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
     </sys_variable_value>
 </record_update>

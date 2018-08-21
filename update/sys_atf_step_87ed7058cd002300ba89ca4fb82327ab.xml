@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Assert that the text 'UI PAGE 02' is on the page.
 With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>2</order>
         <snapshot display_value="">a3fdb058cd002300ba89ca4fb8232794</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>

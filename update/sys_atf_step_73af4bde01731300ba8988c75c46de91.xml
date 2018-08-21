@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Click the 'e2645186383466f75776ac83ed3b9da3' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"e2645186383466f75776ac83ed3b9da3":"{\"area\":\"default\",\"inner_text\":\"Go to test portal\",\"methods\":[\"click\"],\"index\":3,\"tag\":\"button\",\"text\":\"Go to test portal\",\"type\":\"button\",\"value\":\"\",\"hash\":\"e2645186383466f75776ac83ed3b9da3\"}"}</mugshots_cache_json>
+        <notes/>
         <order>7</order>
         <snapshot display_value="">88efcbde01731300ba8988c75c46dec4</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

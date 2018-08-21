@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Custom UI Page has a button and redirects to Service Portal and click button on widget, widget insert record to table. &#13;
 &#13;
 This new record should got rollback after test is done. &#13;
 &#13;
 </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>Something wrong with this test</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>

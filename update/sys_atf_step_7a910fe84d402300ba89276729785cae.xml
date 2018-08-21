@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <copied_from/>
         <description>Set the components on the page as follows:
 1f5b2b8a982a1f0c806f4cc5591a40e8=true^EQ</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"1f5b2b8a982a1f0c806f4cc5591a40e8":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"feature\",\"tag\":\"input\",\"id\":\"brand_new_checkbox\",\"type\":\"checkbox\",\"hash\":\"1f5b2b8a982a1f0c806f4cc5591a40e8\",\"getvalue-result\":\"false\",\"html-value\":\"brandnew\"}"}</mugshots_cache_json>
+        <notes/>
         <order>3</order>
-        <snapshot display_value="31e8edd305bd79a240b1d87feac838ba">694047e84d402300ba89276729785c09</snapshot>
+        <snapshot display_value="">694047e84d402300ba89276729785c09</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

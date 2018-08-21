@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Click the 'Insert test record [undefined] &lt;a&gt;' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>8</order>
         <snapshot display_value="">ffab1d8db4735300ba892e9f28ae797d</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

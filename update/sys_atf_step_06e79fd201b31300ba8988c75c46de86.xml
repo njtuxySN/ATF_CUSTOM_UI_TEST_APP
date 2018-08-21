@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Click the 'f2599610db557c41852c35f012050ef7' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"f2599610db557c41852c35f012050ef7":"{\"area\":\"ATF_TEST_WIDGET_01\",\"inner_text\":\"Delete all test records 01\",\"methods\":[\"click\"],\"index\":5,\"tag\":\"a\",\"text\":\"Delete all test records 01\",\"type\":\"\",\"hash\":\"f2599610db557c41852c35f012050ef7\"}"}</mugshots_cache_json>
+        <notes/>
         <order>9</order>
         <snapshot display_value="">199c95d301735300ba8988c75c46de20</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

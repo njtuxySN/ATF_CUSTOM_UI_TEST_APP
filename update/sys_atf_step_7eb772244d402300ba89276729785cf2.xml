@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Validate the values as follows:
 f014013949bec63050a8330e9d0fc0ac=Santa Clara^EQ</description>
         <display_name>Component Value Validation (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"f014013949bec63050a8330e9d0fc0ac":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"San Francisco\"},\"methods\":[\"setValue\"],\"name\":\"snowoffice\",\"options\":[{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"id\":\"SanFrancisco\",\"type\":\"radio\",\"hash\":\"f014013949bec63050a8330e9d0fc0ac\",\"getvalue-result\":\"Santa Clara\",\"html-value\":\"San Francisco\"}"}</mugshots_cache_json>
+        <notes/>
         <order>3</order>
-        <snapshot display_value="f28ed3486bed0d7eeba10e46b21cb044">753493e04d802300ba89276729785c2d</snapshot>
+        <snapshot display_value="d4a9c94551b22323a00140c08437b1ef">f97c6e795d002300ba89fa4e5d3f91a5</snapshot>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 21:15:57</sys_created_on>
         <sys_id>7eb772244d402300ba89276729785cf2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Component Value Validation (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_7eb772244d402300ba89276729785cf2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 23:20:19</sys_updated_on>
+        <sys_updated_on>2018-08-21 17:39:03</sys_updated_on>
         <table/>
         <test display_value="Radio Button Happy Path Test">0606b2604d402300ba89276729785ce0</test>
         <timeout/>

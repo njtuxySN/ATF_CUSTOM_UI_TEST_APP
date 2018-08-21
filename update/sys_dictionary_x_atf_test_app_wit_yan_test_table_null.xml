@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:20:08</sys_created_on>
-        <sys_id>e4eb2e2c4d002300ba89276729785c84</sys_id>
+        <sys_id>682ba6f15d002300ba89fa4e5d3f91ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_atf_test_app_wit_yan_test_table</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_dictionary_x_atf_test_app_wit_yan_test_table_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-17 20:24:05</sys_updated_on>
+        <sys_updated_on>2018-08-21 17:33:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Set the components on the page as follows:
 1dc18329c2ef63bfecb882ba470ebbf7=ssss^EQ</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"1dc18329c2ef63bfecb882ba470ebbf7":"{\"area\":\"Typeahead Search\",\"methods\":[\"setValue\"],\"name\":\"q\",\"tag\":\"input\",\"text\":\"\",\"placeholder\":\"Search\",\"type\":\"text\",\"value\":\"\",\"aria-label\":\"Search\",\"hash\":\"1dc18329c2ef63bfecb882ba470ebbf7\"}"}</mugshots_cache_json>
+        <notes/>
         <order>3</order>
         <snapshot display_value="">258086d015482300ba8944e6beec81cc</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>

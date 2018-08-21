@@ -7,37 +7,37 @@
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>7</order>
-        <snapshot display_value="6dc6c9c092d77c1ad05077807534c645">d17676395d402300ba89fa4e5d3f91bf</snapshot>
+        <order>4</order>
+        <snapshot display_value="8a6756d1c56b04fa79c3fb72781722db">ee67ba795d402300ba89fa4e5d3f9101</snapshot>
         <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-16 21:43:56</sys_created_on>
-        <sys_id>3f8439d815082300ba8944e6beec81ce</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_created_on>2018-08-21 18:05:28</sys_created_on>
+        <sys_id>7c8236bd5d002300ba89fa4e5d3f9130</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Submit a Form</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_atf_step_3f8439d815082300ba8944e6beec81ce</sys_update_name>
+        <sys_update_name>sys_atf_step_7c8236bd5d002300ba89fa4e5d3f9130</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-21 18:22:41</sys_updated_on>
+        <sys_updated_on>2018-08-21 18:26:52</sys_updated_on>
         <table/>
-        <test display_value="08.21 Test Service Portal 2  - failes on IE11 and Edge">b410b15815082300ba8944e6beec8127</test>
+        <test display_value="08.21 - Test Basic UI - Passed">2a2fa6f95d002300ba89fa4e5d3f91ee</test>
         <timeout/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=3f8439d815082300ba8944e6beec81ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7c8236bd5d002300ba89fa4e5d3f9130"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>3f8439d815082300ba8944e6beec81ce</document_key>
+        <document_key>7c8236bd5d002300ba89fa4e5d3f9130</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-16 21:43:56</sys_created_on>
-        <sys_id>709439d815082300ba8944e6beec81ec</sys_id>
+        <sys_created_on>2018-08-21 18:05:28</sys_created_on>
+        <sys_id>198236bd5d002300ba89fa4e5d3f91be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 21:43:56</sys_updated_on>
+        <sys_updated_on>2018-08-21 18:05:28</sys_updated_on>
         <value>form_submitted_to_server</value>
         <variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable>
     </sys_variable_value>

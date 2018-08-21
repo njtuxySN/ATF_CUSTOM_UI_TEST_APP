@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Set the components on the page as follows:
 ca4dbfbbec992cfa189492b68d717528=orange^EQ</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"ca4dbfbbec992cfa189492b68d717528":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"type\":\"select-one\",\"value\":\"cherry\",\"hash\":\"ca4dbfbbec992cfa189492b68d717528\"}"}</mugshots_cache_json>
+        <notes/>
         <order>2</order>
         <snapshot display_value="">f8951beff4331300ba89eb7a953c20d9</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Click the '0d231ab11826cf45e0f2c5c352efc734' component</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"0d231ab11826cf45e0f2c5c352efc734":"{\"area\":\"default\",\"inner_text\":\"Go to UI Page 01\",\"methods\":[\"click\"],\"index\":1,\"tag\":\"button\",\"type\":\"button\",\"hash\":\"0d231ab11826cf45e0f2c5c352efc734\",\"getvalue-result\":\"Go to UI Page 01\"}"}</mugshots_cache_json>
+        <notes/>
         <order>3</order>
         <snapshot display_value="">a3fdb058cd002300ba89ca4fb8232794</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>

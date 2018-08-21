@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Click UI Action 'Try It' on 'UI Page' form.</description>
         <display_name>Click a UI Action</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>3</order>
-        <snapshot display_value="">491cf094cd002300ba89ca4fb82327e5</snapshot>
+        <snapshot display_value="ce9f787565ef109d69a3c5673cb898d8">956c2a795d002300ba89fa4e5d3f917f</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-10 23:45:09</sys_created_on>
         <sys_id>b9b613d201b31300ba8988c75c46de76</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Click a UI Action</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_b9b613d201b31300ba8988c75c46de76</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 17:37:07</sys_updated_on>
+        <sys_updated_on>2018-08-21 17:38:43</sys_updated_on>
         <table>sys_ui_page</table>
         <test display_value="Page Rediretions">df3c3ad201731300ba8988c75c46dedf</test>
         <timeout/>

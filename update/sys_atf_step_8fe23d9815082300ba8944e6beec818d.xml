@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Assert that the text 'Number' is on the page.
 With a failure timeout of 5 Seconds</description>
         <display_name>Assert Text on Page (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json/>
+        <notes/>
         <order>5</order>
-        <snapshot display_value="">e311fd5815082300ba8944e6beec81e0</snapshot>
+        <snapshot display_value="36d842350a1f38f0515ec589d4d67f5c">547672395d402300ba89fa4e5d3f91c9</snapshot>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 21:37:03</sys_created_on>
         <sys_id>8fe23d9815082300ba8944e6beec818d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Assert Text on Page (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_8fe23d9815082300ba8944e6beec818d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:19:52</sys_updated_on>
+        <sys_updated_on>2018-08-21 18:22:37</sys_updated_on>
         <table/>
-        <test display_value="Test Service Portal 2  - should pass ">b410b15815082300ba8944e6beec8127</test>
+        <test display_value="08.21 Test Service Portal 2  - failes on IE11 and Edge">b410b15815082300ba8944e6beec8127</test>
         <timeout>1970-01-01 00:00:05</timeout>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=8fe23d9815082300ba8944e6beec818d"/>
