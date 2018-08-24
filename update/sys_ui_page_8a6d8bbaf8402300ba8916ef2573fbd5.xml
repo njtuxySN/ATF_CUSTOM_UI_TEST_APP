@@ -7,7 +7,27 @@
 
 	//input type, isReadonly, isClickable
 	var test_components = [
-		['i_image']
+		['i_img'],
+		['i_button'],
+		['i_checkbox'],
+		['i_color'],
+		['i_date'],		
+		['i_email'],
+		['i_file'],
+		['i_image'],
+		['i_number'],
+		['i_radio'],
+		['i_range'],
+		['i_password'],
+		['i_search'],
+		['i_tel'],
+		['i_text'],
+		['i_time'],
+		['i_url'],
+		['i_week'],
+		['i_select'],
+		['i_text_area'],
+		['i_datetime_local']
 	];
 
 
@@ -62,8 +82,40 @@ function runTest(attribute, expected_attribute_value){
 	<script src="/scripts/js_includes_g_automate.js"/>
 
 	
+<div> 
+<img id="i_img" alt="Login" width="248" height="48" url="http://www.google.com" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" foo="bar"/>
 
-<img id="i_image" alt="Login" width="248" height="48" url="http://www.google.com" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" foo="bar"/>
+<input type="button" id="i_button" class="btn" value="default button" onclick="myFunction('default button clicked!')" />	
+<input type="checkbox" id="i_checkbox" name="i_checkbox_default_checked" value="scales" checked="checked" />
+<input type="color" id="i_color" name="color" value="#e66465" />	
+<input type="date" id="i_date" value="2018-07-22" min="2018-01-01" max="2018-12-31" />	
+<input type="datetime-local" id="i_datetime_local" name="datetime-local-regular" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" />
+<input type="email" id="i_email" placeholder="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address"/>
+<input type="file" id="i_file" name="avatar" accept="image/png, image/jpeg" />	
+<input type="image" id="i_image" alt="Login" width="248" height="48" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" />	
+<input type="number" id="i_number" name="height" placeholder="10cm increments" step="0.1" value="0.2" />	
+<input type="radio" id="i_radio" name="radio_group" checked="checked" />
+<input type="range" id="i_range" name="volume" min="0" max="11" />
+<input type="password" id="i_password" name="password" value="defaultPassword" minLength="8" required="required" placeholder="8 characters minimum" />
+<input type="search" id="i_search" name="q" value="search somthing" placeholder="Search the site..." aria-label="Search through site content" />	
+<input type="tel" id="i_tel" name="phone" value="415-666-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" />
+<input type="text" id="i_text" name="text" value="regular text" required="required" minLength="4" maxLength="8" placeholder="4 to 8 characters long" />	
+<input type="time" id="i_time" name="appt-time" min="09:00:00" max="18:00:00" required="required" value="02:02"> </input>
+<input type="url" name="url" id="i_url" placeholder="https://defaultURL.com" pattern="https://.*" size="20" required="required" />	
+<input type="week" name="camp-week" id="i_week" value="2018-W16" min="2018-W27" max="2018-W35" required="required" />
+<select name="select" id="i_select">
+	<option>cherry</option>
+	<option>orange</option>
+	<option>apple</option>
+</select>
+
+<textarea id="i_text_area" name="text area" rows="3" cols="33" maxlength="200" wrap="hard">
+Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
+</textarea>
+	
+	
+</div>
+	
 	
 </j:jelly>]]></html>
         <name>jtest_white_list</name>
@@ -72,13 +124,13 @@ function runTest(attribute, expected_attribute_value){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-24 22:37:04</sys_created_on>
         <sys_id>8a6d8bbaf8402300ba8916ef2573fbd5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>jtest_white_list</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_8a6d8bbaf8402300ba8916ef2573fbd5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-24 22:37:15</sys_updated_on>
+        <sys_updated_on>2018-08-24 22:51:06</sys_updated_on>
     </sys_ui_page>
 </record_update>
