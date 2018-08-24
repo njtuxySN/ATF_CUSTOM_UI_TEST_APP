@@ -9,7 +9,7 @@
         <mugshots_cache_json>{"1f5b2b8a982a1f0c806f4cc5591a40e8":"{\"area\":\"default\",\"methods\":[\"setValue\"],\"name\":\"feature\",\"tag\":\"input\",\"id\":\"brand_new_checkbox\",\"type\":\"checkbox\",\"hash\":\"1f5b2b8a982a1f0c806f4cc5591a40e8\",\"getvalue-result\":\"false\",\"html-value\":\"brandnew\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="">694047e84d402300ba89276729785c09</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

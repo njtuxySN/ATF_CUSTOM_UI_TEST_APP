@@ -8,7 +8,7 @@
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="">e11a3e9ebd731300ba89d94669e267b2</snapshot>
+        <snapshot/>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

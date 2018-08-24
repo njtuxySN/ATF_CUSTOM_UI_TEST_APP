@@ -9,7 +9,7 @@
         <mugshots_cache_json>{"70d362a556e9ce74bfb4fc959689cc58":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"San Francisco\"},\"methods\":[\"setValue\"],\"name\":\"snowoffice\",\"options\":[{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"id\":\"SanFrancisco\",\"type\":\"radio\",\"hash\":\"70d362a556e9ce74bfb4fc959689cc58\",\"getvalue-result\":\"San Francisco\",\"html-value\":\"San Francisco\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="">de1ce6f55d002300ba89fa4e5d3f91e6</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

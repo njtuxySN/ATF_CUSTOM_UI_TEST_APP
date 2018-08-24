@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"026c9243575d5ef7b7d7ae525c041f79":"{\"area\":\"default\",\"inner_text\":\"regular button\",\"methods\":[\"click\"],\"index\":0,\"tag\":\"div\",\"text\":\"regular button\",\"hash\":\"026c9243575d5ef7b7d7ae525c041f79\"}"}</mugshots_cache_json>
         <notes/>
         <order>4</order>
-        <snapshot display_value="">adfc039e01731300ba8988c75c46de27</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

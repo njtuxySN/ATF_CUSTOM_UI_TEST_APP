@@ -9,7 +9,7 @@ e71cab2d95ebd08bdaeff100ca5ed4b1=atf new name^e6560913fc9f6f878ced8309eebc8dea=1
         <mugshots_cache_json>{"e71cab2d95ebd08bdaeff100ca5ed4b1":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"text\":\"\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"value\":\"\",\"hash\":\"e71cab2d95ebd08bdaeff100ca5ed4b1\"}","e6560913fc9f6f878ced8309eebc8dea":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":1,\"tag\":\"input\",\"text\":\"\",\"id\":\"test-record-number-input\",\"type\":\"text\",\"value\":\"\",\"hash\":\"e6560913fc9f6f878ced8309eebc8dea\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="">d57472715d402300ba89fa4e5d3f9155</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -9,7 +9,7 @@
         <mugshots_cache_json>{"58657321b627c482f3cbc3450eebc6cb":"{\"area\":\"default\",\"get_value_result\":\"true\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"id\":\"customCheckbox\",\"type\":\"checkbox\",\"hash\":\"58657321b627c482f3cbc3450eebc6cb\",\"html_value\":\"on\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="33cfcffe86f7b759f900992ce18ec139">d41d8bb135402300ba898d635a007f11</snapshot>
+        <snapshot/>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

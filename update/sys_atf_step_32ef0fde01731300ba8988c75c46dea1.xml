@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"e71cab2d95ebd08bdaeff100ca5ed4b1":"{\"area\":\"ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"index\":0,\"tag\":\"input\",\"text\":\"\",\"id\":\"test-record-name-input\",\"type\":\"text\",\"value\":\"\",\"hash\":\"e71cab2d95ebd08bdaeff100ca5ed4b1\"}"}</mugshots_cache_json>
         <notes/>
         <order>9</order>
-        <snapshot display_value="">88efcbde01731300ba8988c75c46dec4</snapshot>
+        <snapshot/>
         <step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

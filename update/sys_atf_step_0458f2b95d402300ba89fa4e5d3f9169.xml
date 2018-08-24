@@ -9,7 +9,7 @@
         <mugshots_cache_json>{"941a1c3ec696d0a14188d7dc4cf6af87":"{\"area\":\"default\",\"inner_text\":\"cherryorangeapple\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"value\":\"cherry\",\"hash\":\"941a1c3ec696d0a14188d7dc4cf6af87\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="">8388b6b95d402300ba89fa4e5d3f91ee</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
