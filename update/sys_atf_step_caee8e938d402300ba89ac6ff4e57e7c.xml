@@ -10,7 +10,7 @@
         <mugshots_cache_json>{"6d12209d5a3cd4b80ca8ca2b16166cee":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snow_office\",\"role\":\"radio\",\"sn_atf_mugshot_long_description\":\"ATF_CUSTOM_UI:Radio button &lt;input&gt;: snow_office with value false in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snow_office\",\"type\":\"radio\",\"get_value_result\":\"san diego\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snow_office\",\"sn_atf_mugshot_value\":\"false\",\"options\":[{\"label\":\"san francisco\",\"value\":\"san francisco\"},{\"label\":\"san diego\",\"value\":\"san diego\"},{\"label\":\"santa calara\",\"value\":\"santa calara\"}],\"tag\":\"input\",\"isDisabled\":false,\"hash\":\"6d12209d5a3cd4b80ca8ca2b16166cee\",\"html_value\":\"san francisco\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="385745d8e8edab5785e55cdf41c64324">ef65dad78d402300ba89ac6ff4e57e37</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

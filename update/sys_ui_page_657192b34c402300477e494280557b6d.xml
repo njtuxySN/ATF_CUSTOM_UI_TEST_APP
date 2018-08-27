@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_monstor_ui.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+<script src="x_atf_test_app_wit.jasmine_3_1.jsdbx"/>
+ <script src="x_atf_test_app_wit.jasmine_html.jsdbx"/>
+ <script src="x_atf_test_app_wit.boot.js.jsdbx"/>
+ <link href="6ff66fd5ac731300ba899cabc2c7e328.cssdbx" rel="stylesheet" type="text/css"></link>
+<script src="/scripts/js_includes_g_automate.js"/>
+
+<input type="button" id="fff" title="flll" data-original-title="xx" aria-label="yy" name="zzz" sys-atf-type="aaa"  sys-atf-data-type="eee" sn-atf-data-type-params="ccc" sn-atf-class="ddd" role="eee"/>	
+
+
+	
+
+<label for="i_img">this is my i_img</label>
+<img id="i_img" alt="Login" width="248" height="48" url="http://www.google.com" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>	
+	
+<label for="i_button">this is my button</label>
+<input type="button" id="i_button" class="btn" value="default button" onclick="myFunction('default button clicked!')" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>	
+	
+	
+<label for="i_checkbox">this is i_checkbox</label>	
+<input type="checkbox" id="i_checkbox" value="scales" checked="checked" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>
+	
+<label for="i_color">this is i_color</label>		
+<input type="color" id="i_color" value="#e66465" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>	
+	
+<label for="i_date">this is i_date</label>			
+<input type="date" id="i_date" value="2018-07-22" min="2018-01-01" max="2018-12-31" />	
+	
+<label for="i_datetime_local">this is i_datetime_local</label>
+<input type="datetime-local" id="i_datetime_local" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>
+	
+<label for="i_email">this is i_email</label>	
+<input type="email" id="i_email" placeholder="drone@globex.com" pattern=".+@servicenow.com" size="30" required="required" title="Must be a servicenow.com email address" foo="bar" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>
+	
+<label for="i_file">this is i_file</label>		
+<input type="file" id="i_file" name="avatar" accept="image/png, image/jpeg" />
+
+<label for="i_image">this is i_image</label>		
+<input type="image" id="i_image" alt="Login" width="248" height="48" src="https://www.servicenow.com/content/dam/servicenow-assets/images/footer/servicenow-footer-logo.svg" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" name="blabla" role="am"/>	
+
+<label for="i_number">this is i_number</label>		
+<input type="number" id="i_number" name="height" placeholder="10cm increments" step="0.1" value="0.2" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label"  role="am"/>	
+	
+<label for="i_radio">this is i_radio</label>			
+<input type="radio" id="i_radio" name="radio_group" checked="checked" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>
+	
+<label for="i_range">this is i_range</label>			
+<input type="range" id="i_range" name="volume" min="0" max="11" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>
+	
+<label for="i_password">this is i_password</label>			
+<input type="password" id="i_password" name="password" value="defaultPassword" minLength="8" required="required" placeholder="8 characters minimum" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label"  role="am"/>
+	
+<label for="i_search">this is i_search</label>		
+<input type="search" id="i_search" name="q" value="search somthing" placeholder="Search the site..."  foo="bar" title="t123" data-original-title="test" aria-label="Search through site content" />	
+
+	<label for="i_tel">this is i_tel</label>		
+<input type="tel" id="i_tel" name="phone" value="415-666-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>
+
+	<label for="i_text">this is i_text</label>		
+<input type="text" id="i_text" name="text" value="regular text" required="required" minLength="4" maxLength="8" placeholder="4 to 8 characters long" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>	
+	
+	<label for="i_time">this is i_time</label>		
+<input type="time" id="i_time" name="appt-time" min="09:00:00" max="18:00:00" required="required" value="02:02" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"> </input>
+	
+	<label for="i_url">this is i_url</label>		
+<input type="url" name="url" id="i_url" placeholder="https://defaultURL.com" pattern="https://.*" size="20" required="required" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>	
+	
+	<label for="i_week">this is i_week</label>		
+<input type="week" name="camp-week" id="i_week" value="2018-W16" min="2018-W27" max="2018-W35" required="required" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am"/>
+
+	<label for="i_select">this is i_select</label>		
+<select name="select" id="i_select" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am">
+	<option>cherry</option>
+	<option>orange</option>
+	<option>apple</option>
+</select>
+
+	<label for="i_text_area">this is i_text_area</label>		
+<textarea id="i_text_area" name="text area" rows="3" cols="33" maxlength="200" wrap="hard" foo="bar" title="t123" data-original-title="test" aria-label="testaria-label" role="am">
+Textarea with sizing and wrap attribute (try values of hard, soft, and off to see how it affects wrapping). The maximum number of characters is constrained to 200 by the maxlength attribute.
+</textarea>
+	
+	
+	
+	
+</j:jelly>]]></html>
+        <name>monstor_ui</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 20:49:15</sys_created_on>
+        <sys_id>657192b34c402300477e494280557b6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>monstor_ui</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_657192b34c402300477e494280557b6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 20:49:15</sys_updated_on>
+    </sys_ui_page>
+</record_update>

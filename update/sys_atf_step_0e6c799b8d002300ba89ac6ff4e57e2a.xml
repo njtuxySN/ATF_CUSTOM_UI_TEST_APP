@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"4982abc753d26b4de346072ecb1d9f5e":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Input group &lt;fieldset&gt;:  Select a ServiceNow office location: San Diego San Francisco Santa Clara \",\"inner_text\":\"\\nSelect a ServiceNow office location:\\nSan Diego\\nSan Francisco\\nSanta Clara\\n\",\"sn_atf_mugshot_long_description\":\"Input group &lt;fieldset&gt;: Select a ServiceNow office location: San Diego ...\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"\\nSelect a ServiceNow office location:\\nSan Diego\\nSan Francisco\\nSanta Clara\\n\",\"index\":0,\"type\":\"fieldset\",\"get_value_result\":\"\\nSelect a ServiceNow office location:\\nSan Diego\\nSan Francisco\\nSanta Clara\\n\",\"sn_atf_mugshot_tag_display_name\":\"Input group &lt;fieldset&gt;\",\"sn_atf_mugshot_value\":\"\\nSelect a ServiceNow office location:\\nSan Diego\\nSan Francisco\\nSanta Clara\\n\",\"tag\":\"fieldset\",\"isDisabled\":false,\"hash\":\"4982abc753d26b4de346072ecb1d9f5e\"}"}</mugshots_cache_json>
         <notes/>
         <order>4</order>
-        <snapshot display_value="e8c5b9e358c3a166d03d721fc3f2dba5">994df9db8d002300ba89ac6ff4e57ef3</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

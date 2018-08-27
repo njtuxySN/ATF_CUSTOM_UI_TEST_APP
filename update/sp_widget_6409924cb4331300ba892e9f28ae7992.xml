@@ -121,14 +121,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>155</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-26 07:47:35</sys_updated_on>
+        <sys_updated_on>2018-08-27 19:02:20</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
     <h1 class="display-4">ATF Test widget 01 </h1>
     <p class="lead">This is a simple jumbotron-style component</p>
@@ -170,16 +170,19 @@
   
     <h2> Choose a servicenow office: </h2>
     <div class="radio">
-        <label>
-            <input type="radio" ng-model="snow_office" name="snow_office" value="san francisco">San Francisco</label>
+
+          <input type="radio" ng-model="snow_office" name="snow_office" value="san francisco">San Francisco
+
     </div>
     <div class="radio">
-        <label>
-            <input type="radio" ng-model="snow_office" name="snow_office" value="san diego">San Diego</label>
+
+            <input type="radio" ng-model="snow_office" name="snow_office" value="san diego">San Diego
+
     </div>
     <div class="radio">
-        <label>
-            <input type="radio" ng-model="snow_office" name="snow_office" value="santa calara">Santa Calara</label>
+
+            <input type="radio" ng-model="snow_office" name="snow_office" value="santa calara">Santa Calara
+
     </div>
     <a class="btn btn-primary btn-lg" ng-click="insert_test_record_with_radio_button_value()" role="button">choose office</a>
     <a class="btn btn-danger btn-lg" ng-click="delete_all_test_records()" role="button">Delete all test records 00000000</a>

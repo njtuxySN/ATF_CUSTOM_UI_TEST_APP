@@ -17,18 +17,16 @@
 		</legend>
 		<div>
 			<label for="SanDiego">San Diego</label>
-            <input type="radio" id="SanDiego" value="San Diego" name="snowoffice" />
+            <input type="radio" id="SanDiego" value="v_San_Diego" name="snowoffice" />
 
         </div>
-
-
         <div>
 			<label for="SanFrancisco">San Francisco</label>
-            <input type="radio" id="SanFrancisco" name="snowoffice" value="San Francisco" checked="checked" />            
+            <input type="radio" id="SanFrancisco" name="snowoffice" value="v_San_Francisco" checked="checked" />            
         </div>
         <div>
 			<label for="SantaClara">Santa Clara</label>
-            <input type="radio" id="SantaClara" value="Santa Clara" name="snowoffice" />            
+            <input type="radio" id="SantaClara" value="v_Santa_Clara" name="snowoffice" />
         </div>
     </form>
 </fieldset>
@@ -42,15 +40,15 @@
 				
 		</legend>
         <div>
-            <input type="radio" id="mexico" name="destination" value="v_Mexico" checked="checked" />
+            <input type="radio" id="i_mexico" name="destination" value="v_Mexico" checked="checked" />
             <label for="mexico">Mexico</label>
         </div>
         <div>
-            <input type="radio" id="japan" value="v_Japan" name="destination" />
+            <input type="radio" id="i_japan" value="v_Japan" name="destination" />
             <label for="japan">Japan</label>
         </div>
         <div>
-            <input type="radio" id="frence" value="v_Frence" name="destination" />
+            <input type="radio" id="i_frence" value="v_Frence" name="destination" />
             <label for="frence">Frence</label>
         </div>
     </form>
@@ -85,13 +83,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 20:37:50</sys_created_on>
         <sys_id>0acee2ac4d002300ba89276729785c38</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>TEST_UI_FOR_RADIO_BUTTONS</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_0acee2ac4d002300ba89276729785c38</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-26 05:45:24</sys_updated_on>
+        <sys_updated_on>2018-08-27 20:08:41</sys_updated_on>
     </sys_ui_page>
 </record_update>
