@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Radio button &lt;input&gt;: Mexico' = v_Japan
+'Radio button &lt;input&gt;: San Diego' = San Diego
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"2a6ff82394af28325492ebcc466de096":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: Mexico\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [mexico]: Mexico with value false\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Mexico\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"Mexico\"},\"get_value_result\":\"v_Japan\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"destination\",\"sn_atf_mugshot_value\":\"false\",\"options\":[{\"label\":\"Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"Japan\",\"value\":\"v_Japan\"},{\"label\":\"Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"mexico\",\"hash\":\"2a6ff82394af28325492ebcc466de096\",\"html_value\":\"v_Mexico\"}","f3d00b7cbaa536ada0e2d412f41adfc9":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: San Diego\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [SanDiego]: San Diego with value false\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"San Diego\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"San Diego\"},\"get_value_result\":\"San Diego\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snowoffice\",\"sn_atf_mugshot_value\":\"false\",\"options\":[{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"SanDiego\",\"hash\":\"f3d00b7cbaa536ada0e2d412f41adfc9\",\"html_value\":\"San Diego\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-26 05:55:45</sys_created_on>
+        <sys_id>5e6b719b8d002300ba89ac6ff4e57e36</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_5e6b719b8d002300ba89ac6ff4e57e36</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-26 05:59:26</sys_updated_on>
+        <table/>
+        <test display_value="08.25 radio test button on html page">4238391b8d002300ba89ac6ff4e57e11</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5e6b719b8d002300ba89ac6ff4e57e36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5e6b719b8d002300ba89ac6ff4e57e36</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-26 05:55:45</sys_created_on>
+        <sys_id>a47b719b8d002300ba89ac6ff4e57e9c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-26 05:59:26</sys_updated_on>
+        <value>2a6ff82394af28325492ebcc466de096=v_Japan^f3d00b7cbaa536ada0e2d412f41adfc9=San Diego^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

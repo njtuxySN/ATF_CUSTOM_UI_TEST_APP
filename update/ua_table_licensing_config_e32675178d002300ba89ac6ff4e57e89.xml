@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:20:09</sys_created_on>
-        <sys_id>7f164f76f8402300ba8916ef2573fbe6</sys_id>
+        <sys_id>e32675178d002300ba89ac6ff4e57e89</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_atf_test_app_wit_yan_test_table</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7f164f76f8402300ba8916ef2573fbe6</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_e32675178d002300ba89ac6ff4e57e89</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-03 19:20:09</sys_updated_on>
     </ua_table_licensing_config>

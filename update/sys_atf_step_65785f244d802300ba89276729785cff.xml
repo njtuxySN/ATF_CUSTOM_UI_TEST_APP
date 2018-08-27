@@ -10,7 +10,7 @@
         <mugshots_cache_json>{"d7481f66a1e5ba6718d25fcc69d5ce10":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"Mexico\"},\"methods\":[\"setValue\"],\"name\":\"destination\",\"options\":[{\"label\":\"Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"Japan\",\"value\":\"v_Japan\"},{\"label\":\"Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"id\":\"mexico\",\"type\":\"radio\",\"hash\":\"d7481f66a1e5ba6718d25fcc69d5ce10\",\"getvalue-result\":\"v_Mexico\",\"html-value\":\"v_Mexico\"}"}</mugshots_cache_json>
         <notes/>
         <order>4</order>
-        <snapshot display_value="4466f4b40aa30d5308fe4c4620485db3">5fb3bcc7f8c02300ba8916ef2573fb51</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

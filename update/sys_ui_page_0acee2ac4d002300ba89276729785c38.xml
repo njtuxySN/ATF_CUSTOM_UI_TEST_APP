@@ -15,17 +15,20 @@
 			</h2>
 				
 		</legend>
-        <div>
-            <input type="radio" id="SanFrancisco" name="snowoffice" value="San Francisco" checked="checked" />
-            <label for="SanFrancisco">San Francisco</label>
-        </div>
-        <div>
+		<div>
+			<label for="SanDiego">San Diego</label>
             <input type="radio" id="SanDiego" value="San Diego" name="snowoffice" />
-            <label for="SanDiego">San Diego</label>
+
+        </div>
+
+
+        <div>
+			<label for="SanFrancisco">San Francisco</label>
+            <input type="radio" id="SanFrancisco" name="snowoffice" value="San Francisco" checked="checked" />            
         </div>
         <div>
-            <input type="radio" id="SantaClara" value="Santa Clara" name="snowoffice" />
-            <label for="SantaClara">Santa Clara</label>
+			<label for="SantaClara">Santa Clara</label>
+            <input type="radio" id="SantaClara" value="Santa Clara" name="snowoffice" />            
         </div>
     </form>
 </fieldset>
@@ -82,13 +85,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 20:37:50</sys_created_on>
         <sys_id>0acee2ac4d002300ba89276729785c38</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>TEST_UI_FOR_RADIO_BUTTONS</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_0acee2ac4d002300ba89276729785c38</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 23:37:09</sys_updated_on>
+        <sys_updated_on>2018-08-26 05:45:24</sys_updated_on>
     </sys_ui_page>
 </record_update>
