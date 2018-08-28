@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Textbox &lt;input&gt;: 2018-08-27' = 2018-08-27
+'Textbox &lt;input&gt;: i_glide_date_time' = 2018-08-28 00:00:00
+'Textbox &lt;input&gt;: n_ui_macro_date_time' = 2018-08-29 00:00:00
+'Textbox &lt;input&gt;: i_ui_macro_date' = 2018-08-30
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"ffb25de27f526eebe17d02b0730f51b5":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: i_ui_macro_date\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [i_ui_macro_date]: 2018-08-27\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"i_ui_macro_date\",\"index\":2,\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"i_ui_macro_date\"},\"get_value_result\":\"2018-08-27\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date\",\"name\":\"i_ui_macro_date\",\"sn_atf_mugshot_value\":\"2018-08-27\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_ui_macro_date\",\"hash\":\"ffb25de27f526eebe17d02b0730f51b5\",\"sn-atf-data-type\":\"glide_date\",\"html_value\":\"2018-08-27\"}","710b9bf279b635f3b27cd1f79af79029":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: n_ui_macro_date_time\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [n_ui_macro_date_time]: 2018-08-27 15:17:02\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"n_ui_macro_date_time\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"n_ui_macro_date_time\"},\"get_value_result\":\"2018-08-27 15:17:02\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date_time\",\"name\":\"n_ui_macro_date_time\",\"sn_atf_mugshot_value\":\"2018-08-27 15:17:02\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"n_ui_macro_date_time\",\"hash\":\"710b9bf279b635f3b27cd1f79af79029\",\"sn-atf-data-type\":\"glide_date_time\",\"html_value\":\"2018-08-27 15:17:02\"}","2efab44371987571676cf6362ed0229f":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: 2018-08-27\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt;: 2018-08-27\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"\",\"index\":0,\"type\":\"text\",\"get_value_result\":\"2018-08-27\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date\",\"sn_atf_mugshot_value\":\"2018-08-27\",\"tag\":\"input\",\"isDisabled\":false,\"hash\":\"2efab44371987571676cf6362ed0229f\",\"sn-atf-data-type\":\"glide_date\",\"html_value\":\"2018-08-27\"}","8431f88c1d34dc8c8482d7f9893b62aa":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: i_glide_date_time\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [i_glide_date_time]: 2018-08-27 00:00:00\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"i_glide_date_time\",\"index\":1,\"type\":\"text\",\"get_value_result\":\"2018-08-27 00:00:00\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date_time\",\"sn_atf_mugshot_value\":\"2018-08-27 00:00:00\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_glide_date_time\",\"hash\":\"8431f88c1d34dc8c8482d7f9893b62aa\",\"sn-atf-data-type\":\"glide_date_time\",\"html_value\":\"2018-08-27 00:00:00\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 22:15:28</sys_created_on>
+        <sys_id>d4456a77bc402300477e2816b57418a4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_d4456a77bc402300477e2816b57418a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 22:20:51</sys_updated_on>
+        <table/>
+        <test display_value="08.27 - xxx">24845af34c402300477e494280557b8f</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d4456a77bc402300477e2816b57418a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d4456a77bc402300477e2816b57418a4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 22:15:28</sys_created_on>
+        <sys_id>f5456a77bc402300477e2816b57418e1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 22:20:51</sys_updated_on>
+        <value>2efab44371987571676cf6362ed0229f=2018-08-27^8431f88c1d34dc8c8482d7f9893b62aa=2018-08-28 00:00:00^710b9bf279b635f3b27cd1f79af79029=2018-08-29 00:00:00^ffb25de27f526eebe17d02b0730f51b5=2018-08-30^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

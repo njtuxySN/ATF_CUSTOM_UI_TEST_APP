@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Textbox &lt;input&gt;: (empty)' = 2018-08-27
+'Textbox &lt;input&gt;: i_glide_date_time' = 2018-08-28 00:00:00
+'Textbox &lt;input&gt;: n_ui_macro_date_time' = 2018-08-29 00:00:00
+'Textbox &lt;input&gt;: i_ui_macro_date' = 2018-08-30
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"ffb25de27f526eebe17d02b0730f51b5":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: i_ui_macro_date\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [i_ui_macro_date]: 2018-08-27\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"i_ui_macro_date\",\"index\":2,\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"i_ui_macro_date\"},\"get_value_result\":\"2018-08-27\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date\",\"name\":\"i_ui_macro_date\",\"sn_atf_mugshot_value\":\"2018-08-27\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_ui_macro_date\",\"hash\":\"ffb25de27f526eebe17d02b0730f51b5\",\"sn-atf-data-type\":\"glide_date\",\"html_value\":\"2018-08-27\"}","e22f20b06803f3e7ff03fb7d7ec20c5b":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: (empty)\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt;: (empty)\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"\",\"index\":0,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"hash\":\"e22f20b06803f3e7ff03fb7d7ec20c5b\",\"sn-atf-data-type\":\"glide_date\",\"html_value\":\"\"}","710b9bf279b635f3b27cd1f79af79029":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: n_ui_macro_date_time\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [n_ui_macro_date_time]: 2018-08-27 15:17:02\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"n_ui_macro_date_time\",\"type\":\"text\",\"label_for_input\":{\"inner_text\":\"n_ui_macro_date_time\"},\"get_value_result\":\"2018-08-27 15:17:02\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date_time\",\"name\":\"n_ui_macro_date_time\",\"sn_atf_mugshot_value\":\"2018-08-27 15:17:02\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"n_ui_macro_date_time\",\"hash\":\"710b9bf279b635f3b27cd1f79af79029\",\"sn-atf-data-type\":\"glide_date_time\",\"html_value\":\"2018-08-27 15:17:02\"}","916570f387c4c3a4eb831713a6cea782":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: i_glide_date_time\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [i_glide_date_time]: (empty)\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"i_glide_date_time\",\"index\":1,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"data_type\":\"glide_date_time\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_glide_date_time\",\"hash\":\"916570f387c4c3a4eb831713a6cea782\",\"sn-atf-data-type\":\"glide_date_time\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot display_value="e3739678efb89a28e9238b8da5e7a3ae">0a86e6b7bc402300477e2816b57418b5</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 22:15:17</sys_created_on>
+        <sys_id>bf14e277bc402300477e2816b5741891</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_bf14e277bc402300477e2816b5741891</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 22:20:57</sys_updated_on>
+        <table/>
+        <test display_value="08.27 - xxx">24845af34c402300477e494280557b8f</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bf14e277bc402300477e2816b5741891"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bf14e277bc402300477e2816b5741891</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 22:15:17</sys_created_on>
+        <sys_id>0f35a677bc402300477e2816b5741811</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 22:18:24</sys_updated_on>
+        <value>e22f20b06803f3e7ff03fb7d7ec20c5b=2018-08-27^916570f387c4c3a4eb831713a6cea782=2018-08-28 00:00:00^710b9bf279b635f3b27cd1f79af79029=2018-08-29 00:00:00^ffb25de27f526eebe17d02b0730f51b5=2018-08-30^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

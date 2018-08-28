@@ -7,21 +7,27 @@
         <endpoint>x_atf_test_app_wit_UI_PlayGround.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-  <fieldset>
+<fieldset>
     <legend>
-        <h2> checkbox </h2>
+        <h2> radio </h2>
     </legend>
     <div>
-        <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales" checked="checked" />
-        <label for="scales">Scales</label>
+        <input type="radio" id="i_radio_apple_deafult_checked" name="radio_group" checked="checked" />
+        <label>radio01</label>
     </div>
     <div>
-        <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales"/>
-        <label for="scales">Scales</label>
+        <input type="radio" id="i_radio_banana_default_unchecked" name="radio_group" />
+        <label>radio02</label>
+    </div>
+    <div>
+        <input type="radio" id="i_radio_orange_disabled" name="radio_group" disabled="disabled" />
+        <label>radio03-disabled</label>
+    </div>
+    <div>
+        <input type="radio" id="i_radio_orange_readonly" name="radio_group" disabled="readonly" />
+        <label>radio04-readonly</label>
     </div>
 </fieldset>
-	
-	
 </j:jelly>]]></html>
         <name>UI_PlayGround</name>
         <processing_script/>
@@ -29,13 +35,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 21:50:35</sys_created_on>
         <sys_id>b1afbea84d402300ba89276729785ce4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>UI_PlayGround</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_b1afbea84d402300ba89276729785ce4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 21:00:10</sys_updated_on>
+        <sys_updated_on>2018-08-28 00:02:55</sys_updated_on>
     </sys_ui_page>
 </record_update>

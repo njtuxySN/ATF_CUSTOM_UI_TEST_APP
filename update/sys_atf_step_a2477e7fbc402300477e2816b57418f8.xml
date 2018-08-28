@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;a&gt;: Insert test record'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"fc4e6c29567bcf0ead5c06af8f77f6a7":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Button &lt;a&gt;: Insert test record\",\"inner_text\":\"Insert test record\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;a&gt;: Insert test record in page area ATF_TEST_WIDGET_01\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Insert test record\",\"type\":\"\",\"get_value_result\":\"Insert test record\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"fc4e6c29567bcf0ead5c06af8f77f6a7\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <snapshot display_value="2a264a931fa72cd149fe3cf63b9cc3b0">aef73abfbc402300477e2816b5741877</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 23:34:16</sys_created_on>
+        <sys_id>a2477e7fbc402300477e2816b57418f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_a2477e7fbc402300477e2816b57418f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 23:37:10</sys_updated_on>
+        <table/>
+        <test display_value="08.27.2018 Service Portal Input">33e6ba7fbc402300477e2816b5741829</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a2477e7fbc402300477e2816b57418f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a2477e7fbc402300477e2816b57418f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 23:34:16</sys_created_on>
+        <sys_id>8457be7fbc402300477e2816b5741803</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 23:34:56</sys_updated_on>
+        <value>fc4e6c29567bcf0ead5c06af8f77f6a7</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>

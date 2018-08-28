@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Textbox &lt;input&gt;: test-record-number-input' = 1234
+'Textbox &lt;input&gt;: test-record-name-input' = okokok
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"7d2f23fd46657962be4119ffc73a3c92":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: test-record-number-input\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [test-record-number-input]: (empty) in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-number-input\",\"index\":1,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-number-input\",\"hash\":\"7d2f23fd46657962be4119ffc73a3c92\",\"html_value\":\"\"}","e572598804d5a1df2768af28f2b412d8":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Textbox &lt;input&gt;: test-record-name-input\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Textbox &lt;input&gt; [test-record-name-input]: (empty) in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-name-input\",\"index\":0,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Textbox &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-name-input\",\"hash\":\"e572598804d5a1df2768af28f2b412d8\",\"html_value\":\"\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot display_value="f536581064c5662bba68dc3e712d4d7b">a1f73abfbc402300477e2816b574180f</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 23:34:02</sys_created_on>
+        <sys_id>12173e7fbc402300477e2816b5741849</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_12173e7fbc402300477e2816b5741849</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 23:37:06</sys_updated_on>
+        <table/>
+        <test display_value="08.27.2018 Service Portal Input">33e6ba7fbc402300477e2816b5741829</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=12173e7fbc402300477e2816b5741849"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>12173e7fbc402300477e2816b5741849</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 23:34:02</sys_created_on>
+        <sys_id>6c473e7fbc402300477e2816b57418d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 23:34:02</sys_updated_on>
+        <value>7d2f23fd46657962be4119ffc73a3c92=1234^e572598804d5a1df2768af28f2b412d8=okokok^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

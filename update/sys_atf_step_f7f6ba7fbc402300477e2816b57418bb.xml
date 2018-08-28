@@ -2,43 +2,43 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Navigate to the 'Yan_M9_Radio_Buttons' module in the 'Yan_Test_Menu' application</description>
+        <description>Navigate to the 'Yan_M4(ATF Test Widget)' module in the 'Yan_Test_Menu' application</description>
         <display_name>Navigate to Module</display_name>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="cf1be1ed7ec6ce8a29f7954b170ec382">544b1e73bc402300477e2816b57418d2</snapshot>
+        <snapshot display_value="671cb7028022c1213a920bb618453604">0df73abfbc402300477e2816b5741838</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-27 19:07:14</sys_created_on>
-        <sys_id>952a3dbb4c002300477e494280557b32</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2018-08-27 23:33:01</sys_created_on>
+        <sys_id>f7f6ba7fbc402300477e2816b57418bb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-        <sys_update_name>sys_atf_step_952a3dbb4c002300477e494280557b32</sys_update_name>
+        <sys_update_name>sys_atf_step_f7f6ba7fbc402300477e2816b57418bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 21:31:40</sys_updated_on>
+        <sys_updated_on>2018-08-27 23:37:04</sys_updated_on>
         <table/>
-        <test display_value="08.27 Radio button on regular page">b41af9bb4c002300477e494280557bcb</test>
+        <test display_value="08.27.2018 Service Portal Input">33e6ba7fbc402300477e2816b5741829</test>
         <timeout/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=952a3dbb4c002300477e494280557b32"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f7f6ba7fbc402300477e2816b57418bb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>952a3dbb4c002300477e494280557b32</document_key>
+        <document_key>f7f6ba7fbc402300477e2816b57418bb</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-27 19:07:14</sys_created_on>
-        <sys_id>a43a7dbb4c002300477e494280557b03</sys_id>
+        <sys_created_on>2018-08-27 23:33:01</sys_created_on>
+        <sys_id>fd07ba7fbc402300477e2816b574188d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 19:07:14</sys_updated_on>
-        <value>413676604d402300ba89276729785cfd</value>
+        <sys_updated_on>2018-08-27 23:33:01</sys_updated_on>
+        <value>ed58b216bd731300ba89d94669e267df</value>
         <variable display_value="">b6d2b40c73720300c79260bdfaf6a786</variable>
     </sys_variable_value>
 </record_update>
