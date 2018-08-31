@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Radio button &lt;input&gt;: destination' = v_Mexico
+'Radio button &lt;input&gt;: snowoffice' = v_San_Diego
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"42528ecc9355e106b8b40b8b2ca310ba":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: destination\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [i_mexico]: destination with value v_Mexico\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"destination\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"destination\"},\"get_value_result\":\"v_Mexico\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"destination\",\"sn_atf_mugshot_value\":\"v_Mexico\",\"options\":[{\"label\":\"v_Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"v_Japan\",\"value\":\"v_Japan\"},{\"label\":\"v_Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_mexico\",\"hash\":\"42528ecc9355e106b8b40b8b2ca310ba\",\"html_value\":\"v_Mexico\"}","c617bf12982b384632dfb837238df303":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snowoffice\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [SanFrancisco]: snowoffice with value San Francisco\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snowoffice\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"snowoffice\"},\"get_value_result\":\"v_San_Francisco\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snowoffice\",\"sn_atf_mugshot_value\":\"San Francisco\",\"options\":[{\"label\":\"San Diego\",\"value\":\"v_San_Diego\"},{\"label\":\"San Francisco\",\"value\":\"v_San_Francisco\"},{\"label\":\"Santa Clara\",\"value\":\"v_Santa_Clara\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"SanFrancisco\",\"hash\":\"c617bf12982b384632dfb837238df303\",\"html_value\":\"San Francisco\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-30 19:13:57</sys_created_on>
+        <sys_id>5e781d7009502300477eff6747ec94e7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_5e781d7009502300477eff6747ec94e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-30 19:28:12</sys_updated_on>
+        <table/>
+        <test display_value="08.30.radio_button">dfdac9b409102300477eff6747ec9424</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5e781d7009502300477eff6747ec94e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5e781d7009502300477eff6747ec94e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-30 19:13:57</sys_created_on>
+        <sys_id>fb781d7009502300477eff6747ec94f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-30 19:17:48</sys_updated_on>
+        <value>42528ecc9355e106b8b40b8b2ca310ba=v_Mexico^c617bf12982b384632dfb837238df303=v_San_Diego^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

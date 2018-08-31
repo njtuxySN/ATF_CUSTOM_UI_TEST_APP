@@ -8,20 +8,20 @@
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot/>
+        <snapshot display_value="c52f760d80b013df456d11abc2519ff5">1807823809902300477eff6747ec9415</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 22:21:12</sys_created_on>
         <sys_id>7b0d391015482300ba8944e6beec81da</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_7b0d391015482300ba8944e6beec81da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:36:09</sys_updated_on>
+        <sys_updated_on>2018-08-30 22:37:07</sys_updated_on>
         <table/>
         <test display_value="Test Service Portal 3 - Should Pass">fafc391015482300ba8944e6beec816b</test>
         <timeout/>

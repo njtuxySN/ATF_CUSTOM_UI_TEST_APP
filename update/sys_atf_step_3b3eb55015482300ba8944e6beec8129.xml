@@ -2,26 +2,26 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description>Click the '3b8bf003fcc1cc2b2b22ce2d72e35b96' component</description>
+        <description>Click the component: '{0}'</description>
         <display_name>Click Component (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"3b8bf003fcc1cc2b2b22ce2d72e35b96":"{\"area\":\"Typeahead Search\",\"methods\":[\"click\"],\"name\":\"search\",\"tag\":\"button\",\"text\":\"\",\"type\":\"submit\",\"title\":\"Search\",\"value\":\"\",\"aria-label\":\"Search\",\"hash\":\"3b8bf003fcc1cc2b2b22ce2d72e35b96\"}"}</mugshots_cache_json>
         <notes/>
         <order>4</order>
-        <snapshot/>
+        <snapshot display_value="4cfee49c60888094e6c1e5a48e8dbfd6">a107c23809902300477eff6747ec9477</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 22:26:38</sys_created_on>
         <sys_id>3b3eb55015482300ba8944e6beec8129</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_3b3eb55015482300ba8944e6beec8129</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:32:10</sys_updated_on>
+        <sys_updated_on>2018-08-30 22:37:16</sys_updated_on>
         <table/>
         <test display_value="Test Service Portal 3 - Should Pass">fafc391015482300ba8944e6beec816b</test>
         <timeout/>

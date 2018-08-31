@@ -7,27 +7,41 @@
         <endpoint>x_atf_test_app_wit_UI_PlayGround.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-<fieldset>
+	<div> 			<label for="SanDiego">San Diego</label>
+            <input type="radio" id="SanDiego" value="v_San_Diego" name="snowoffice" />
+
+</div>
+	
+	<div> 
+					<label for="SanFrancisco">San Francisco</label>
+            <input type="radio" id="SanFrancisco" name="snowoffice" value="v_San_Francisco" checked="checked" />            
+
+
+	</div>
+	<div>
+			<label for="SantaClara">Santa Clara</label>
+            <input type="radio" id="SantaClara" value="v_Santa_Clara" name="snowoffice" />
+		</div>
+	
+	
+	
+
+	
+	<fieldset>
     <legend>
-        <h2> radio </h2>
+        <h2> select </h2>
     </legend>
     <div>
-        <input type="radio" id="i_radio_apple_deafult_checked" name="radio_group" checked="checked" />
-        <label>radio01</label>
+        <label for="i_select"> choose your fav fruite!</label>
+        <select name="select_fruit" id="i_select">
+            <option>cherry</option>
+            <option>orange</option>
+            <option>apple</option>
+        </select>
     </div>
-    <div>
-        <input type="radio" id="i_radio_banana_default_unchecked" name="radio_group" />
-        <label>radio02</label>
-    </div>
-    <div>
-        <input type="radio" id="i_radio_orange_disabled" name="radio_group" disabled="disabled" />
-        <label>radio03-disabled</label>
-    </div>
-    <div>
-        <input type="radio" id="i_radio_orange_readonly" name="radio_group" disabled="readonly" />
-        <label>radio04-readonly</label>
-    </div>
-</fieldset>
+	</fieldset>	
+		
+	
 </j:jelly>]]></html>
         <name>UI_PlayGround</name>
         <processing_script/>
@@ -35,13 +49,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 21:50:35</sys_created_on>
         <sys_id>b1afbea84d402300ba89276729785ce4</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>UI_PlayGround</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_b1afbea84d402300ba89276729785ce4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-28 00:02:55</sys_updated_on>
+        <sys_updated_on>2018-08-30 22:24:25</sys_updated_on>
     </sys_ui_page>
 </record_update>

@@ -3,26 +3,27 @@
         <active>true</active>
         <copied_from/>
         <description>Set the components on the page as follows:
-1dc18329c2ef63bfecb882ba470ebbf7=ssss^EQ</description>
+'undefined' = ssss
+</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
         <mugshots_cache_json>{"1dc18329c2ef63bfecb882ba470ebbf7":"{\"area\":\"Typeahead Search\",\"methods\":[\"setValue\"],\"name\":\"q\",\"tag\":\"input\",\"text\":\"\",\"placeholder\":\"Search\",\"type\":\"text\",\"value\":\"\",\"aria-label\":\"Search\",\"hash\":\"1dc18329c2ef63bfecb882ba470ebbf7\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot/>
+        <snapshot display_value="4cfee49c60888094e6c1e5a48e8dbfd6">a107c23809902300477eff6747ec9477</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-16 22:26:10</sys_created_on>
         <sys_id>593eb55015482300ba8944e6beec810b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Set Component Values (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_593eb55015482300ba8944e6beec810b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 22:36:12</sys_updated_on>
+        <sys_updated_on>2018-08-30 22:37:13</sys_updated_on>
         <table/>
         <test display_value="Test Service Portal 3 - Should Pass">fafc391015482300ba8944e6beec816b</test>
         <timeout/>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Radio button &lt;input&gt;: snowoffice' = v_San_Francisco
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"c617bf12982b384632dfb837238df303":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snowoffice\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [SanFrancisco]: snowoffice with value San Francisco\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snowoffice\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"snowoffice\"},\"get_value_result\":\"v_San_Francisco\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snowoffice\",\"sn_atf_mugshot_value\":\"San Francisco\",\"options\":[{\"label\":\"San Diego\",\"value\":\"v_San_Diego\"},{\"label\":\"San Francisco\",\"value\":\"v_San_Francisco\"},{\"label\":\"Santa Clara\",\"value\":\"v_Santa_Clara\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"SanFrancisco\",\"hash\":\"c617bf12982b384632dfb837238df303\",\"html_value\":\"San Francisco\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot display_value="ec403c6980791d409b5a25ed2ecbb1d2">1263cab409902300477eff6747ec944b</snapshot>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-30 21:46:32</sys_created_on>
+        <sys_id>6d6bfdb009902300477eff6747ec94ec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_6d6bfdb009902300477eff6747ec94ec</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2018-08-30 22:21:28</sys_updated_on>
+        <table/>
+        <test display_value="PRB fix">e566f57c09502300477eff6747ec9407</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6d6bfdb009902300477eff6747ec94ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6d6bfdb009902300477eff6747ec94ec</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-30 21:46:32</sys_created_on>
+        <sys_id>0f6b31f009902300477eff6747ec942f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-30 21:46:32</sys_updated_on>
+        <value>c617bf12982b384632dfb837238df303=v_San_Francisco^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>
