@@ -56,19 +56,19 @@ function myFunction(input_value) {
     </legend>
     <div>
         <input type="checkbox" id="i_checkbox_default_checked" name="i_checkbox_default_checked" value="scales" checked="checked" />
-        <label for="scales">Scales</label>
+        <label for="i_checkbox_default_checked">Scales</label>
     </div>
     <div>
         <input type="checkbox" id="i_checkbox_default_unchecked" name="i_checkbox_default_unchecked" value="horns" />
-        <label for="horns">Horns</label>
+        <label for="i_checkbox_default_unchecked">Horns</label>
     </div>
     <div>
         <input type="checkbox" id="i_checkbox_default_disabled" name="feature" value="claws" disabled="disabled" />
-        <label for="claws">Disabled</label>
+        <label for="i_checkbox_default_disabled">Disabled</label>
     </div>
     <div>
-        <input type="checkbox" id="i_checkbox_default_readonly" name="feature" value="claws" readonly="readonly" />
-        <label for="claws">Readonly checkbox is not supported!</label>
+        <input type="checkbox" id="i_checkbox_default_readonly" name="feature" value="claws" readonly="readonly" checked="checked" />
+        <label for="i_checkbox_default_readonly">Readonly checkbox is not supported!</label>
     </div>
 </fieldset>
 <fieldset>
@@ -77,23 +77,23 @@ function myFunction(input_value) {
     </legend>
     <div>
         <input type="color" id="i_color" name="color" value="#e66465" />
-        <label for="head">Head</label>
+        <label for="i_color">Head</label>
     </div>
     <div>
         <input type="color" id="i_color_body" name="color" value="#f6b73c" />
-        <label for="body">Body</label>
+        <label for="i_color_body">Body</label>
     </div>
     <div>
         <input type="color" id="i_color_feet" name="color" value="#3f87a6" />
-        <label for="feet">Feet</label>
+        <label for="i_color_feet">Feet</label>
     </div>
     <div>
         <input type="color" id="i_color_disabled" name="color" value="#800000" disabled="disabled" />
-        <label>Disabled</label>
+        <label for="i_color_disabled">Disabled</label>
     </div>
     <div>
         <input type="color" id="i_color_readonly" name="color" value="#FFFF00" readonly="readonly" />
-        <label>Readonly color is not supported!</label>
+        <label for="i_color_readonly">Readonly color is not supported!</label>
     </div>
 </fieldset>
 <fieldset>
@@ -212,11 +212,11 @@ function myFunction(input_value) {
     <form action="/submit_result_page" method="get">
         <div>
             <input type="number" id="i_number_height" name="height" placeholder="10cm increments" step="0.1" value="0.2" />
-            <label>Height (metres):</label>
+            <label for="i_number_height" >Height (metres):</label>
         </div>
         <div>
             <input type="number" id="i_number_eyes" name="eyes" placeholder="Min: 10, max: 100" min="10" max="100" value="20" />
-            <label>Number between 10 and 100</label>
+            <label for="i_number_eyes" >Number between 10 and 100</label>
         </div>
         <div>
             <input type="number" id="i_number_disabled" name="disabled number" placeholder="123" min="10" max="100" disabled="disabled" />
@@ -300,15 +300,15 @@ function myFunction(input_value) {
     </legend>
     <form role="search">
         <div>
-            <label> regular search </label>
+            <label for="i_search"> regular search </label>
             <input type="search" id="i_search" name="q" value="search somthing" placeholder="Search the site..." aria-label="Search through site content" />
         </div>
         <div>
-            <label> readonly search </label>
+            <label for="i_search_readonly"> readonly search </label>
             <input type="search" id="i_search_readonly" name="q" value="search somthing" readonly="readonly" placeholder="Search the site..." aria-label="Search through site content" />
         </div>
         <div>
-            <label> disabled search </label>
+            <label for="i_search_disabled"> disabled search </label>
             <input type="search" id="i_search_disabled" name="q" value="search somthing" disabled="disabled" placeholder="Search the site..." aria-label="Search through site content" />
         </div>
         <button>Search</button>
@@ -466,13 +466,13 @@ function myFunction(input_value) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 22:08:57</sys_created_on>
         <sys_id>255ad245b4f35300ba892e9f28ae79c9</sys_id>
-        <sys_mod_count>100</sys_mod_count>
+        <sys_mod_count>105</sys_mod_count>
         <sys_name>TEST_UI_WITH_ALL_INPUT_TYPES</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_255ad245b4f35300ba892e9f28ae79c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 21:55:37</sys_updated_on>
+        <sys_updated_on>2018-09-18 23:03:22</sys_updated_on>
     </sys_ui_page>
 </record_update>

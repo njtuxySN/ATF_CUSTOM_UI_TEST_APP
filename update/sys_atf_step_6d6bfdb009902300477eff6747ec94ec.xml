@@ -10,7 +10,7 @@
         <mugshots_cache_json>{"c617bf12982b384632dfb837238df303":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snowoffice\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [SanFrancisco]: snowoffice with value San Francisco\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snowoffice\",\"type\":\"radio\",\"label_for_input\":{\"inner_text\":\"snowoffice\"},\"get_value_result\":\"v_San_Francisco\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snowoffice\",\"sn_atf_mugshot_value\":\"San Francisco\",\"options\":[{\"label\":\"San Diego\",\"value\":\"v_San_Diego\"},{\"label\":\"San Francisco\",\"value\":\"v_San_Francisco\"},{\"label\":\"Santa Clara\",\"value\":\"v_Santa_Clara\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"SanFrancisco\",\"hash\":\"c617bf12982b384632dfb837238df303\",\"html_value\":\"San Francisco\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="ec403c6980791d409b5a25ed2ecbb1d2">1263cab409902300477eff6747ec944b</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
