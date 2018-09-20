@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"2352ec9fab27078b209d7d6dcfc33ac4":"{\"area\":\"How can we help?/How can we help?\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Search\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Search in page area How can we help?/How can we help?\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Search\",\"type\":\"submit\",\"title\":\"Search\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"name\":\"search\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"button\",\"isDisabled\":false,\"aria-label\":\"Search\",\"hash\":\"2352ec9fab27078b209d7d6dcfc33ac4\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="44575902b67fffd77af0f4db8168f998">f50574970d602300a75e9d07ff93da3c</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

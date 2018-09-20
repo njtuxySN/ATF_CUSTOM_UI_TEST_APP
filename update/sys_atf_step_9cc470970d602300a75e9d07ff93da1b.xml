@@ -10,7 +10,7 @@
         <mugshots_cache_json>{"487a8aef08de1a53f32bdab4df13ecaa":"{\"area\":\"How can we help?/How can we help?\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: q\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt;: q with value How can we help? in page area How can we help?/How can we help?\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"q\",\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"q\",\"sn_atf_mugshot_value\":\"How can we help?\",\"tag\":\"input\",\"isDisabled\":false,\"placeholder\":\"How can we help?\",\"aria-label\":\"How can we help?\",\"hash\":\"487a8aef08de1a53f32bdab4df13ecaa\",\"html_value\":\"\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="5dc9c72fbf9020b9a87ee59d0d7107b5">d50534970d602300a75e9d07ff93daf6</snapshot>
+        <snapshot/>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
