@@ -42,6 +42,25 @@
 		c.data.snow_office=$scope.snow_office;		
 		c.server.update();		
 	}
+	
+	$scope.slow_open_incident = function(){		
+		timeout();
+	}
+	
+	function timeout() {
+    setTimeout(function () {
+		doSomething();
+        timeout();
+    }, 10000);
+	}
+	
+	function doSomething()
+	{
+		//top.window.location = "incident.do";
+		window.location.href = "incident.do";
+	}
+	
+	
 
 }]]></client_script>
         <controller_as>c</controller_as>
@@ -121,14 +140,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:30:17</sys_created_on>
         <sys_id>6409924cb4331300ba892e9f28ae7992</sys_id>
-        <sys_mod_count>162</sys_mod_count>
+        <sys_mod_count>170</sys_mod_count>
         <sys_name>ATF_TEST_WIDGET_01</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_6409924cb4331300ba892e9f28ae7992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 19:02:20</sys_updated_on>
+        <sys_updated_on>2018-09-20 23:37:45</sys_updated_on>
         <template><![CDATA[<div class="jumbotron">
     <h1 class="display-4">ATF Test widget 01 </h1>
     <p class="lead">This is a simple jumbotron-style component</p>
@@ -137,6 +156,7 @@
     <p class="lead">
         <a class="btn btn-primary btn-lg" ng-click="insert_new_incident()" role="button">insert new incident </a>
         <a class="btn btn-primary btn-lg" ng-href="/incident.do" role="button">open new incident </a>
+	      <a class="btn btn-primary btn-lg" ng-click="slow_open_incident()" role="button">Slow open new incident </a>
     </p>
     <hr />
     <h2> Create a new test record </h2>

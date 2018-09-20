@@ -8,20 +8,20 @@
         <mugshots_cache_json/>
         <notes/>
         <order>2</order>
-        <snapshot display_value="e24cd3d3f1041587f5c139060c4fe192">572b0eebad64230094039963d19366bd</snapshot>
+        <snapshot display_value="75cdda97f0cc3f32d5fd0f2bb31b36cd">d2bc86ef6c602300a75e7b165a3ef1a1</snapshot>
         <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-20 22:13:37</sys_created_on>
         <sys_id>b1facaebad64230094039963d1936607</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Click a UI Action</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_b1facaebad64230094039963d1936607</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-20 22:14:21</sys_updated_on>
+        <sys_updated_on>2018-09-20 22:21:07</sys_updated_on>
         <table>sc_task</table>
         <test display_value="00000002">c8aaceabad64230094039963d19366d5</test>
         <timeout/>
