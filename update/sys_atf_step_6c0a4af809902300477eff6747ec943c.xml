@@ -11,20 +11,20 @@
         <mugshots_cache_json>{"4eb8d87b012153b85c34b2acac4fa18e":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [test-record-number-input]\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [test-record-number-input]: (empty) in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-number-input\",\"index\":1,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-number-input\",\"hash\":\"4eb8d87b012153b85c34b2acac4fa18e\",\"html_value\":\"\"}","f0b6355c6cab9440532f1575df04bfd5":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [test-record-name-input]\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [test-record-name-input]: (empty) in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-name-input\",\"index\":0,\"type\":\"text\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-name-input\",\"hash\":\"f0b6355c6cab9440532f1575df04bfd5\",\"html_value\":\"\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot/>
+        <snapshot display_value="e8ce612baa1b5836138b8445c8749dcf">14e7466078a22300477e2a21fd7bdc6e</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-30 22:51:05</sys_created_on>
         <sys_id>6c0a4af809902300477eff6747ec943c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Set Component Values (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_6c0a4af809902300477eff6747ec943c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-30 22:53:26</sys_updated_on>
+        <sys_updated_on>2018-12-20 00:23:45</sys_updated_on>
         <table/>
         <test display_value="0830 Service Portal">8f47063809902300477eff6747ec94e1</test>
         <timeout/>

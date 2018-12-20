@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click on the button with id 'ok_button' within the modal UI page 'delete_confirm_form'
+With a failure timeout of 5 Seconds</description>
+        <display_name>Click Modal Button</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Click Modal Button">22aed143dfe0220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 22:33:42</sys_created_on>
+        <sys_id>f89ee96078622300477e2a21fd7bdc38</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Click Modal Button</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_f89ee96078622300477e2a21fd7bdc38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 22:36:27</sys_updated_on>
+        <table/>
+        <test display_value="parallel testing - Test 003">a0fd616078622300477e2a21fd7bdcdd</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f89ee96078622300477e2a21fd7bdc38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f89ee96078622300477e2a21fd7bdc38</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 22:33:42</sys_created_on>
+        <sys_id>14bee96078622300477e2a21fd7bdcf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 22:33:42</sys_updated_on>
+        <value>03d773dfc32310000f343b251eba8fd8</value>
+        <variable display_value="">6fe5aad0c3302200f25d174292d3aeba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f89ee96078622300477e2a21fd7bdc38</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 22:33:42</sys_created_on>
+        <sys_id>18bee96078622300477e2a21fd7bdc7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 22:33:42</sys_updated_on>
+        <value>ok_button</value>
+        <variable display_value="">a325ae60c3302200f25d174292d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f89ee96078622300477e2a21fd7bdc38</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 22:33:42</sys_created_on>
+        <sys_id>54bee96078622300477e2a21fd7bdc7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 22:36:28</sys_updated_on>
+        <value/>
+        <variable display_value="">22cf38c26721130091d005225685ef81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f89ee96078622300477e2a21fd7bdc38</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-19 22:33:42</sys_created_on>
+        <sys_id>d8bee96078622300477e2a21fd7bdc7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-19 22:36:28</sys_updated_on>
+        <value/>
+        <variable display_value="">6354395e6761130091d005225685ef4e</variable>
+    </sys_variable_value>
+</record_update>

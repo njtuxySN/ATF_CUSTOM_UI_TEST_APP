@@ -11,20 +11,20 @@
         <mugshots_cache_json>{"a55289df790d4af04c5dc08e9d3b8c5c":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [test-record-name-input]\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [test-record-name-input]: a new input name in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-name-input\",\"index\":0,\"type\":\"text\",\"get_value_result\":\"a new input name\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"a new input name\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-name-input\",\"hash\":\"a55289df790d4af04c5dc08e9d3b8c5c\",\"html_value\":\"a new input name\"}","76da4c2f0bf5460bcda288bc317273c2":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [test-record-number-input]\",\"role\":\"textbox\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [test-record-number-input]: 111111111 in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"test-record-number-input\",\"index\":1,\"type\":\"text\",\"get_value_result\":\"111111111\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"111111111\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"test-record-number-input\",\"hash\":\"76da4c2f0bf5460bcda288bc317273c2\",\"html_value\":\"111111111\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot/>
+        <snapshot display_value="e06583ec9dbd4202d66793f5af38b404">ece7466078a22300477e2a21fd7bdcbc</snapshot>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-30 22:52:41</sys_created_on>
         <sys_id>e36acaf809902300477eff6747ec94be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Component Value Validation (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_e36acaf809902300477eff6747ec94be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-30 22:53:30</sys_updated_on>
+        <sys_updated_on>2018-12-20 00:23:46</sys_updated_on>
         <table/>
         <test display_value="0830 Service Portal">8f47063809902300477eff6747ec94e1</test>
         <timeout/>

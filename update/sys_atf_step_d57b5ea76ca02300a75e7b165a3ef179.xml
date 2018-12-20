@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"c3a5b44a593e24c67e0f91baab95ee8f":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Button &lt;a&gt;: Slow open new incident\",\"inner_text\":\"Slow open new incident\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;a&gt;: Slow open new incident in page area ATF_TEST_WIDGET_01\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Slow open new incident\",\"index\":2,\"type\":\"\",\"get_value_result\":\"Slow open new incident\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"c3a5b44a593e24c67e0f91baab95ee8f\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="7353af81c4b75bcccf0b9c91356b17f4">508e5a2b6ca02300a75e7b165a3ef1a9</snapshot>
+        <snapshot display_value="a122f40dd0105287977035ae01af14f9">a4674e2078a22300477e2a21fd7bdc56</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-20 23:25:41</sys_created_on>
         <sys_id>d57b5ea76ca02300a75e7b165a3ef179</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_d57b5ea76ca02300a75e7b165a3ef179</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-20 23:38:49</sys_updated_on>
+        <sys_updated_on>2018-12-20 00:21:35</sys_updated_on>
         <table/>
         <test display_value="test service portal">da3bdaa76ca02300a75e7b165a3ef1db</test>
         <timeout/>
