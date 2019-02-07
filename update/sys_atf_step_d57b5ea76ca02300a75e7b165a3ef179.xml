@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"c3a5b44a593e24c67e0f91baab95ee8f":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Button &lt;a&gt;: Slow open new incident\",\"inner_text\":\"Slow open new incident\",\"role\":\"button\",\"sn_atf_mugshot_long_description\":\"Button &lt;a&gt;: Slow open new incident in page area ATF_TEST_WIDGET_01\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Slow open new incident\",\"index\":2,\"type\":\"\",\"get_value_result\":\"Slow open new incident\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"c3a5b44a593e24c67e0f91baab95ee8f\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="09fc487ff737d611913b3bf59879c3cf">21e9ba9d09722300477e778bb215797e</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
