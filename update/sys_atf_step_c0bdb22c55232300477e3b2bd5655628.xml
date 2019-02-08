@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"e069b24a6fcab357df0e32fcff7814e1":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Go to test portal\",\"inner_text\":\"Go to test portal\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Go to test portal\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Go to test portal\",\"index\":3,\"type\":\"button\",\"get_value_result\":\"Go to test portal\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Go to test portal\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"e069b24a6fcab357df0e32fcff7814e1\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot/>
+        <snapshot display_value="159c6d78538efad07a690e48a3855a65">bb652fac55632300477e3b2bd5655604</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-07 21:21:46</sys_created_on>
         <sys_id>c0bdb22c55232300477e3b2bd5655628</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_c0bdb22c55232300477e3b2bd5655628</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-07 21:21:46</sys_updated_on>
+        <sys_updated_on>2019-02-08 00:15:17</sys_updated_on>
         <table/>
         <test display_value="02.07.2019 Insert Record via Portal Widget">33e6ba7fbc402300477e2816b5741829</test>
         <timeout/>

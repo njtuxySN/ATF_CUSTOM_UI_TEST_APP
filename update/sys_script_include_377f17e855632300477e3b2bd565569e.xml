@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_atf_test_app_wit.insert_some_thing</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>insert_some_thing</name>
+        <script><![CDATA[var insert_some_thing = Class.create();
+
+
+insert_some_thing.prototype = {
+    initialize: function() {
+    },
+	
+	process: function(name, number){
+		gs.info("Debug: going to insert test record");
+		//Type appropriate comment here, and begin script below
+		//console.log("going to insert a record to table: x_atf_test_app_wit_yan_test_table");
+		
+		//var start = new Date().getTime();
+		//var end = start;
+		//while(end < start + 10000) {
+			//end = new Date().getTime();
+		//}	
+
+		var counter=0;
+		while(counter < 1000) {
+			var gr = new GlideRecord('x_atf_test_app_wit_yan_test_table');
+			gr.initialize();
+			gr.number = counter;
+			gr.name = name;
+			counter++;
+			gr.insert();
+		}
+	},
+
+    type: 'insert_some_thing'
+};
+
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-07 23:51:19</sys_created_on>
+        <sys_id>377f17e855632300477e3b2bd565569e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>insert_some_thing</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_script_include_377f17e855632300477e3b2bd565569e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 00:31:47</sys_updated_on>
+    </sys_script_include>
+</record_update>
