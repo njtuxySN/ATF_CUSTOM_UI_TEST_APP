@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"e069b24a6fcab357df0e32fcff7814e1":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Go to test portal\",\"inner_text\":\"Go to test portal\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Go to test portal\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Go to test portal\",\"index\":3,\"type\":\"button\",\"get_value_result\":\"Go to test portal\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Go to test portal\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"e069b24a6fcab357df0e32fcff7814e1\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot display_value="159c6d78538efad07a690e48a3855a65">bb652fac55632300477e3b2bd5655604</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
