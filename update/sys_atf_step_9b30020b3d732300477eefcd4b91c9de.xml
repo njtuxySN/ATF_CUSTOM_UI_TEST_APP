@@ -86,4 +86,16 @@ With a failure timeout of 5 Seconds</description>
         <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
         <value>short_description={{parameter['0730cec73d732300477eefcd4b91c96b'].u_my_incident_description}}^caller_id={{parameter['0730cec73d732300477eefcd4b91c96b'].u_my_caller}}^EQ</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9b30020b3d732300477eefcd4b91c9de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:39</sys_created_on>
+        <sys_id>1aca5ac73db32300477eefcd4b91c928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:39</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
 </record_update>
