@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="name" label="Name" language="en" table="x_atf_test_app_wit_yan_test_table">
+    <sys_documentation element="u_my_incident" label="my_incident" language="en" table="var__m_sys_atf_parameter_variable_23d9f5033d732300477eefcd4b91c983">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>u_my_incident</element>
             <help/>
             <hint/>
-            <label>Name</label>
+            <label>my_incident</label>
             <language>en</language>
-            <name>x_atf_test_app_wit_yan_test_table</name>
-            <plural>Names</plural>
+            <name>var__m_sys_atf_parameter_variable_23d9f5033d732300477eefcd4b91c983</name>
+            <plural>my_incident</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-03 19:20:42</sys_created_on>
-            <sys_id>25b8354f3d332300477eefcd4b91c9d4</sys_id>
+            <sys_created_on>2019-02-27 21:15:33</sys_created_on>
+            <sys_id>821cf5433d732300477eefcd4b91c9b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Name</sys_name>
+            <sys_name>my_incident</sys_name>
             <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
             <sys_policy/>
             <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-            <sys_update_name>sys_documentation_x_atf_test_app_wit_yan_test_table_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_atf_parameter_variable_23d9f5033d732300477eefcd4b91c983_u_my_incident_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-03 19:20:42</sys_updated_on>
+            <sys_updated_on>2019-02-27 21:15:33</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
