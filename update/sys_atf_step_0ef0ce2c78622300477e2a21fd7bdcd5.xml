@@ -27,6 +27,7 @@ and Caller = Adela Cervantsz</description>
         <table>incident</table>
         <test display_value="parallel testing - Test 007">c5700e2c78622300477e2a21fd7bdc57</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=0ef0ce2c78622300477e2a21fd7bdcd5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

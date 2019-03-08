@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>sample_number = 2,222
+sample_text = bbb</description>
+        <order>2</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-08 22:52:51</sys_created_on>
+        <sys_id>66a8eccaf54033007460a50bace4b016</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_66a8eccaf54033007460a50bace4b016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-08 22:53:34</sys_updated_on>
+        <test display_value="0830 Service Portal">8f47063809902300477eff6747ec94e1</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=66a8eccaf54033007460a50bace4b016"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>66a8eccaf54033007460a50bace4b016</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-08 22:53:34</sys_created_on>
+        <sys_id>65d8240ef54033007460a50bace4b0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-08 22:53:34</sys_updated_on>
+        <value>2222</value>
+        <variable display_value="">cfb8e00ef54033007460a50bace4b093</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>66a8eccaf54033007460a50bace4b016</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-08 22:52:51</sys_created_on>
+        <sys_id>87a8eccaf54033007460a50bace4b002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-08 22:52:51</sys_updated_on>
+        <value>bbb</value>
+        <variable display_value="">cd986ccaf54033007460a50bace4b0f8</variable>
+    </sys_variable_value>
+</record_update>

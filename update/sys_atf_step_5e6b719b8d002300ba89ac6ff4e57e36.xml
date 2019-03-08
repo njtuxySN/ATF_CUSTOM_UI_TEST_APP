@@ -28,6 +28,7 @@
         <table/>
         <test display_value="08.25 radio test button on html page">4238391b8d002300ba89ac6ff4e57e11</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=5e6b719b8d002300ba89ac6ff4e57e36"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

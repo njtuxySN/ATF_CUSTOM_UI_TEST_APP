@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Call rest api on widget">d564ef6c55632300477e3b2bd565568d</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=43a4e3ac55632300477e3b2bd56556d6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

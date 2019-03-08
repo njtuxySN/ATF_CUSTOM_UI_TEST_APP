@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Reproduce Snapshot Issue">6efdfa684d402300ba89276729785c97</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=e41e3e684d402300ba89276729785ca0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

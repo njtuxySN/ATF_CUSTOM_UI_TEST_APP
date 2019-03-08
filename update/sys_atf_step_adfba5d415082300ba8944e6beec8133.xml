@@ -26,6 +26,7 @@ e71cab2d95ebd08bdaeff100ca5ed4b1=atf new name^e6560913fc9f6f878ced8309eebc8dea=1
         <table/>
         <test display_value="08.21 Test Service Portal 1 - should pass but failed with angular input issue.">9c6bad9415082300ba8944e6beec8177</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=adfba5d415082300ba8944e6beec8133"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

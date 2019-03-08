@@ -27,6 +27,7 @@ With a failure timeout of 5 Seconds</description>
         <table>sc_task</table>
         <test display_value="parallel testing 001 &amp; 002  - Test Rollback works">6beaa16c78222300477e2a21fd7bdcff</test>
         <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=74bb696c78222300477e2a21fd7bdc2c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

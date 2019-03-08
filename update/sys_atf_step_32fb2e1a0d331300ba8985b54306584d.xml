@@ -25,6 +25,7 @@
         <table>kb_knowledge</table>
         <test display_value="Happy path for Assert Text On Page">befb2e1a0d331300ba8985b543065843</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=32fb2e1a0d331300ba8985b54306584d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

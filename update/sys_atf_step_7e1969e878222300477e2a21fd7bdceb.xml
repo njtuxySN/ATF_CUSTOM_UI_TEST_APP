@@ -28,6 +28,7 @@ and Description = parallel testing - Test 002 -  See whether it works</descripti
         <table>sc_task</table>
         <test display_value="parallel testing - Test 002">ba1969e878222300477e2a21fd7bdce2</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=7e1969e878222300477e2a21fd7bdceb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

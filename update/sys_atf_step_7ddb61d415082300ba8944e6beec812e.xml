@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.21 Test Service Portal 1 - should pass but failed with angular input issue.">9c6bad9415082300ba8944e6beec8177</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=7ddb61d415082300ba8944e6beec812e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

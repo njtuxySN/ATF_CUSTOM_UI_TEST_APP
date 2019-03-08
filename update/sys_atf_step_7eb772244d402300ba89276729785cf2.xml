@@ -26,6 +26,7 @@ f014013949bec63050a8330e9d0fc0ac=Santa Clara^EQ</description>
         <table/>
         <test display_value="Radio Button Happy Path Test">0606b2604d402300ba89276729785ce0</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=7eb772244d402300ba89276729785cf2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

@@ -26,6 +26,7 @@
         <table/>
         <test display_value="08.21 Test_Custom_Control">fe731aa14d806300ba89276729785c43</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=dafc0bb135402300ba898d635a007f04"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

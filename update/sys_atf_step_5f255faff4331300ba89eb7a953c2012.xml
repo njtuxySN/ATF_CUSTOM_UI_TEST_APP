@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Test_set_value_basic">13e4976ff4331300ba89eb7a953c20a7</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=5f255faff4331300ba89eb7a953c2012"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

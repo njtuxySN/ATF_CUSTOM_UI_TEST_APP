@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.28. test all input types">7ddc7233bc802300477e2816b57418ad</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=9cfcb233bc802300477e2816b574188f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

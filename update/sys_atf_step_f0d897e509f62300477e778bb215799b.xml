@@ -28,6 +28,7 @@ and Caller = Abel Tuter</description>
         <table>incident</table>
         <test display_value="Parameterized Test">d93897a509f62300477e778bb215798e</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=f0d897e509f62300477e778bb215799b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

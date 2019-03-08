@@ -27,6 +27,7 @@
         <table/>
         <test display_value="0918 Radio button">ccfb733ac9202300a75ea68477e0d6a0</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=10dcfbbac9202300a75ea68477e0d6c1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

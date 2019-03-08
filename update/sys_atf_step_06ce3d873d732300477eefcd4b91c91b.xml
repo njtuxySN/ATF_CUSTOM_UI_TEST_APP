@@ -27,6 +27,7 @@ and Caller = Abel Tuter</description>
         <table>incident</table>
         <test display_value="Parallel Test - Incident Table 01">639e35873d732300477eefcd4b91c9fa</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=06ce3d873d732300477eefcd4b91c91b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

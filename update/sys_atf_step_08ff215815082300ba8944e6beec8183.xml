@@ -26,6 +26,7 @@ With a failure timeout of 5 Seconds</description>
         <table/>
         <test display_value="08.21 Test Service Portal 1 - should pass but failed with angular input issue.">9c6bad9415082300ba8944e6beec8177</test>
         <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=08ff215815082300ba8944e6beec8183"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

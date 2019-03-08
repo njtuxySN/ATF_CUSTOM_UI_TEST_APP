@@ -28,6 +28,7 @@ and Description = My department could really use this shiny, new thing. Please?<
         <table>sc_task</table>
         <test display_value="parallel testing - Test 001">78386d2878222300477e2a21fd7bdcba</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=01386d2878222300477e2a21fd7bdcd5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

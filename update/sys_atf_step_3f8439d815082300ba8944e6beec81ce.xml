@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.21 Test Service Portal 2  - failes on IE11 and Edge">b410b15815082300ba8944e6beec8127</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=3f8439d815082300ba8944e6beec81ce"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

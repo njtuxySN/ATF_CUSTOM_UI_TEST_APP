@@ -26,6 +26,7 @@
         <table/>
         <test display_value="Something wrong with this test">59d28ec9b4b35300ba892e9f28ae79c8</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=15d2cec9b4b35300ba892e9f28ae7944"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

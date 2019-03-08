@@ -26,6 +26,7 @@ ca4dbfbbec992cfa189492b68d717528=orange^EQ</description>
         <table/>
         <test display_value="Test_set_value_basic">13e4976ff4331300ba89eb7a953c20a7</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=8e55d3eff4331300ba89eb7a953c20ae"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

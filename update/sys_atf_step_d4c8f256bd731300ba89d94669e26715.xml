@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Happy path for Assert Text On Page">befb2e1a0d331300ba8985b543065843</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=d4c8f256bd731300ba89d94669e26715"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

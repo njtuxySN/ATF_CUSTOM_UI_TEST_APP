@@ -25,6 +25,7 @@
         <table/>
         <test display_value="parallel testing - Test 004">18a0b12478622300477e2a21fd7bdcfb</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=4b61792478622300477e2a21fd7bdc4d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

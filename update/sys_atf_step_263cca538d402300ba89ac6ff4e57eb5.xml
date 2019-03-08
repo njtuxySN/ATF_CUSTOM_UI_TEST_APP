@@ -27,6 +27,7 @@
         <table/>
         <test display_value="08.25 radio button on service portal">ee0c8a538d402300ba89ac6ff4e57e5c</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=263cca538d402300ba89ac6ff4e57eb5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

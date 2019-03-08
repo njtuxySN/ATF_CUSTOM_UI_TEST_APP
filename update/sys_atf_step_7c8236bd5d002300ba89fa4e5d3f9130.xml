@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.21 - Test Basic UI - Passed">2a2fa6f95d002300ba89fa4e5d3f91ee</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=7c8236bd5d002300ba89fa4e5d3f9130"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

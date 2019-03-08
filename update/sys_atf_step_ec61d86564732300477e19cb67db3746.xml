@@ -25,6 +25,7 @@
         <table/>
         <test display_value="parallel test  - sc task table update 03">ac61d86564732300477e19cb67db373b</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=ec61d86564732300477e19cb67db3746"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

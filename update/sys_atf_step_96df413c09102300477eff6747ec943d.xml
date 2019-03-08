@@ -25,6 +25,7 @@
         <table>sys_ui_page</table>
         <test display_value="My New Test">ed8ec5f809102300477eff6747ec9436</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=96df413c09102300477eff6747ec943d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

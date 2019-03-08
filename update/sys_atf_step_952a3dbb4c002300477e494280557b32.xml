@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.27 Radio button on regular page">b41af9bb4c002300477e494280557bcb</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=952a3dbb4c002300477e494280557b32"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

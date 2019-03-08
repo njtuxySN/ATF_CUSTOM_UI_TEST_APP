@@ -26,6 +26,7 @@
         <table>incident</table>
         <test display_value="Parameterized Test - Reference type - incident 02">0730cec73d732300477eefcd4b91c96b</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=0f30020b3d732300477eefcd4b91c9bc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

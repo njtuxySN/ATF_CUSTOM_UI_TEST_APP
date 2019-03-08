@@ -25,6 +25,7 @@
         <table>incident</table>
         <test display_value="parallel testing - Test 007">c5700e2c78622300477e2a21fd7bdc57</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=2bb08e2c78622300477e2a21fd7bdc30"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

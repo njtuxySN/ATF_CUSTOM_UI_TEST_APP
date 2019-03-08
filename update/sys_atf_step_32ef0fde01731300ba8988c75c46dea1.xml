@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Test Different Components in NESTED iframes">8dc40bda01731300ba8988c75c46de62</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=32ef0fde01731300ba8988c75c46dea1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

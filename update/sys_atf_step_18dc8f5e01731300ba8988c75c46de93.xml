@@ -26,6 +26,7 @@ e3bfdf4f8c276c20673e69aea0a4f5d9=regular text^85b7ebf53443251ded546760d470f71d=o
         <table/>
         <test display_value="Test Different Components in NESTED iframes">8dc40bda01731300ba8988c75c46de62</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=18dc8f5e01731300ba8988c75c46de93"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

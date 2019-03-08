@@ -27,6 +27,7 @@ With a failure timeout of 5 Seconds</description>
         <table>x_atf_test_app_wit_yan_test_table</table>
         <test display_value="02.07.2019 Insert Record via Portal Widget">33e6ba7fbc402300477e2816b5741829</test>
         <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=e9a5efac55632300477e3b2bd5655629"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

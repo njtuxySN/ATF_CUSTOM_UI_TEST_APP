@@ -26,6 +26,7 @@ e71cab2d95ebd08bdaeff100ca5ed4b1=I am a temp record and will be gone^e6560913fc9
         <table/>
         <test display_value="Page Rediretions">df3c3ad201731300ba8988c75c46dedf</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=522d7a9601731300ba8988c75c46de3c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

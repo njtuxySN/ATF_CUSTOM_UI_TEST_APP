@@ -25,6 +25,7 @@
         <table/>
         <test display_value="02.07.2019 Insert Record via Portal Widget">33e6ba7fbc402300477e2816b5741829</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=a2477e7fbc402300477e2816b57418f8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

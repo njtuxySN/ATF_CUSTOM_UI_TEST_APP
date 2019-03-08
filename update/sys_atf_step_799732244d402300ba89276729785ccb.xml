@@ -26,6 +26,7 @@
         <table/>
         <test display_value="Radio Button Happy Path Test">0606b2604d402300ba89276729785ce0</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=799732244d402300ba89276729785ccb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

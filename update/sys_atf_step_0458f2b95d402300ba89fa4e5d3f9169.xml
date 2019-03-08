@@ -26,6 +26,7 @@
         <table/>
         <test display_value="08.21 Set select value - Fails on IE11">cd0832b95d402300ba89fa4e5d3f9158</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=0458f2b95d402300ba89fa4e5d3f9169"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

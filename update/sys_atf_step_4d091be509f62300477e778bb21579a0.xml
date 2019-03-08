@@ -25,6 +25,7 @@
         <table/>
         <test display_value="Parameterized Test">d93897a509f62300477e778bb215798e</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=4d091be509f62300477e778bb21579a0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

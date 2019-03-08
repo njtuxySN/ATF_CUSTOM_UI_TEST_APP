@@ -26,6 +26,7 @@ d7481f66a1e5ba6718d25fcc69d5ce10=v_Mexico^EQ</description>
         <table/>
         <test display_value="08.21 Test Radio Button - Fails on IE11">0825d7e04d802300ba89276729785cbd</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=cc889f244d802300ba89276729785c91"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

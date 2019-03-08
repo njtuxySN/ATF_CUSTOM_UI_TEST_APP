@@ -25,6 +25,7 @@
         <table/>
         <test display_value="08.27 test playground">ec91d2b34c402300477e494280557b13</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=7144d6f34c402300477e494280557b37"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

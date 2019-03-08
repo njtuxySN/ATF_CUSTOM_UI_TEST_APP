@@ -25,6 +25,7 @@
         <table/>
         <test display_value="page redirections_new">7aadbc18cd002300ba89ca4fb8232710</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=98cdbc18cd002300ba89ca4fb823277f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

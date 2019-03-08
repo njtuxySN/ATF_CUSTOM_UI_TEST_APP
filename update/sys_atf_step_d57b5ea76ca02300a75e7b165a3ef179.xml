@@ -25,6 +25,7 @@
         <table/>
         <test display_value="test service portal">da3bdaa76ca02300a75e7b165a3ef1db</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=d57b5ea76ca02300a75e7b165a3ef179"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

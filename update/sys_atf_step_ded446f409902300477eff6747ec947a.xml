@@ -25,6 +25,7 @@
         <table/>
         <test display_value="PRB fix">e566f57c09502300477eff6747ec9407</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=ded446f409902300477eff6747ec947a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

@@ -29,6 +29,7 @@ Confirm the record was successfully updated</description>
         <table>sc_task</table>
         <test display_value="parallel test - sc task table update 04 - server side">13e4d17258332300477e7e1a03226bb4</test>
         <timeout/>
+        <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=9bf4157258332300477e7e1a03226b72"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
