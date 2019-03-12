@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Serial number starts with {{Parameters.my_serial_number}}
+and Owned by = {{Parameters.my_owner}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:07:09</sys_created_on>
+        <sys_id>a5848d9b4d403300477e59330a15101b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_a5848d9b4d403300477e59330a15101b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:07:22</sys_updated_on>
+        <table>alm_hardware</table>
+        <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a5848d9b4d403300477e59330a15101b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5848d9b4d403300477e59330a15101b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:07:09</sys_created_on>
+        <sys_id>34948d9b4d403300477e59330a15105e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:07:22</sys_updated_on>
+        <value>serial_numberSTARTSWITH{{parameter['1de0415b4d403300477e59330a151067'].u_my_serial_number}}^owned_by={{parameter['1de0415b4d403300477e59330a151067'].u_my_owner}}^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5848d9b4d403300477e59330a15101b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:07:09</sys_created_on>
+        <sys_id>38948d9b4d403300477e59330a15105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:07:09</sys_updated_on>
+        <value>alm_hardware</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5848d9b4d403300477e59330a15101b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a5848d9b4d403300477e59330a15101b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:07:09</sys_created_on>
+        <sys_id>b0948d9b4d403300477e59330a15105e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:07:22</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>serial_numberSTARTSWITH{{parameter['1de0415b4d403300477e59330a151067'].u_my_serial_number}}^owned_by={{parameter['1de0415b4d403300477e59330a151067'].u_my_owner}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="name" label="Name" language="en" table="x_atf_test_app_wit_yan_test_table">
+    <sys_documentation element="u_my_owner" label="my_owner" language="en" table="var__m_sys_atf_parameter_variable_1de0415b4d403300477e59330a151067">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>u_my_owner</element>
             <help/>
             <hint/>
-            <label>Name</label>
+            <label>my_owner</label>
             <language>en</language>
-            <name>x_atf_test_app_wit_yan_test_table</name>
-            <plural>Names</plural>
+            <name>var__m_sys_atf_parameter_variable_1de0415b4d403300477e59330a151067</name>
+            <plural>my_owner</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-03 19:20:42</sys_created_on>
-            <sys_id>ea96389bc5003300477e2c94dff5e9dd</sys_id>
+            <sys_created_on>2019-03-12 22:05:22</sys_created_on>
+            <sys_id>6224899b4d403300477e59330a151069</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Name</sys_name>
+            <sys_name>my_owner</sys_name>
             <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
             <sys_policy/>
             <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
-            <sys_update_name>sys_documentation_x_atf_test_app_wit_yan_test_table_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_atf_parameter_variable_1de0415b4d403300477e59330a151067_u_my_owner_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-03 19:20:42</sys_updated_on>
+            <sys_updated_on>2019-03-12 22:05:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

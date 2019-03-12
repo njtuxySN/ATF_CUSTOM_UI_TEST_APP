@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>my_serial_number = AAA-AAAAA-AAAA001
+my_owner = Abel Tuter</description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:05:50</sys_created_on>
+        <sys_id>fb24c99b4d403300477e59330a1510f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_fb24c99b4d403300477e59330a1510f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:05:50</sys_updated_on>
+        <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=fb24c99b4d403300477e59330a1510f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>fb24c99b4d403300477e59330a1510f2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:05:50</sys_created_on>
+        <sys_id>51440d9b4d403300477e59330a151085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:05:50</sys_updated_on>
+        <value>AAA-AAAAA-AAAA001</value>
+        <variable display_value="">0004499b4d403300477e59330a151079</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>fb24c99b4d403300477e59330a1510f2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-12 22:05:50</sys_created_on>
+        <sys_id>9d440d9b4d403300477e59330a151084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 22:05:50</sys_updated_on>
+        <value>62826bf03710200044e0bfc8bcbe5df1</value>
+        <variable display_value="">dc14899b4d403300477e59330a15109e</variable>
+    </sys_variable_value>
+</record_update>
