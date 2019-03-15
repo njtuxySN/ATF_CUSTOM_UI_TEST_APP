@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-15 23:07:56</sys_created_on>
+        <sys_id>2d3fec5c95503300477e27539c8ff890</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fbdb806164732300477e19cb67db3788</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_2d3fec5c95503300477e27539c8ff890</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-15 23:07:56</sys_updated_on>
+        <test display_value="parallel test  - sc task table update 01">fbdb806164732300477e19cb67db3788</test>
+        <test_suite display_value="My parent Suite">dc3fec5c95503300477e27539c8ff825</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
