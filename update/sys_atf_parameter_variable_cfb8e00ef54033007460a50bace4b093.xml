@@ -39,7 +39,7 @@
         <label>sample_number</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="0830 Service Portal">8f47063809902300477eff6747ec94e1</model>
+        <model display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</model>
         <model_id>8f47063809902300477eff6747ec94e1</model_id>
         <model_table/>
         <name>var__m_sys_atf_parameter_variable_8f47063809902300477eff6747ec94e1</name>

@@ -20,6 +20,7 @@ my_caller = Abraham Lincoln</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-02-27 22:19:58</sys_updated_on>
         <test display_value="Parameterized Test - Reference type - incident - 01">23d9f5033d732300477eefcd4b91c983</test>
+        <u_my_table/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=ab4c79433d732300477eefcd4b91c96e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

@@ -19,6 +19,7 @@ my_owner = Adela Cervantsz</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-12 22:06:23</sys_updated_on>
         <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+        <u_my_table/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=ce540d9b4d403300477e59330a1510d1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

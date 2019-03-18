@@ -20,6 +20,7 @@ my_caller = Adela Cervantsz</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
         <test display_value="Parameterized Test - Reference type - incident 02 copy">06cad6c73db32300477eefcd4b91c99d</test>
+        <u_my_table/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=d2ca1ac73db32300477eefcd4b91c9ff"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

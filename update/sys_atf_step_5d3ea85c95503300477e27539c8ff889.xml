@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Impersonate">3298e41895503300477e27539c8ff8af</copied_from>
+        <copied_from display_value="">3298e41895503300477e27539c8ff8af</copied_from>
         <description>Impersonate the user: ATF User with user Id: ATF.User</description>
         <display_name>Impersonate</display_name>
         <inputs/>

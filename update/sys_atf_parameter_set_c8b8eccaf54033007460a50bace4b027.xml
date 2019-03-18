@@ -18,7 +18,8 @@ sample_text = ddd</description>
         <sys_update_name>sys_atf_parameter_set_c8b8eccaf54033007460a50bace4b027</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-08 22:53:44</sys_updated_on>
-        <test display_value="0830 Service Portal">8f47063809902300477eff6747ec94e1</test>
+        <test display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</test>
+        <u_my_table/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=c8b8eccaf54033007460a50bace4b027"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
