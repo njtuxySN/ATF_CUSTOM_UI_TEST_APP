@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sample_text" label="sample_text" language="en" table="var__m_sys_atf_parameter_variable_891ea3c510503300477ea5bb5072db3f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sample_text</element>
+            <help/>
+            <hint/>
+            <label>sample_text</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_891ea3c510503300477ea5bb5072db3f</name>
+            <plural>sample_text</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-18 20:57:07</sys_created_on>
+            <sys_id>111ee3c510503300477ea5bb5072db8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sample_text</sys_name>
+            <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_atf_parameter_variable_891ea3c510503300477ea5bb5072db3f_u_sample_text_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-18 20:57:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
