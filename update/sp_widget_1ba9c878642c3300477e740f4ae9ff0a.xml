@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope, $scope, spUtil) {
+  /* widget controller */
+  var c = this;	
+	$scope.rows = [];	
+	$scope.addRow = function(test_name, test_runner, repeat_time) {  
+		console.log("repeat time: " + repeat_time);
+		if( test_name != null && test_runner != null){		
+			var row = {
+				test_name: test_name,
+				test_runner: test_runner,
+				repeat_time: repeat_time
+			}		
+			$scope.rows.push(row);
+			console.log($scope.rows);			
+		}else{
+			spUtil.addErrorMessage("make sure you have selected both test and test runner!");
+		}
+
+  }
+	
+
+	$scope.addScript = function(utTestSysId, testRunnerSessionId){
+		//console.log("val: " + val);
+		var script = "new sn_atf.ExecuteUserTest().setCapturePageData(\"" + utTestSysId+ "\", \"false\").setTestRecordSysId(\"" + utTestSysId + "\").setTestRunnerSessionId(\""+testRunnerSessionId+"\").start()";
+		$("textarea#script").val(script);
+		c.data.run_command = true;
+		c.data.utTestSysId = utTestSysId;
+		c.data.testRunnerSessionId = testRunnerSessionId;
+		c.server.update().then(function() {			
+		});
+	}	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>ATF_Scriptables</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	data.rows = ["row1", "row2"];
+	
+	get_all_tests();	
+	get_all_active_test_runners();
+	//get all available test runners
+	function get_all_active_test_runners(){
+		data.active_test_runners = [];
+		data.fields = 'browser_name, session_id, os_name';
+		var gr = new GlideRecord("sys_atf_agent");
+		gr.addQuery("status", "online");
+		gr.query();
+		while(gr.next()){
+			var record = {};
+			$sp.getRecordElements(record, gr, data.fields);
+			data.active_test_runners.push(record);
+		}
+	}
+	
+	function get_all_tests(){
+		data.all_tests = [];
+		data.fields = 'name, sys_id';
+		var gr = new GlideRecord("sys_atf_test");
+		gr.addQuery("active", "true");
+		gr.orderBy("name");
+		gr.query();
+
+		while(gr.next()){
+			var record = {};
+			$sp.getRecordElements(record, gr, data.fields);
+			data.all_tests.push(record);
+		}
+	}
+	
+	if(input && input.run_command){
+		console.log("going to run script");
+		new sn_atf.ExecuteUserTest().setCapturePageData(input.utTestSysId, 'false').setTestRecordSysId(input.utTestSysId).setTestRunnerSessionId(input.testRunnerSessionId).start();
+	}
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 19:56:35</sys_created_on>
+        <sys_id>1ba9c878642c3300477e740f4ae9ff0a</sys_id>
+        <sys_mod_count>196</sys_mod_count>
+        <sys_name>ATF_Scriptables</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sp_widget_1ba9c878642c3300477e740f4ae9ff0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 22:34:17</sys_updated_on>
+        <template><![CDATA[<div style="margin-top: 50px; margin-bottom: 20px; padding: 10px; background-color: #293e40">
+   <div class="row">
+      <div class="col-lg-4 col-sm-4 col-xs-4">
+         <select class="form-control" 
+            ng-model="target_test" 
+            style="width:100%;" 
+            ng-options="(x.name.display_value) for x in c.data.all_tests">
+            <option value="">-- choose a test --</option>
+         </select>
+      </div>
+      <div class="col-lg-4 col-sm-4 col-xs-4">
+         <select class="form-control" 
+            ng-model="target_test_runner" 
+            style="100%;" 
+            ng-options="(x.os_name.display_value + ' | ' + x.browser_name.display_value) for x in c.data.active_test_runners">
+            <option value="">-- choose a test runner --</option>
+         </select>
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2"> 
+         <input class="form-control" ng-model="repeat_time" placeholder="repeat_time">
+      </div>
+      <div class="col-lg-2 col-sm-2 col-xs-2">
+         <a class="btn btn-info" role="button" data-toggle="modal" ng-click="addRow(target_test,target_test_runner, repeat_time)">Add more row</a>
+      </div>
+   </div>
+</div>
+<table width="100%" class="table table-bordered table-hover">
+   <thead>
+      <tr>
+         <th scope="col">#</th>
+         <th scope="col">Test Name</th>
+         <th scope="col">Test Runner</th>
+         <th scope="col">Repeat time</th>
+         <th scope="col"></th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr ng-repeat="row in rows">
+         <td>{{$index}}</td>
+         <td>
+            {{row.test_name.name.display_value}}
+         </td>
+         <td>
+            {{row.test_runner.os_name.display_value}}  --  {{row.test_runner.browser_name.display_value}}
+         </td>
+         <td>{{row.repeat_time}}</td>
+         <td> <a class="btn btn-primary btn-xs" role="button" data-toggle="modal" ng-click="addScript(row.test_name.sys_id.display_value, row.test_runner.session_id.display_value)">Add script</a> </td>
+      </tr>
+   </tbody>
+</table>
+
+
+<div class="form-group">
+  <label for="comment">Script:</label>
+  <textarea class="form-control" rows="5" id="script"></textarea>
+</div>]]></template>
+    </sp_widget>
+</record_update>
