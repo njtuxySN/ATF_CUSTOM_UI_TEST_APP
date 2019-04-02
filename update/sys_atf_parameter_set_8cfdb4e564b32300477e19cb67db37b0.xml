@@ -18,7 +18,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-02-23 00:53:06</sys_updated_on>
         <test display_value="Parameterized Test - 100 times">0f17202164b32300477e19cb67db37ba</test>
-        <u_u_test/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=8cfdb4e564b32300477e19cb67db37b0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

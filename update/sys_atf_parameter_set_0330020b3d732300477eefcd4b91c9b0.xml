@@ -20,7 +20,6 @@ my_caller = Abel Tuter</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-02-27 22:57:34</sys_updated_on>
         <test display_value="Parameterized Test - Reference type - incident 02">0730cec73d732300477eefcd4b91c96b</test>
-        <u_u_test/>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=0330020b3d732300477eefcd4b91c9b0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">

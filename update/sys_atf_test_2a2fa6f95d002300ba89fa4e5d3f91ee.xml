@@ -2,23 +2,25 @@
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description/>
+        <description>The click coponent step - open incident - step will take 20 seconds to open a new incident record. &#13;
+check UI page - UI PAGE 01 for page details. &#13;
+</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
-        <name>08.21 - Test Basic UI - Passed</name>
+        <name>Slow_UI_Test (20 seconds)</name>
         <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-21 17:50:57</sys_created_on>
         <sys_id>2a2fa6f95d002300ba89fa4e5d3f91ee</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>08.21 - Test Basic UI - Passed</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Slow_UI_Test (20 seconds)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_test_2a2fa6f95d002300ba89fa4e5d3f91ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-21 18:08:04</sys_updated_on>
+        <sys_updated_on>2019-04-02 20:38:38</sys_updated_on>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=2a2fa6f95d002300ba89fa4e5d3f91ee"/>
 </record_update>
