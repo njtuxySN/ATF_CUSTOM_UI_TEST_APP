@@ -36,9 +36,33 @@
 		c.server.update().then(function() {			
 		});
 	}
+	
+	$scope.add_all_active_tests_to_suite = function(target_suite){
+		if(target_suite !=null ){
+					console.log(target_suite.name);
+			c.data.add_tests_to_suite = true;
+			c.data.target_suite = target_suite;
+			c.server.update().then(function(){							
+			});
+		}else{
+			spUtil.addErrorMessage("specify a test suite!");
+		}
+
+
+
+		
+	}
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.panel-heading {
+  background-color: #293e40;
+  color: white;
+}
+
+.panel {
+  border: 1px solid black;
+  background-color: #fff;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -62,6 +86,8 @@
 	
 	get_all_tests();	
 	get_all_active_test_runners();
+	get_all_test_suites();
+	
 	//get all available test runners
 	function get_all_active_test_runners(){
 		data.active_test_runners = [];
@@ -91,6 +117,21 @@
 		}
 	}
 	
+	function get_all_test_suites(){
+		data.all_suites = [];
+		data.fields = 'name, sys_id';
+		var gr = new GlideRecord("sys_atf_test_suite");		
+		gr.orderBy("name");
+		gr.query();
+		
+		while(gr.next()){
+			var record = {};
+			$sp.getRecordElements(record, gr, data.fields);
+			data.all_suites.push(record);
+		}
+	}
+	
+	
 	if(input && input.run_command){
 		for(var i=0; i<input.rows.length; i++){
 			var repeat_time = input.rows[i].repeat_time;
@@ -112,6 +153,15 @@
 		new sn_atf.ExecuteUserTest().setCapturePageData(utTestSysId, 'false').setTestRecordSysId(utTestSysId).setTestRunnerSessionId(testRunnerSessionId).start();
 	}
 	
+	if(input && input.add_tests_to_suite){
+		var gr = new GlideRecord("sys_atf_test_suite_test");
+		gr.test_suite = input.add_tests_to_suite.sys_id;
+		gr.order = null;
+		gr.abort_on_failure = 0;
+		gr.test = '052e804c53b0220002c6435723dc34d1';
+		gr.insert();
+	}
+	
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -119,15 +169,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 19:56:35</sys_created_on>
         <sys_id>1ba9c878642c3300477e740f4ae9ff0a</sys_id>
-        <sys_mod_count>222</sys_mod_count>
+        <sys_mod_count>275</sys_mod_count>
         <sys_name>ATF_Scriptables</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sp_widget_1ba9c878642c3300477e740f4ae9ff0a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 23:07:35</sys_updated_on>
-        <template><![CDATA[<div style="margin-top: 50px; margin-bottom: 20px; padding: 10px; background-color: #293e40">
+        <sys_updated_on>2019-04-03 23:52:48</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+
+    <div class="panel-heading"> Run test from script</div>    
+  
+  <div class="panel-body">
+  
+<div style="margin-top: 50px; margin-bottom: 20px; padding: 10px; background-color: #293e40">
    <div class="row">
       <div class="col-lg-4 col-sm-4 col-xs-4">
          <select class="form-control" 
@@ -184,6 +240,32 @@
   <textarea class="form-control" rows="5" id="script"></textarea>
 </div>
 
-<a class="btn btn-info" role="button" data-toggle="modal" ng-click="run_test()">Run test</a>]]></template>
+<a class="btn btn-info" role="button" data-toggle="modal" ng-click="run_test()">Run test</a>
+</div>
+</div>
+
+<div class="panel panel-default">
+  
+  <div class="panel-heading"> Add tests to suite</div>    
+  
+  <div class="panel-body">
+       <div class="row">
+         <div class="col-lg-4 col-sm-4 col-xs-4"> 
+           <select class="form-control" 
+            ng-model="target_test_suite" 
+            style="width:100%;" 
+            ng-options="(x.name.display_value) for x in c.data.all_suites">
+            <option value="">-- choose a test suite --</option>
+         </select>
+         </div>
+         <div class="col-lg-4 col-sm-4 col-xs-4"> 
+               <a class="btn btn-success" role="button" data-toggle="modal" ng-click="add_all_active_tests_to_suite(target_test_suite)">Add All Active Test To Suite</a>
+         </div>
+           
+    </div>
+
+  </div>
+  
+</div>]]></template>
     </sp_widget>
 </record_update>
