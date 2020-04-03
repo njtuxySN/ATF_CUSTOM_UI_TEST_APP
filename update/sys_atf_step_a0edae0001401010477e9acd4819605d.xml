@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Radio button &lt;input&gt;: destination' = v_Japan
+'Radio button &lt;input&gt;: snowoffice' = v_San_Francisco
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"7af6a89e7d2bc965b73a80cbfccf010d":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snowoffice\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [SanDiego]: snowoffice with value San Diego\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snowoffice\",\"type\":\"radio\",\"version\":\"18.0\",\"label_for_input\":{\"inner_text\":\"snowoffice\"},\"get_value_result\":\"v_San_Diego\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snowoffice\",\"sn_atf_mugshot_value\":\"San Diego\",\"options\":[{\"label\":\"San Diego\",\"value\":\"v_San_Diego\"},{\"label\":\"San Francisco\",\"value\":\"v_San_Francisco\"},{\"label\":\"Santa Clara\",\"value\":\"v_Santa_Clara\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"SanDiego\",\"hash\":\"7af6a89e7d2bc965b73a80cbfccf010d\",\"html_value\":\"San Diego\"}","4c2c40ccc6a02810bbabc244bf917b6c":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: destination\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt; [i_mexico]: destination with value v_Mexico\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"destination\",\"type\":\"radio\",\"version\":\"18.0\",\"label_for_input\":{\"inner_text\":\"destination\"},\"get_value_result\":\"v_Mexico\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"destination\",\"sn_atf_mugshot_value\":\"v_Mexico\",\"options\":[{\"label\":\"v_Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"v_Japan\",\"value\":\"v_Japan\"},{\"label\":\"v_Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"isDisabled\":false,\"id\":\"i_mexico\",\"hash\":\"4c2c40ccc6a02810bbabc244bf917b6c\",\"html_value\":\"v_Mexico\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:49:27</sys_created_on>
+        <sys_id>a0edae0001401010477e9acd4819605d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_a0edae0001401010477e9acd4819605d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:49:27</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Custom UI - Radio button -  Radio button on regular page">b41af9bb4c002300477e494280557bcb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a0edae0001401010477e9acd4819605d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a0edae0001401010477e9acd4819605d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:49:27</sys_created_on>
+        <sys_id>2aedee0001401010477e9acd481960e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:49:27</sys_updated_on>
+        <value>4c2c40ccc6a02810bbabc244bf917b6c=v_Japan^7af6a89e7d2bc965b73a80cbfccf010d=v_San_Francisco^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

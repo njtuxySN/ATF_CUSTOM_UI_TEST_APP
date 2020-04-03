@@ -8,22 +8,22 @@
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot/>
+        <snapshot display_value="145a5cf065e816427afdc53724e82e08">e9cd6e0001401010477e9acd481960f0</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-27 19:07:14</sys_created_on>
         <sys_id>952a3dbb4c002300477e494280557b32</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_952a3dbb4c002300477e494280557b32</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 21:31:40</sys_updated_on>
+        <sys_updated_on>2020-04-03 19:48:51</sys_updated_on>
         <table/>
-        <test display_value="08.27 Radio button on regular page">b41af9bb4c002300477e494280557bcb</test>
+        <test display_value="Regression Test - Custom UI - Radio button -  Radio button on regular page">b41af9bb4c002300477e494280557bcb</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

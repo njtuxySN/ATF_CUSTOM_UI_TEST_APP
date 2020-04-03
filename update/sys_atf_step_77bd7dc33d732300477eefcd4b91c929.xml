@@ -23,7 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-02-27 21:22:48</sys_updated_on>
         <table/>
-        <test display_value="Parameterized Test - Reference type - incident - 01">23d9f5033d732300477eefcd4b91c983</test>
+        <test display_value="Regression Test - Parameterized Test - Reference type">23d9f5033d732300477eefcd4b91c983</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

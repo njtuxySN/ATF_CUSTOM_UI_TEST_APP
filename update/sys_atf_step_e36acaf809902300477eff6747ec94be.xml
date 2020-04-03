@@ -27,7 +27,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-08 22:58:37</sys_updated_on>
         <table/>
-        <test display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</test>
+        <test display_value="Regression Test - Custom UI -Service Portal -  Parameterized">8f47063809902300477eff6747ec94e1</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

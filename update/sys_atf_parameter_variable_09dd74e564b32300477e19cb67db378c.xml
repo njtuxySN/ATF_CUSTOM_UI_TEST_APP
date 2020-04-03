@@ -39,7 +39,7 @@
         <label>counter</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Parameterized Test - 100 times">0f17202164b32300477e19cb67db37ba</model>
+        <model display_value="Regression Test - Parameterized Test - 100 times">0f17202164b32300477e19cb67db37ba</model>
         <model_id>0f17202164b32300477e19cb67db37ba</model_id>
         <model_table/>
         <name>var__m_sys_atf_parameter_variable_0f17202164b32300477e19cb67db37ba</name>

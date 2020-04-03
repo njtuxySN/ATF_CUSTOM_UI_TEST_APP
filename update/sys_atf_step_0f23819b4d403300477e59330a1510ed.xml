@@ -26,7 +26,7 @@ and Owned by = {{Parameters.my_owner}}</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-12 22:06:50</sys_updated_on>
         <table>alm_hardware</table>
-        <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+        <test display_value="Regression Test - Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

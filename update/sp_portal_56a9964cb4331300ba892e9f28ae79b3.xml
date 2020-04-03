@@ -30,6 +30,7 @@
         <sys_updated_on>2018-08-03 19:36:02</sys_updated_on>
         <theme/>
         <title>ATF_TEST_PORTAL</title>
+        <ts_index_group/>
         <url_suffix>atf_custom_ui_test_portal</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=56a9964cb4331300ba892e9f28ae79b3"/>

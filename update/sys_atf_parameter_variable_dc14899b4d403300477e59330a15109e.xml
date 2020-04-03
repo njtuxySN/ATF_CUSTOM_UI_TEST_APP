@@ -39,7 +39,7 @@
         <label>my_owner</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</model>
+        <model display_value="Regression Test - Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</model>
         <model_id>1de0415b4d403300477e59330a151067</model_id>
         <model_table/>
         <name>var__m_sys_atf_parameter_variable_1de0415b4d403300477e59330a151067</name>

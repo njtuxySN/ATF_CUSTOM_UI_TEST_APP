@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Open an Existing Record">fa7cb9833d732300477eefcd4b91c905</copied_from>
+        <description>Open the 'Incident' form with id '{{Parameters.my_incident}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>0f30020b3d732300477eefcd4b91c9bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_0f30020b3d732300477eefcd4b91c9bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Parameterized Test - Reference type - incident 02">0730cec73d732300477eefcd4b91c96b</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=0f30020b3d732300477eefcd4b91c9bc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>0730020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>4330020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>8f30020b3d732300477eefcd4b91c9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0f30020b3d732300477eefcd4b91c9bc"/>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>0f30020b3d732300477eefcd4b91c9bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>8b30020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{parameter['0730cec73d732300477eefcd4b91c96b'].u_my_incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>view</field>
+        <id>0f30020b3d732300477eefcd4b91c9bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>deca5ac73db32300477eefcd4b91c912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>645eb6bbcd3300106b98c4fa61a949a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_step_0f30020b3d732300477eefcd4b91c9bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open an Existing Record">fa7cb9833d732300477eefcd4b91c905</copied_from>
+        <description>Open the 'Incident' form with id '{{Parameters.my_incident}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>0f30020b3d732300477eefcd4b91c9bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_0f30020b3d732300477eefcd4b91c9bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Parameterized Test - Reference type - incident 02">0730cec73d732300477eefcd4b91c96b</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0f30020b3d732300477eefcd4b91c9bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>0730020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>4330020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f30020b3d732300477eefcd4b91c9bc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>8f30020b3d732300477eefcd4b91c9bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f30020b3d732300477eefcd4b91c9bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>0f30020b3d732300477eefcd4b91c9bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 21:33:39</sys_created_on>
+        <sys_id>8b30020b3d732300477eefcd4b91c9be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 21:33:39</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{parameter['0730cec73d732300477eefcd4b91c96b'].u_my_incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>0f30020b3d732300477eefcd4b91c9bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>deca5ac73db32300477eefcd4b91c912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>]]></payload>
+        <payload_hash>1104647821</payload_hash>
+        <record_name>Open an Existing Record</record_name>
+        <reverted_from/>
+        <source>df29a60c01001010477e9acd48196046</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:28:55</sys_created_on>
+        <sys_id>fd39aa0c01001010477e9acd4819603e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1714184849e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:28:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>bd39aa0c34001010a58d1cff9b7cf03e</update_guid>
+        <update_guid_history>bd39aa0c34001010a58d1cff9b7cf03e:1104647821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 20:13:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0fc33cbe98d54d8d884fa97e2108f079</sys_id>
+        <sys_metadata>0f30020b3d732300477eefcd4b91c9bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_step_0f30020b3d732300477eefcd4b91c9bc</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_0f30020b3d732300477eefcd4b91c9bc">fd39aa0c01001010477e9acd4819603e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 20:13:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

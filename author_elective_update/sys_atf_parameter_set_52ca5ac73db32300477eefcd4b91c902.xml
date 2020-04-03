@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="DELETE">
+        <active>true</active>
+        <copied_from display_value="4">c730020b3d732300477eefcd4b91c9b6</copied_from>
+        <description>my_incident = INC0009005
+my_incident_description = new description for INC0009005
+my_caller = Abraham Lincoln</description>
+        <order>4</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>52ca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_52ca5ac73db32300477eefcd4b91c902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <test display_value="Parameterized Test - Reference type - incident 02 copy">06cad6c73db32300477eefcd4b91c99d</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="DELETE" query="document_key=52ca5ac73db32300477eefcd4b91c902"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>52ca5ac73db32300477eefcd4b91c902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>1aca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <value>ed92e8d173d023002728660c4cf6a7bc</value>
+        <variable display_value="">8aca1ac73db32300477eefcd4b91c9e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>52ca5ac73db32300477eefcd4b91c902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>daca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <value>a8f98bb0eb32010045e1a5115206fe3a</value>
+        <variable display_value="">4eca1ac73db32300477eefcd4b91c9f0</variable>
+    </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>645eb6bbcd3300106b98c4fa61a949a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_parameter_set_52ca5ac73db32300477eefcd4b91c902</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="4">c730020b3d732300477eefcd4b91c9b6</copied_from>
+        <description>my_incident = INC0009005
+my_incident_description = new description for INC0009005
+my_caller = Abraham Lincoln</description>
+        <order>4</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>52ca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_52ca5ac73db32300477eefcd4b91c902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <test display_value="Parameterized Test - Reference type - incident 02 copy">06cad6c73db32300477eefcd4b91c99d</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=52ca5ac73db32300477eefcd4b91c902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>52ca5ac73db32300477eefcd4b91c902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>1aca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <value>ed92e8d173d023002728660c4cf6a7bc</value>
+        <variable display_value="">8aca1ac73db32300477eefcd4b91c9e6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>52ca5ac73db32300477eefcd4b91c902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-27 23:29:38</sys_created_on>
+        <sys_id>daca5ac73db32300477eefcd4b91c902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-27 23:29:38</sys_updated_on>
+        <value>a8f98bb0eb32010045e1a5115206fe3a</value>
+        <variable display_value="">4eca1ac73db32300477eefcd4b91c9f0</variable>
+    </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>2114694020</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>df29a60c01001010477e9acd48196046</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:28:51</sys_created_on>
+        <sys_id>74392a0c01001010477e9acd48196046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171418474760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:28:51</sys_updated_on>
+        <type>Test Run Data Set</type>
+        <update_guid>34392a0cc4001010b6c9f611a5f19546</update_guid>
+        <update_guid_history>34392a0cc4001010b6c9f611a5f19546:2114694020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 20:13:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_parameter_set">sys_atf_parameter_set</sys_db_object>
+        <sys_id>22ced7c5dbb94ad4a43fbe618b01a010</sys_id>
+        <sys_metadata>52ca5ac73db32300477eefcd4b91c902</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_parameter_set_52ca5ac73db32300477eefcd4b91c902</sys_update_name>
+        <sys_update_version display_value="sys_atf_parameter_set_52ca5ac73db32300477eefcd4b91c902">74392a0c01001010477e9acd48196046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 20:13:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

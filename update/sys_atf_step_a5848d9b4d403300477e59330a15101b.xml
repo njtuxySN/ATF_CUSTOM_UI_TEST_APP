@@ -27,7 +27,7 @@ With a failure timeout of 5 Seconds</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-12 22:07:22</sys_updated_on>
         <table>alm_hardware</table>
-        <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+        <test display_value="Regression Test - Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
         <timeout>1970-01-01 00:00:05</timeout>
         <warning_message/>
     </sys_atf_step>

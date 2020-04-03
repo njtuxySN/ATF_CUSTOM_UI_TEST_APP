@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</copied_from>
+        <copied_from display_value="Regression Test - Custom UI -Service Portal -  Parameterized">8f47063809902300477eff6747ec94e1</copied_from>
         <description/>
         <enable_parameterized_testing>true</enable_parameterized_testing>
         <name>Parameterized Service Portal Test copy</name>

@@ -39,7 +39,7 @@
         <label>my_caller</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Parameterized Test - Reference type - incident - 01">23d9f5033d732300477eefcd4b91c983</model>
+        <model display_value="Regression Test - Parameterized Test - Reference type">23d9f5033d732300477eefcd4b91c983</model>
         <model_id>23d9f5033d732300477eefcd4b91c983</model_id>
         <model_table/>
         <name>var__m_sys_atf_parameter_variable_23d9f5033d732300477eefcd4b91c983</name>

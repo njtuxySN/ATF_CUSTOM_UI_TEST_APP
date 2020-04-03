@@ -18,7 +18,7 @@ my_owner = Adela Cervantsz</description>
         <sys_update_name>sys_atf_parameter_set_ce540d9b4d403300477e59330a1510d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-12 22:06:23</sys_updated_on>
-        <test display_value="Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
+        <test display_value="Regression Test - Parameterized Test - alc-hardware">1de0415b4d403300477e59330a151067</test>
     </sys_atf_parameter_set>
     <sys_variable_value action="delete_multiple" query="document_key=ce540d9b4d403300477e59330a1510d1"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
