@@ -25,7 +25,7 @@ and Short description = xxxx</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-20 23:26:27</sys_updated_on>
         <table>incident</table>
-        <test display_value="test service portal">da3bdaa76ca02300a75e7b165a3ef1db</test>
+        <test display_value="Regression Test - Custom UI - Parameterized - SP - Slow Redirection">da3bdaa76ca02300a75e7b165a3ef1db</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

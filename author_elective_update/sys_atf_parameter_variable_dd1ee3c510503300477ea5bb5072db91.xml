@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_variable">
+    <sys_atf_parameter_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>sample_number</column_label>
+        <comments>Exclusive Parameter</comments>
+        <copied_from display_value="">cfb8e00ef54033007460a50bace4b093</copied_from>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_sample_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>sample_number</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Parameterized Service Portal Test copy">891ea3c510503300477ea5bb5072db3f</model>
+        <model_id>891ea3c510503300477ea5bb5072db3f</model_id>
+        <model_table/>
+        <name>var__m_sys_atf_parameter_variable_891ea3c510503300477ea5bb5072db3f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_atf_parameter_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-18 20:57:07</sys_created_on>
+        <sys_id>dd1ee3c510503300477ea5bb5072db91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample_number</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_parameter_variable_dd1ee3c510503300477ea5bb5072db91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-18 20:57:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_atf_parameter_variable>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>645eb6bbcd3300106b98c4fa61a949a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_parameter_variable_dd1ee3c510503300477ea5bb5072db91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_atf_parameter_variable"&gt;
+    &lt;sys_atf_parameter_variable action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label&gt;sample_number&lt;/column_label&gt;
+        &lt;comments&gt;Exclusive Parameter&lt;/comments&gt;
+        &lt;copied_from display_value=""&gt;cfb8e00ef54033007460a50bace4b093&lt;/copied_from&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;u_sample_number&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;
+        &lt;label&gt;sample_number&lt;/label&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;40&lt;/max_length&gt;
+        &lt;model display_value="Parameterized Service Portal Test copy"&gt;891ea3c510503300477ea5bb5072db3f&lt;/model&gt;
+        &lt;model_id&gt;891ea3c510503300477ea5bb5072db3f&lt;/model_id&gt;
+        &lt;model_table/&gt;
+        &lt;name&gt;var__m_sys_atf_parameter_variable_891ea3c510503300477ea5bb5072db3f&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_atf_parameter_variable&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-03-18 20:57:07&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dd1ee3c510503300477ea5bb5072db91&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;sample_number&lt;/sys_name&gt;
+        &lt;sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit"&gt;d6e05688b4331300ba892e9f28ae798f&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs"&gt;d6e05688b4331300ba892e9f28ae798f&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_atf_parameter_variable_dd1ee3c510503300477ea5bb5072db91&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-18 20:57:07&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_atf_parameter_variable&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1195681583</payload_hash>
+        <record_name>sample_number</record_name>
+        <reverted_from/>
+        <source>df29a60c01001010477e9acd48196046</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:28:55</sys_created_on>
+        <sys_id>25396a0c01001010477e9acd481960d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171418482250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:28:55</sys_updated_on>
+        <type>Parameter Variable</type>
+        <update_guid>e1396a0c29001010e9f63d0876089ed8</update_guid>
+        <update_guid_history>e1396a0c29001010e9f63d0876089ed8:1195681583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 20:16:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_parameter_variable">sys_atf_parameter_variable</sys_db_object>
+        <sys_id>c147afaf047a41a49d61564dda49ed90</sys_id>
+        <sys_metadata>dd1ee3c510503300477ea5bb5072db91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample_number</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_parameter_variable_dd1ee3c510503300477ea5bb5072db91</sys_update_name>
+        <sys_update_version display_value="sys_atf_parameter_variable_dd1ee3c510503300477ea5bb5072db91">25396a0c01001010477e9acd481960d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 20:16:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

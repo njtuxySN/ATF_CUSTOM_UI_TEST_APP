@@ -2,23 +2,25 @@
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
         <copied_from/>
-        <description/>
+        <description>Click open new incident button on ATF Test Widget&#13;
+It waits 20 seconds and open incident form&#13;
+Set value on the incident form</description>
         <enable_parameterized_testing>true</enable_parameterized_testing>
-        <name>test service portal</name>
+        <name>Regression Test - Custom UI - Parameterized - SP - Slow Redirection</name>
         <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-20 23:24:37</sys_created_on>
         <sys_id>da3bdaa76ca02300a75e7b165a3ef1db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>test service portal</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Regression Test - Custom UI - Parameterized - SP - Slow Redirection</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_test_da3bdaa76ca02300a75e7b165a3ef1db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-08 22:49:54</sys_updated_on>
+        <sys_updated_on>2020-04-03 20:28:08</sys_updated_on>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=da3bdaa76ca02300a75e7b165a3ef1db"/>
 </record_update>

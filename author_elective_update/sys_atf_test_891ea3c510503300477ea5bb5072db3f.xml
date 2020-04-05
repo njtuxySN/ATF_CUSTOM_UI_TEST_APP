@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</copied_from>
+        <description/>
+        <enable_parameterized_testing>true</enable_parameterized_testing>
+        <name>Parameterized Service Portal Test copy</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-18 20:57:06</sys_created_on>
+        <sys_id>891ea3c510503300477ea5bb5072db3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parameterized Service Portal Test copy</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_891ea3c510503300477ea5bb5072db3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-18 20:57:06</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=891ea3c510503300477ea5bb5072db3f"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>645eb6bbcd3300106b98c4fa61a949a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_test_891ea3c510503300477ea5bb5072db3f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Parameterized Service Portal Test">8f47063809902300477eff6747ec94e1</copied_from>
+        <description/>
+        <enable_parameterized_testing>true</enable_parameterized_testing>
+        <name>Parameterized Service Portal Test copy</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-18 20:57:06</sys_created_on>
+        <sys_id>891ea3c510503300477ea5bb5072db3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parameterized Service Portal Test copy</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_891ea3c510503300477ea5bb5072db3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-18 20:57:06</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=891ea3c510503300477ea5bb5072db3f"/>
+</record_update>]]></payload>
+        <payload_hash>1052169590</payload_hash>
+        <record_name>Parameterized Service Portal Test copy</record_name>
+        <reverted_from/>
+        <source>df29a60c01001010477e9acd48196046</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 19:29:02</sys_created_on>
+        <sys_id>a3396e0c01001010477e9acd48196093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17141849fb00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 19:29:02</sys_updated_on>
+        <type>Test</type>
+        <update_guid>63396e0cf7001010f98368679db1ad93</update_guid>
+        <update_guid_history>63396e0cf7001010f98368679db1ad93:1052169590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-03 20:16:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>0e1f2c20458b4e0081d911951856b900</sys_id>
+        <sys_metadata>891ea3c510503300477ea5bb5072db3f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parameterized Service Portal Test copy</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_test_891ea3c510503300477ea5bb5072db3f</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_891ea3c510503300477ea5bb5072db3f">a3396e0c01001010477e9acd48196093</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-03 20:16:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

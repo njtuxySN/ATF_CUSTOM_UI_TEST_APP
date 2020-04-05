@@ -14,6 +14,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-04-02 20:51:05</sys_updated_on>
         <test1 display_value="Parameterized Test">d93897a509f62300477e778bb215798e</test1>
-        <test2 display_value="Slow_UI_Test (20 seconds)">2a2fa6f95d002300ba89fa4e5d3f91ee</test2>
+        <test2 display_value="Regresssion Test - Custom UI - Slow ui redirection">2a2fa6f95d002300ba89fa4e5d3f91ee</test2>
     </sys_atf_mutual_exclusion_rule>
 </record_update>

@@ -39,7 +39,7 @@
         <label>u_string</label>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <model display_value="test service portal">da3bdaa76ca02300a75e7b165a3ef1db</model>
+        <model display_value="Regression Test - Custom UI - Parameterized - SP - Slow Redirection">da3bdaa76ca02300a75e7b165a3ef1db</model>
         <model_id>da3bdaa76ca02300a75e7b165a3ef1db</model_id>
         <model_table/>
         <name>var__m_sys_atf_parameter_variable_da3bdaa76ca02300a75e7b165a3ef1db</name>
