@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'Radio button &lt;input&gt;: snow_office' = san diego
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"680229e59d34caeab91fd9da7515e645":"{\"area\":\"sp-page-row/ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snow_office\",\"role\":\"radio\",\"sn_atf_mugshot_long_description\":\"Radio button &lt;input&gt;: snow_office with value san diego in page area sp-page-row/ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snow_office\",\"type\":\"radio\",\"version\":\"18.0\",\"label_for_input\":{\"inner_text\":\"snow_office\"},\"get_value_result\":\"san diego\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snow_office\",\"sn_atf_mugshot_value\":\"san diego\",\"options\":[{\"label\":\"san francisco\",\"value\":\"san francisco\"},{\"label\":\"san diego\",\"value\":\"san diego\"},{\"label\":\"santa calara\",\"value\":\"santa calara\"}],\"tag\":\"input\",\"isDisabled\":false,\"hash\":\"680229e59d34caeab91fd9da7515e645\",\"html_value\":\"san diego\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:14:26</sys_created_on>
+        <sys_id>267eba9160c81010477e20c954809f17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_267eba9160c81010477e20c954809f17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:14:26</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Radio button on Portal">c398717b4c002300477e494280557be9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=267eba9160c81010477e20c954809f17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>267eba9160c81010477e20c954809f17</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:14:26</sys_created_on>
+        <sys_id>618eba9160c81010477e20c954809f7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:14:26</sys_updated_on>
+        <value>680229e59d34caeab91fd9da7515e645=san diego^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+</record_update>

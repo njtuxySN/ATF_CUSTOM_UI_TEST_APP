@@ -10,22 +10,22 @@
         <mugshots_cache_json>{"28d27c301ea04190c904ad3da93f9da5":"{\"area\":\"ATF_TEST_WIDGET_01\",\"sn_atf_mugshot_short_description\":\"Radio button &lt;input&gt;: snow_office\",\"role\":\"radio\",\"sn_atf_mugshot_long_description\":\"ATF_CUSTOM_UI:Radio button &lt;input&gt;: snow_office with value false in page area ATF_TEST_WIDGET_01\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"snow_office\",\"type\":\"radio\",\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Radio button &lt;input&gt;\",\"name\":\"snow_office\",\"sn_atf_mugshot_value\":\"false\",\"options\":[{\"label\":\"san francisco\",\"value\":\"san francisco\"},{\"label\":\"san diego\",\"value\":\"san diego\"},{\"label\":\"santa calara\",\"value\":\"santa calara\"}],\"tag\":\"input\",\"isDisabled\":false,\"hash\":\"28d27c301ea04190c904ad3da93f9da5\",\"html_value\":\"san francisco\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot/>
+        <snapshot display_value="1263f3c8b2ac3b4b710b2042d3011c98">f17e7a9160c81010477e20c954809f5a</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-27 19:01:53</sys_created_on>
         <sys_id>dbe831bb4c002300477e494280557baa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Set Component Values (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_dbe831bb4c002300477e494280557baa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 19:02:37</sys_updated_on>
+        <sys_updated_on>2020-04-07 18:14:10</sys_updated_on>
         <table/>
-        <test display_value="08.27 Radio button on serviceportal">c398717b4c002300477e494280557be9</test>
+        <test display_value="Regression Test - Radio button on Portal">c398717b4c002300477e494280557be9</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

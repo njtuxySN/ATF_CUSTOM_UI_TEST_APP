@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the 'undefined' component is not read_only</description>
+        <display_name>Component State Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"70d362a556e9ce74bfb4fc959689cc58":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"San Francisco\"},\"methods\":[\"setValue\"],\"name\":\"snowoffice\",\"options\":[{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"id\":\"SanFrancisco\",\"type\":\"radio\",\"hash\":\"70d362a556e9ce74bfb4fc959689cc58\",\"getvalue-result\":\"San Francisco\",\"html-value\":\"San Francisco\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:39:46</sys_created_on>
+        <sys_id>6f98df244d802300ba89276729785cff</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Component State Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_6f98df244d802300ba89276729785cff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+        <table/>
+        <test display_value="">0825d7e04d802300ba89276729785cbd</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=6f98df244d802300ba89276729785cff"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6f98df244d802300ba89276729785cff</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:39:46</sys_created_on>
+        <sys_id>03a813644d802300ba89276729785c7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 23:39:46</sys_updated_on>
+        <value>not_read_only</value>
+        <variable display_value="">cd3c61c07372130007d738682bf6a743</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6f98df244d802300ba89276729785cff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:39:46</sys_created_on>
+        <sys_id>c3a813644d802300ba89276729785c7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 23:39:46</sys_updated_on>
+        <value>70d362a556e9ce74bfb4fc959689cc58</value>
+        <variable display_value="">134b69807372130007d738682bf6a7d8</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>20f684b8bd0010106b98b252dc7ed9a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_step_6f98df244d802300ba89276729785cff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the 'undefined' component is not read_only</description><display_name>Component State Validation (Custom UI)</display_name><inputs/><mugshots_cache_json>{"70d362a556e9ce74bfb4fc959689cc58":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"San Francisco\"},\"methods\":[\"setValue\"],\"name\":\"snowoffice\",\"options\":[{\"label\":\"San Francisco\",\"value\":\"San Francisco\"},{\"label\":\"San Diego\",\"value\":\"San Diego\"},{\"label\":\"Santa Clara\",\"value\":\"Santa Clara\"}],\"tag\":\"input\",\"id\":\"SanFrancisco\",\"type\":\"radio\",\"hash\":\"70d362a556e9ce74bfb4fc959689cc58\",\"getvalue-result\":\"San Francisco\",\"html-value\":\"San Francisco\"}"}</mugshots_cache_json><notes/><order>4</order><snapshot/><step_config display_value="Component State Validation (Custom UI)">38907e937322130007d738682bf6a742</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-17 23:39:46</sys_created_on><sys_id>6f98df244d802300ba89276729785cff</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Component State Validation (Custom UI)</sys_name><sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package><sys_policy/><sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope><sys_update_name>sys_atf_step_6f98df244d802300ba89276729785cff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-07 18:44:04</sys_updated_on><table/><test display_value="">0825d7e04d802300ba89276729785cbd</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=6f98df244d802300ba89276729785cff"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6f98df244d802300ba89276729785cff</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-17 23:39:46</sys_created_on><sys_id>03a813644d802300ba89276729785c7c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-08-17 23:39:46</sys_updated_on><value>not_read_only</value><variable display_value="">cd3c61c07372130007d738682bf6a743</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6f98df244d802300ba89276729785cff</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-17 23:39:46</sys_created_on><sys_id>c3a813644d802300ba89276729785c7c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-08-17 23:39:46</sys_updated_on><value>70d362a556e9ce74bfb4fc959689cc58</value><variable display_value="">134b69807372130007d738682bf6a7d8</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1733892843</payload_hash>
+        <record_name>Component State Validation (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a1d8d6c160001010477e20c954809fcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:44:04</sys_created_on>
+        <sys_id>3f454f9560c81010477e20c954809f8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17155f4e3320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>77454f9576c81010b31d7ae879fcbc8a</update_guid>
+        <update_guid_history>77454f9576c81010b31d7ae879fcbc8a:-1733892843,fb454f9571c8101022b52f7e2490e77a:-1434363690,e8c85ec1e80010107e2a027da27b737e:427238445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>350c01582ca04b60808f2b6523989a40</sys_id>
+        <sys_metadata>6f98df244d802300ba89276729785cff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Component State Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_step_6f98df244d802300ba89276729785cff</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_6f98df244d802300ba89276729785cff">3f454f9560c81010477e20c954809f8a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

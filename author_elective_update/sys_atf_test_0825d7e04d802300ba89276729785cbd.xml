@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Caused by forEach on IE11</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>08.21 Test Radio Button - Fails on IE11</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:24:23</sys_created_on>
+        <sys_id>0825d7e04d802300ba89276729785cbd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>08.21 Test Radio Button - Fails on IE11</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_0825d7e04d802300ba89276729785cbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 18:24:49</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=0825d7e04d802300ba89276729785cbd"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>20f684b8bd0010106b98b252dc7ed9a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_test_0825d7e04d802300ba89276729785cbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Caused by forEach on IE11</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>08.21 Test Radio Button - Fails on IE11</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:24:23</sys_created_on>
+        <sys_id>0825d7e04d802300ba89276729785cbd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>08.21 Test Radio Button - Fails on IE11</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_test_0825d7e04d802300ba89276729785cbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 18:24:49</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=0825d7e04d802300ba89276729785cbd"/>
+</record_update>]]></payload>
+        <payload_hash>-147614381</payload_hash>
+        <record_name>08.21 Test Radio Button - Fails on IE11</record_name>
+        <reverted_from/>
+        <source>39b85ac160001010477e20c954809f2f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-06 20:51:01</sys_created_on>
+        <sys_id>e5c8dec160001010477e20c954809f6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1715142bf8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-06 20:51:01</sys_updated_on>
+        <type>Test</type>
+        <update_guid>a5c8dec165001010a62f8e531a21326a</update_guid>
+        <update_guid_history>a5c8dec165001010a62f8e531a21326a:-147614381</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>0014cb7026b540fcaf63829e6646d204</sys_id>
+        <sys_metadata>0825d7e04d802300ba89276729785cbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>08.21 Test Radio Button - Fails on IE11</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_test_0825d7e04d802300ba89276729785cbd</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_0825d7e04d802300ba89276729785cbd">e5c8dec160001010477e20c954809f6a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

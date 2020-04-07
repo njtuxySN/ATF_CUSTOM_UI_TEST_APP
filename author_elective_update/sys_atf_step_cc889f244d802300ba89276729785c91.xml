@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate the values as follows:
+'undefined' = v_Mexico
+</description>
+        <display_name>Component Value Validation (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"d7481f66a1e5ba6718d25fcc69d5ce10":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"Mexico\"},\"methods\":[\"setValue\"],\"name\":\"destination\",\"options\":[{\"label\":\"Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"Japan\",\"value\":\"v_Japan\"},{\"label\":\"Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"id\":\"mexico\",\"type\":\"radio\",\"hash\":\"d7481f66a1e5ba6718d25fcc69d5ce10\",\"getvalue-result\":\"v_Mexico\",\"html-value\":\"v_Mexico\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:39:11</sys_created_on>
+        <sys_id>cc889f244d802300ba89276729785c91</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_cc889f244d802300ba89276729785c91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+        <table/>
+        <test display_value="">0825d7e04d802300ba89276729785cbd</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=cc889f244d802300ba89276729785c91"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cc889f244d802300ba89276729785c91</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-17 23:39:11</sys_created_on>
+        <sys_id>ea889f244d802300ba89276729785cdf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 23:40:09</sys_updated_on>
+        <value>d7481f66a1e5ba6718d25fcc69d5ce10=v_Mexico^EQ</value>
+        <variable display_value="">bc4c84b467131300b78705225685efda</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</application>
+        <file_path/>
+        <instance_id>20f684b8bd0010106b98b252dc7ed9a9</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_atf_step_cc889f244d802300ba89276729785c91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate the values as follows:
+'undefined' = v_Mexico
+</description><display_name>Component Value Validation (Custom UI)</display_name><inputs/><mugshots_cache_json>{"d7481f66a1e5ba6718d25fcc69d5ce10":"{\"area\":\"default\",\"label_for_input\":{\"inner_text\":\"Mexico\"},\"methods\":[\"setValue\"],\"name\":\"destination\",\"options\":[{\"label\":\"Mexico\",\"value\":\"v_Mexico\"},{\"label\":\"Japan\",\"value\":\"v_Japan\"},{\"label\":\"Frence\",\"value\":\"v_Frence\"}],\"tag\":\"input\",\"id\":\"mexico\",\"type\":\"radio\",\"hash\":\"d7481f66a1e5ba6718d25fcc69d5ce10\",\"getvalue-result\":\"v_Mexico\",\"html-value\":\"v_Mexico\"}"}</mugshots_cache_json><notes/><order>2</order><snapshot/><step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-17 23:39:11</sys_created_on><sys_id>cc889f244d802300ba89276729785c91</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Component Value Validation (Custom UI)</sys_name><sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package><sys_policy/><sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope><sys_update_name>sys_atf_step_cc889f244d802300ba89276729785c91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-07 18:44:04</sys_updated_on><table/><test display_value="">0825d7e04d802300ba89276729785cbd</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=cc889f244d802300ba89276729785c91"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cc889f244d802300ba89276729785c91</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-08-17 23:39:11</sys_created_on><sys_id>ea889f244d802300ba89276729785cdf</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-08-17 23:40:09</sys_updated_on><value>d7481f66a1e5ba6718d25fcc69d5ce10=v_Mexico^EQ</value><variable display_value="">bc4c84b467131300b78705225685efda</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1493384273</payload_hash>
+        <record_name>Component Value Validation (Custom UI)</record_name>
+        <reverted_from/>
+        <source>a1d8d6c160001010477e20c954809fcb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:44:04</sys_created_on>
+        <sys_id>ff454f9560c81010477e20c954809f9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17155f4e4050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>3b454f95bac8101087e81e631786d99b</update_guid>
+        <update_guid_history>3b454f95bac8101087e81e631786d99b:-1493384273,fb454f9523c81010a8293d0d31769685:417994480,73454f9506c81010afcd72a9eb66f376:-1965594063,41c89ec14b00101026b6e4d5708ef2a6:-464975938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-07 18:44:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0c840ec4394f43aba896d8a8a7ae1e19</sys_id>
+        <sys_metadata>cc889f244d802300ba89276729785c91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Component Value Validation (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_scope_delete display_value="">95a10236bff946f59bd8aab411adae99</sys_scope_delete>
+        <sys_update_name>sys_atf_step_cc889f244d802300ba89276729785c91</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_cc889f244d802300ba89276729785c91">ff454f9560c81010477e20c954809f9b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-07 18:44:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
