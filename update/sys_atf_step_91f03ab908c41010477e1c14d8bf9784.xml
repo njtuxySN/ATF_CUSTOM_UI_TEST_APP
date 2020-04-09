@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Open'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"1ecad1a99c07ae92021207b6bce762c6":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Open\",\"inner_text\":\"Open\",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt;: Open\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Open\",\"index\":2,\"type\":\"button\",\"version\":\"18.0\",\"get_value_result\":\"Open\",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Open\",\"tag\":\"button\",\"isDisabled\":false,\"hash\":\"1ecad1a99c07ae92021207b6bce762c6\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot display_value="a641183acdbceb609460df9f41d45c3d">ec517eb908c41010477e1c14d8bf97f6</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 06:32:13</sys_created_on>
+        <sys_id>91f03ab908c41010477e1c14d8bf9784</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_91f03ab908c41010477e1c14d8bf9784</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 06:33:42</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Indistinguishable elements">588deef508c41010477e1c14d8bf9740</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=91f03ab908c41010477e1c14d8bf9784"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>91f03ab908c41010477e1c14d8bf9784</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 06:32:13</sys_created_on>
+        <sys_id>22f03ab908c41010477e1c14d8bf9729</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 06:32:13</sys_updated_on>
+        <value>1ecad1a99c07ae92021207b6bce762c6</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>
