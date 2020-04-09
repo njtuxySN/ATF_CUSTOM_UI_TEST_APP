@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Button &lt;button&gt;: Related Search Results '</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"36fdd39772d76e7ed8f88ee8911913f4":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Button &lt;button&gt;: Related Search Results \",\"inner_text\":\"Related Search Results \",\"sn_atf_mugshot_long_description\":\"Button &lt;button&gt; [cxs_maximize_results]: Related Search Results\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Related Search Results \",\"type\":\"submit\",\"version\":\"18.0\",\"get_value_result\":\"Related Search Results \",\"sn_atf_mugshot_tag_display_name\":\"Button &lt;button&gt;\",\"sn_atf_mugshot_value\":\"Related Search Results \",\"tag\":\"button\",\"isDisabled\":false,\"id\":\"cxs_maximize_results\",\"hash\":\"36fdd39772d76e7ed8f88ee8911913f4\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>2</order>
+        <snapshot display_value="91a97788873b17e0535563030c0513b7">34d4223108c41010477e1c14d8bf97d0</snapshot>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 04:38:43</sys_created_on>
+        <sys_id>7df656b108841010477e1c14d8bf970f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_7df656b108841010477e1c14d8bf970f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 05:39:07</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Same 'Order' button">d7569a7108841010477e1c14d8bf97b3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=7df656b108841010477e1c14d8bf970f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>7df656b108841010477e1c14d8bf970f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 04:38:43</sys_created_on>
+        <sys_id>c80756b108841010477e1c14d8bf978d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 04:38:43</sys_updated_on>
+        <value>36fdd39772d76e7ed8f88ee8911913f4</value>
+        <variable display_value="">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+</record_update>
