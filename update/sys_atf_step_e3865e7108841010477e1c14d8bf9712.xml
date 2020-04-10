@@ -11,7 +11,7 @@ See the documentation for Test Design Considerations</description>
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="96c514d6292d74266559058f3610bb43">23c4aefd08841010477e1c14d8bf9784</snapshot>
+        <snapshot/>
         <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

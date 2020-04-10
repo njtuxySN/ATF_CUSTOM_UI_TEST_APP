@@ -3,26 +3,27 @@
         <active>true</active>
         <copied_from/>
         <description>Set the components on the page as follows:
-941a1c3ec696d0a14188d7dc4cf6af87=apple^EQ</description>
+'Choice list &lt;select&gt;: cherry orange apple' = apple
+</description>
         <display_name>Set Component Values (Custom UI)</display_name>
         <inputs/>
-        <mugshots_cache_json>{"941a1c3ec696d0a14188d7dc4cf6af87":"{\"area\":\"default\",\"inner_text\":\"cherryorangeapple\",\"methods\":[\"setValue\"],\"name\":\"select\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"text\":\"cherry\",\"id\":\"i_select\",\"value\":\"cherry\",\"hash\":\"941a1c3ec696d0a14188d7dc4cf6af87\"}"}</mugshots_cache_json>
+        <mugshots_cache_json>{"27f72cd7e5e838928ba058cd1bd59435":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Choice list &lt;select&gt;: cherry orange apple\",\"inner_text\":\"cherry\\norange\\napple\",\"sn_atf_mugshot_long_description\":\"Choice list &lt;select&gt; [i_select]: cherry orange apple with value cherry\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"cherry\\norange\\napple\",\"type\":\"select-one\",\"get_value_result\":\"cherry\",\"sn_atf_mugshot_tag_display_name\":\"Choice list &lt;select&gt;\",\"name\":\"select\",\"sn_atf_mugshot_value\":\"cherry\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"isDisabled\":false,\"id\":\"i_select\",\"hash\":\"27f72cd7e5e838928ba058cd1bd59435\",\"html_value\":\"cherry\"}"}</mugshots_cache_json>
         <notes/>
         <order>2</order>
-        <snapshot/>
+        <snapshot display_value="c6df277189bdba4577e9e6bc8eb1f7e3">f5a39b16200010109870eeb23f263212</snapshot>
         <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-21 18:31:00</sys_created_on>
         <sys_id>0458f2b95d402300ba89fa4e5d3f9169</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Set Component Values (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_0458f2b95d402300ba89fa4e5d3f9169</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-07 18:52:13</sys_updated_on>
+        <sys_updated_on>2020-04-10 22:21:57</sys_updated_on>
         <table/>
         <test display_value="Regression Test - Custom UI - Select dropdown">cd0832b95d402300ba89fa4e5d3f9158</test>
         <timeout/>
@@ -37,10 +38,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-21 18:31:00</sys_created_on>
         <sys_id>8b58f2b95d402300ba89fa4e5d3f91f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-21 18:31:00</sys_updated_on>
-        <value>941a1c3ec696d0a14188d7dc4cf6af87=apple^EQ</value>
+        <sys_updated_on>2020-04-10 22:21:57</sys_updated_on>
+        <value>27f72cd7e5e838928ba058cd1bd59435=apple^EQ</value>
         <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
     </sys_variable_value>
 </record_update>

@@ -8,7 +8,7 @@
         <mugshots_cache_json>{"5a0bc9e197ff4af2f42e877b412f24a9":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: INC0010112\",\"inner_text\":\"INC0010112\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: INC0010112\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"INC0010112\",\"type\":\"\",\"version\":\"18.0\",\"get_value_result\":\"INC0010112\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"hash\":\"5a0bc9e197ff4af2f42e877b412f24a9\"}"}</mugshots_cache_json>
         <notes/>
         <order>7</order>
-        <snapshot display_value="69bc31485b47f9eb6737d7c0e746806e">17c0eaf908841010477e1c14d8bf976f</snapshot>
+        <snapshot/>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>

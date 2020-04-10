@@ -7,10 +7,50 @@
         <endpoint>x_atf_test_app_wit_UI_Page_With_indistinguishable_images_links_buttons.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
 <div class="col-md-5">
+<h2> Components in same parents</h2>
 	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_TEST_UI_PAGE_02.do'"> ${gs.getMessage("Open a page")} </button>
    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/catalog_home.do'">  ${gs.getMessage("Open a page")} </button>
    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/atf_custom_ui_test_portal'">  ${gs.getMessage("Open a page")} </button>
+</div>
+
+
+
+
+<div class="col-md-5">
+ <h2> Components in different parents</h2>
+<div id="first">
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_TEST_UI_PAGE_02.do'"> ${gs.getMessage("Open a page")} </button>
+</div>
+
+<div id="second">
+   <button type="button" class="btn btn-primary btn-lg btn-block" 
+   onclick="window.location.href='/catalog_home.do'">  ${gs.getMessage("Open a page")} </button>
+</div>
+
+<div id="third">
+   <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/atf_custom_ui_test_portal'">  ${gs.getMessage("Open a page")} </button>
+ </div>
+</div>
+
+
+
+ <div class="col-md-5">
+ <h2> Components in different parents</h2>
+<div id="first">
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/x_atf_test_app_wit_TEST_UI_PAGE_02.do'"> ${gs.getMessage("Open a new page")} </button>
+</div>
+
+<div id="second">
+   <button type="button" class="btn btn-primary btn-lg btn-block" 
+   onclick="window.location.href='/catalog_home.do'">  ${gs.getMessage("Open a new page")} </button>
+</div>
+
+<div id="third">
+   <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/atf_custom_ui_test_portal'">  ${gs.getMessage("Open a new page")} </button>
+ </div>
+
 </div>
 </j:jelly>]]></html>
         <name>UI_Page_With_indistinguishable_images_links_buttons</name>
@@ -19,13 +59,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-09 06:14:08</sys_created_on>
         <sys_id>787c6ab508c41010477e1c14d8bf9788</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>UI_Page_With_indistinguishable_images_links_buttons</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_ui_page_787c6ab508c41010477e1c14d8bf9788</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-09 20:59:39</sys_updated_on>
+        <sys_updated_on>2020-04-10 22:30:42</sys_updated_on>
     </sys_ui_page>
 </record_update>

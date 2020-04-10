@@ -15,6 +15,7 @@
         <sc_category_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-03 19:32:09</sys_created_on>

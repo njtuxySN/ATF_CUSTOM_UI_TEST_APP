@@ -10,7 +10,7 @@ With a failure timeout of 5 Seconds</description>
         <mugshots_cache_json/>
         <notes/>
         <order>6</order>
-        <snapshot display_value="6c20a33c8e8521a8180ac55b01e4f949">07d4623108c41010477e1c14d8bf97e2</snapshot>
+        <snapshot/>
         <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
