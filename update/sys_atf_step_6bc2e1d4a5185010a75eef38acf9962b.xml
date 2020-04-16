@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert that the text 'Custom Component that has sn-atf-settable="true" and sn-atf-component-value="Set me"&#13;
+' is on the page.
+With a failure timeout of 5 Seconds</description>
+        <display_name>Assert Text on Page (Custom UI)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot display_value="3d69af1f6bf3aabfdf09a7318b41c35a">e2e265d4a5185010a75eef38acf9969f</snapshot>
+        <step_config display_value="Assert Text on Page (Custom UI)">475e0de3d732130089fca2285e610361</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 19:15:36</sys_created_on>
+        <sys_id>6bc2e1d4a5185010a75eef38acf9962b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Assert Text on Page (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_6bc2e1d4a5185010a75eef38acf9962b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 19:22:21</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Custom Components">f2cc95d0a5185010a75eef38acf99652</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=6bc2e1d4a5185010a75eef38acf9962b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6bc2e1d4a5185010a75eef38acf9962b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 19:15:36</sys_created_on>
+        <sys_id>21d225d4a5185010a75eef38acf9967f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 19:15:36</sys_updated_on>
+        <value>Custom Component that has sn-atf-settable="true" and sn-atf-component-value="Set me"&#13;
+</value>
+        <variable display_value="">1c267c5cd703130089fca2285e61035b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>6bc2e1d4a5185010a75eef38acf9962b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 19:15:36</sys_created_on>
+        <sys_id>6dd225d4a5185010a75eef38acf9967e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 19:15:36</sys_updated_on>
+        <value>text_on_page</value>
+        <variable display_value="">86e4f05cd703130089fca2285e610307</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6bc2e1d4a5185010a75eef38acf9962b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>6bc2e1d4a5185010a75eef38acf9962b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 19:15:36</sys_created_on>
+        <sys_id>e9d225d4a5185010a75eef38acf9967e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 19:15:36</sys_updated_on>
+        <table>var__m_atf_input_variable_475e0de3d732130089fca2285e610361</table>
+        <value>Custom Component that has sn-atf-settable="true" and sn-atf-component-value="Set me"&#13;
+</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[    document.getElementById("customClickable").addEventListener('sn-atf-click', function() { 
+		// implement custom click logic here 
+		document.getElementById("customClickable").style.color = "blue";
+		document.getElementById("customClickable").style["font-size"] = "30px";
+		var para = document.createElement("P");               // Create a <p> element
+		para.innerText = "This text shouldn't be visiable before clicking the first component";               // Insert text
+		document.body.appendChild(para);  
+		
+    });
+    
+    document.getElementById("customSettable").addEventListener('sn-atf-setvalue', function(e) {
+        // implement set value logic here
+        // access the value to set with e.detail.newValue
+		document.getElementById("customSettable").innerText = e.detail.newValue;
+		document.getElementById("customSettable").style.color = "red";
+		document.getElementById("customSettable").style["font-size"] = "30px";
+
+    });]]></client_script>
+        <description>sn-atf-clickable&#13;
+sn-atf-setvalue&#13;
+sn-atf-component-value</description>
+        <direct>false</direct>
+        <endpoint>x_atf_test_app_wit_Yan_Custom_Component.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div id="customClickable" sn-atf-clickable="true" sn-atf-component-value="Click me">
+     Custom Component that has sn-atf-clickable = true and sn-atf-component-value = Click me
+</div>
+
+<div id="customSettable" sn-atf-settable="true" sn-atf-component-value="Set me">
+    Custom Component that has sn-atf-settable="true" and sn-atf-component-value="Set me"
+</div>
+
+
+
+</j:jelly>]]></html>
+        <name>Yan_Custom_Component</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 18:36:49</sys_created_on>
+        <sys_id>bbd95550a5185010a75eef38acf996dc</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Yan_Custom_Component</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_ui_page_bbd95550a5185010a75eef38acf996dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 19:24:36</sys_updated_on>
+    </sys_ui_page>
+</record_update>

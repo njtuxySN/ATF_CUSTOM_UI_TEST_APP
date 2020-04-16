@@ -10,7 +10,7 @@
         <mugshots_cache_json>{"39e318c68a15c0fd7c995c185cf2b7ff":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Choice list &lt;select&gt;: cherry orange apple\",\"inner_text\":\"cherry\\norange\\napple\",\"sn_atf_mugshot_long_description\":\"Choice list &lt;select&gt; [i_select]: cherry orange apple with value apple\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"cherry\\norange\\napple\",\"type\":\"select-one\",\"get_value_result\":\"apple\",\"sn_atf_mugshot_tag_display_name\":\"Choice list &lt;select&gt;\",\"name\":\"select\",\"sn_atf_mugshot_value\":\"apple\",\"options\":[{\"label\":\"cherry\",\"value\":\"cherry\"},{\"label\":\"orange\",\"value\":\"orange\"},{\"label\":\"apple\",\"value\":\"apple\"}],\"tag\":\"select\",\"isDisabled\":false,\"id\":\"i_select\",\"hash\":\"39e318c68a15c0fd7c995c185cf2b7ff\",\"html_value\":\"apple\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="c6df277189bdba4577e9e6bc8eb1f7e3">f5a39b16200010109870eeb23f263212</snapshot>
+        <snapshot/>
         <step_config display_value="Component Value Validation (Custom UI)">b4758c7453370300c792ddeeff7b128d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
