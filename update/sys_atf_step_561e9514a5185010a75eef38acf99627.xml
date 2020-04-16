@@ -8,20 +8,20 @@
         <mugshots_cache_json>{"1fe08fba45d2fafbe8f93926713189d7":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Text &lt;div&gt;: Custom Component that has sn-atf-clickable = true and sn-atf-component-value = Click me\",\"inner_text\":\"Custom Component that has sn-atf-clickable = true and sn-atf-component-value = Click me\",\"sn_atf_mugshot_long_description\":\"Text &lt;div&gt; [customClickable]: Custom Component that has sn-atf-clickable = tr...\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"Custom Component that has sn-atf-clickable = true and sn-atf-component-value = Click me\",\"index\":3,\"version\":\"18.0\",\"get_value_result\":\"Click me\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;div&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"div\",\"isDisabled\":false,\"id\":\"customClickable\",\"hash\":\"1fe08fba45d2fafbe8f93926713189d7\"}"}</mugshots_cache_json>
         <notes/>
         <order>3</order>
-        <snapshot display_value="3d69af1f6bf3aabfdf09a7318b41c35a">e2e265d4a5185010a75eef38acf9969f</snapshot>
+        <snapshot display_value="a3ee40915f9fd2134c7ff4a7c68ca9db">e5e139d4e8101010a75e941c40c66db3</snapshot>
         <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-16 18:55:29</sys_created_on>
         <sys_id>561e9514a5185010a75eef38acf99627</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Click Component (Custom UI)</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_561e9514a5185010a75eef38acf99627</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-16 19:22:21</sys_updated_on>
+        <sys_updated_on>2020-04-16 20:21:25</sys_updated_on>
         <table/>
         <test display_value="Regression Test - Custom Components">f2cc95d0a5185010a75eef38acf99652</test>
         <timeout/>

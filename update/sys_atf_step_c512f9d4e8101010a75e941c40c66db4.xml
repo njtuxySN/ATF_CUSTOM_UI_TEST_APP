@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the components on the page as follows:
+'Text &lt;div&gt;: Custom Setable component which is glide_date_time' = 2020-04-22 00:00:00
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"b441dc33f628a0460c5f58cf7f5ed93f":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Text &lt;div&gt;: Custom Setable component which is glide_date_time\",\"inner_text\":\"Custom Setable component which is glide_date_time\",\"sn_atf_mugshot_long_description\":\"Text &lt;div&gt; [customSettable_data_time]: Custom Setable component which is glide_date_time\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Custom Setable component which is glide_date_time\",\"index\":6,\"version\":\"18.0\",\"get_value_result\":\"Set me\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;div&gt;\",\"data_type\":\"glide_date_time\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"div\",\"isDisabled\":false,\"id\":\"customSettable_data_time\",\"hash\":\"b441dc33f628a0460c5f58cf7f5ed93f\",\"sn-atf-data-type\":\"glide_date_time\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>10</order>
+        <snapshot/>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 20:22:27</sys_created_on>
+        <sys_id>c512f9d4e8101010a75e941c40c66db4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
+        <sys_update_name>sys_atf_step_c512f9d4e8101010a75e941c40c66db4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 20:22:27</sys_updated_on>
+        <table/>
+        <test display_value="Regression Test - Custom Components">f2cc95d0a5185010a75eef38acf99652</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c512f9d4e8101010a75e941c40c66db4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c512f9d4e8101010a75e941c40c66db4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-16 20:22:27</sys_created_on>
+        <sys_id>ac223dd4e8101010a75e941c40c66d73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-16 20:22:27</sys_updated_on>
+        <value>b441dc33f628a0460c5f58cf7f5ed93f=2020-04-22 00:00:00^EQ</value>
+        <variable display_value="">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+</record_update>

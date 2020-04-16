@@ -8,20 +8,20 @@
         <mugshots_cache_json/>
         <notes/>
         <order>1</order>
-        <snapshot display_value="3d42d3d6833776ed7aae590e72d69540">8ee265d4a5185010a75eef38acf99641</snapshot>
+        <snapshot display_value="cddd489dc3bee6d24917f0d2226cf334">cde139d4e8101010a75e941c40c66d72</snapshot>
         <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-16 18:49:42</sys_created_on>
         <sys_id>9fdcd5d0a5185010a75eef38acf99652</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Navigate to Module</sys_name>
         <sys_package display_value="ATF_TEST_APP_WITH_CUSTOM_UIs" source="x_atf_test_app_wit">d6e05688b4331300ba892e9f28ae798f</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF_TEST_APP_WITH_CUSTOM_UIs">d6e05688b4331300ba892e9f28ae798f</sys_scope>
         <sys_update_name>sys_atf_step_9fdcd5d0a5185010a75eef38acf99652</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-16 19:15:55</sys_updated_on>
+        <sys_updated_on>2020-04-16 20:21:23</sys_updated_on>
         <table/>
         <test display_value="Regression Test - Custom Components">f2cc95d0a5185010a75eef38acf99652</test>
         <timeout/>
